@@ -37,7 +37,10 @@ enum Browser {
             ok = scripts.run("tell application \"System Events\" to keystroke \"w\" using command down") != nil
         }
         if ok { return "closed tab" }
-        return app.hide() ? "hid app" : "no action"
+        // hide() often answers false while the app hides anyway, a moment later.
+        _ = app.hide()
+        for _ in 0..<10 where !app.isHidden { usleep(50_000) }
+        return app.isHidden ? "hid app" : "no action"
     }
 }
 

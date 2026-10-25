@@ -57,11 +57,13 @@ You need a Mac with Apple silicon (M1 or newer) and macOS 14 Sonoma or later.
 1. Download `Lookout.zip` from the
    [Releases page](https://github.com/jjlinucb/lookout/releases), unzip it, and
    drag **Lookout** into your Applications folder.
-2. **Open it the first time with right-click → Open**, then click **Open**.
-   Lookout isn't notarized by Apple, because that needs a paid developer
-   account, so a plain double-click shows a warning with no way through. If
-   you double-clicked already, go to System Settings → Privacy & Security,
-   scroll down, and click **Open Anyway** next to the line about Lookout.
+2. **Open it the first time past Apple's warning.** Lookout isn't notarized
+   by Apple, because that needs a paid developer account, so the first
+   double-click says Apple can't check it. Click **Done** (not Move to Trash),
+   then go to System Settings → Privacy & Security, scroll down, click
+   **Open Anyway** next to the line about Lookout, and confirm with your
+   password. On macOS 14 you can instead right-click Lookout → **Open** →
+   **Open**. You only do this once.
 3. **Allow screen recording.** macOS asks the first time. If you missed it:
    System Settings → Privacy & Security → Screen & System Audio Recording →
    turn on **Lookout**, then choose Quit & Reopen. Every few weeks macOS may
@@ -178,8 +180,11 @@ working. Its log is `/var/log/lookout-blocking.log`.
 
 Lookout skips any part of the screen that hasn't changed, ignores tiny
 changes like a blinking cursor or a clock, and checks only the changed part
-up close. On a MacBook Pro (M1 Pro) it measured
-**MEASURED_CPU of one CPU core** over two minutes of normal use (MEASURED_HOW).
+up close. The detector runs on the Neural Engine. On a MacBook Pro (M1 Pro)
+over two minutes of normal use, Lookout itself used **0.5% of one CPU core**
+and 41 MB of memory. macOS's screen-capture service (`replayd`) used another
+1.8% on its behalf, so the total is **about 2.3% of one core**. Measure it on
+your own Mac with `tools/measure_cpu.sh`.
 
 ## Build from source
 
