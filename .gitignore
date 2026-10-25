@@ -1,0 +1,10 @@
+.DS_Store
+.build/
+dist/
+*.zip
+__pycache__/
+.venv/
+# Local-only notes for the maintainer's own Claude setup; not part of the project.
+CLAUDE.md
+last_session.md
+.claude/
