@@ -20,9 +20,9 @@ with a black screen and closes the browser tab, or hides the app if it isn't
 a browser. Revealing images (lingerie, swimsuits) only count when they stay
 on screen for two checks in a row, so one misread doesn't close your tab.
 
-The cover has two buttons:
+The cover lifts by itself after 3 seconds, and it has two buttons:
 
-- **Continue** takes the cover away.
+- **Continue**, or the white **X** in the corner, takes the cover away.
 - **Wrong flag: pause 10 min** stops checking for ten minutes, in case it
   keeps flagging something harmless. Each pause is written to the log.
 
@@ -74,6 +74,10 @@ You need a Mac with Apple silicon (M1 or newer) and macOS 14 Sonoma or later.
    System Settings → Privacy & Security → Accessibility → **Lookout** on.
 5. Lookout starts by itself when you log in. You can see it under System
    Settings → General → Login Items.
+6. **Optional: keep it running.** Menu → **Keep Lookout Running…** installs a
+   small background helper (asks for your password once). If Lookout is
+   quit or force-quit, the helper reopens it within a minute, and both
+   Lookout's log and `/var/log/lookout-watchdog.log` record it.
 
 To try the cover without anything on screen, run
 `/Applications/Lookout.app/Contents/MacOS/Lookout --test-cover` from Terminal
@@ -158,16 +162,20 @@ working. Its log is `/var/log/lookout-blocking.log`.
 - **Uninstall everything:**
   1. Menu → **Remove Website Blocking…** (or
      `sudo /usr/local/lookout/lookout-blocking.sh uninstall`).
-  2. Quit Lookout: `osascript -e 'quit app "Lookout"'` (there's no Quit item
+  2. If you set up **Keep Lookout Running**, remove that helper first, or it
+     reopens Lookout:
+     `sudo /usr/local/lookout-watchdog/lookout-watchdog.sh remove`
+  3. Quit Lookout: `osascript -e 'quit app "Lookout"'` (there's no Quit item
      in the menu, on purpose), or use Activity Monitor.
-  3. Remove it from System Settings → General → Login Items, and drag
+  4. Remove it from System Settings → General → Login Items, and drag
      `/Applications/Lookout.app` to the Trash.
-  4. To delete the log too: `rm -r ~/Library/Application\ Support/Lookout`.
+  5. To delete the log too: `rm -r ~/Library/Application\ Support/Lookout`.
 
 ## What it can't do (yet)
 
 - **It's tamper-evident, not tamper-proof.** Anyone with your Mac's admin
-  password can turn it off or remove it, and every switch is logged. Without
+  password can turn it off or remove it. Turning it off, pausing it and
+  relaunches by the helper are all logged. Without
   device management, no Mac app can truly lock itself in.
 - **There are no partner reports yet.** The log stays on your Mac. A daily
   encrypted summary for an accountability partner is the next big piece.
@@ -213,6 +221,7 @@ The pieces:
 | `mac/Sources/Lookout/` | The app: screen capture (ScreenCaptureKit), the Core ML detector, the cover and the menu. |
 | `mac/assets/NudeNet320n.mlpackage` | NudeNet's 320n detector converted to Core ML by `tools/convert_model.py`. |
 | `blocking/` | The website-blocking scripts the app runs. `blocking/test.sh` tests them without changing anything. |
+| `watchdog/` | The helper that reopens Lookout if it's quit, and its tests. |
 | `tools/measure_cpu.sh` | Measures the running app's CPU use. |
 
 To try the website blocking without touching your Mac's DNS or using sudo:

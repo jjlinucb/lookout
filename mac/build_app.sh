@@ -43,6 +43,7 @@ if [ "$TEST" = 1 ]; then
     [ -d "$FW" ] && TEST_FLAGS=(-Xswiftc -F -Xswiftc "$FW" -Xlinker -F -Xlinker "$FW" -Xlinker -rpath -Xlinker "$FW")
     swift test ${BUILD_FLAGS[@]+"${BUILD_FLAGS[@]}"} ${TEST_FLAGS[@]+"${TEST_FLAGS[@]}"}
     ../blocking/test.sh
+    ../watchdog/test.sh
 fi
 
 swift build ${BUILD_FLAGS[@]+"${BUILD_FLAGS[@]}"} -c release
@@ -51,13 +52,14 @@ BIN=.build/release/Lookout
 
 APP=dist/Lookout.app
 rm -rf "$APP"
-mkdir -p "$APP/Contents/MacOS" "$APP/Contents/Resources/blocking"
+mkdir -p "$APP/Contents/MacOS" "$APP/Contents/Resources/blocking" "$APP/Contents/Resources/watchdog"
 cp "$BIN" "$APP/Contents/MacOS/Lookout"
 cp assets/Info.plist "$APP/Contents/Info.plist"
 /usr/libexec/PlistBuddy -c "Set :CFBundleVersion $(date +%Y%m%d.%H%M)" "$APP/Contents/Info.plist"
 "$BIN" --compile-model assets/NudeNet320n.mlpackage "$APP/Contents/Resources/NudeNet320n.mlmodelc"
 cp ../blocking/lookout-blocking.sh ../blocking/common.sh ../blocking/wifi-login.sh ../blocking/build-filters.sh \
     ../blocking/AdGuardHome.template.yaml "$APP/Contents/Resources/blocking/"
+cp ../watchdog/lookout-watchdog.sh "$APP/Contents/Resources/watchdog/"
 cp ../LICENSE "$APP/Contents/Resources/LICENSE.txt"
 
 ICONSET=.build/AppIcon.iconset

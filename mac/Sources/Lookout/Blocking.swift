@@ -1,6 +1,16 @@
 import AppKit
 import Foundation
 
+/// The watchdog: a root LaunchDaemon that reopens Lookout if it's quit.
+enum Watchdog {
+    static var script: URL? {
+        Bundle.main.resourceURL?.appendingPathComponent("watchdog/lookout-watchdog.sh")
+    }
+    static var installed: Bool {
+        FileManager.default.fileExists(atPath: "/Library/LaunchDaemons/io.github.jjlinucb.lookout.watchdog.plist")
+    }
+}
+
 /// Website blocking: AdGuard Home installed and switched by the bundled
 /// `blocking/lookout-blocking.sh`, run with one administrator prompt.
 enum Blocking {
@@ -27,11 +37,11 @@ enum Blocking {
 
     /// Runs `lookout-blocking.sh <command>` as administrator. macOS asks for
     /// the password. Returns the script's output, or the error.
-    static func run(_ command: String) async -> (ok: Bool, output: String) {
-        guard let script else { return (false, "The blocking scripts are missing from the app.") }
+    static func run(_ command: String, script: URL? = Blocking.script) async -> (ok: Bool, output: String) {
+        guard let script else { return (false, "The scripts are missing from the app.") }
         let source = """
             do shell script quoted form of "\(script.path)" & " \(command) 2>&1" \
-            with prompt "Lookout needs your password to change website blocking." with administrator privileges
+            with prompt "Lookout needs your password for this change." with administrator privileges
             """
         return await withCheckedContinuation { done in
             DispatchQueue.global().async {

@@ -40,7 +40,8 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         } catch {
             log.append(Event(verdict: "error", action: "detector failed to load: \(error.localizedDescription)"))
         }
-        log.append(Event(verdict: "started", action: "app launched"))
+        let relaunched = CommandLine.arguments.contains("--relaunched")
+        log.append(Event(verdict: "started", action: relaunched ? "relaunched by watchdog" : "app launched"))
 
         if CommandLine.arguments.contains("--test-cover") {
             Task { await guardian?.testCover() }
@@ -50,6 +51,11 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         if SMAppService.mainApp.status != .enabled { try? SMAppService.mainApp.register() }
         guardian?.start()
         rebuildMenu()
+        // Ask for permission to control open browsers now, while nothing covers
+        // the screen; otherwise macOS asks at the first flag, under the cover.
+        let browsers = NSWorkspace.shared.runningApplications.compactMap(\.bundleIdentifier)
+            .filter { Browser.chromium.contains($0) || Browser.safari.contains($0) }
+        DispatchQueue.global().async { browsers.forEach { _ = Browser.url(of: $0) } }
     }
 
     func menuNeedsUpdate(_ menu: NSMenu) { rebuildMenu() }
@@ -80,6 +86,10 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
             item("Allow Screen Recording…", #selector(openScreenRecording))
         }
         if guardian != nil { item(on ? "Turn Off" : "Turn On", #selector(toggle)) }
+
+        if !Watchdog.installed && !blockingBusy {
+            item("Keep Lookout Running…", #selector(installWatchdog))
+        }
 
         menu.addItem(.separator())
         if blockingBusy {
@@ -123,6 +133,13 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
                 + "and point this Mac's DNS at it. It takes a minute or two and asks for your password once. "
                 + "If lookups fail, it switches back by itself.") { self.runBlocking("install", "website blocking set up") }
     }
+    @objc func installWatchdog() {
+        confirm("Keep Lookout running?",
+                "Lookout will install a small background helper that reopens it within a minute if it's quit. "
+                + "Removing the helper later needs your password. It asks for your password once now.") {
+            self.runBlocking("install", "watchdog installed", script: Watchdog.script)
+        }
+    }
     @objc func blockingOff() { runBlocking("off", "website blocking turned off") }
     @objc func blockingOn() { runBlocking("on", "website blocking turned on") }
     @objc func removeBlocking() {
@@ -141,11 +158,11 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         if a.runModal() == .alertFirstButtonReturn { then() }
     }
 
-    private func runBlocking(_ command: String, _ done: String) {
+    private func runBlocking(_ command: String, _ done: String, script: URL? = Blocking.script) {
         blockingBusy = true
         rebuildMenu()
         Task {
-            let (ok, output) = await Blocking.run(command)
+            let (ok, output) = await Blocking.run(command, script: script)
             blockingBusy = false
             if ok { log.append(Event(verdict: "blocking", action: done)) }
             rebuildMenu()

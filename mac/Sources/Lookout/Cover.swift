@@ -32,14 +32,31 @@ final class Cover {
 
             let mid = f.width / 2
             let buttons: [(String, Selector, CGFloat)] = [
-                ("Continue", #selector(continueClicked), mid - 230),
-                ("Wrong flag: pause \(pauseMinutes) min", #selector(wrongFlagClicked), mid + 10),
+                ("Continue", #selector(continueClicked), mid - 265),
+                ("Wrong flag: pause \(pauseMinutes) min", #selector(wrongFlagClicked), mid + 15),
             ]
+            // Drawn by hand: the standard grey buttons all but vanish on black.
             for (title, action, x) in buttons {
-                let b = NSButton(title: title, target: self, action: action)
-                b.frame = NSRect(x: x, y: f.height / 2 - 90, width: 220, height: 32)
+                let b = NSButton(title: "", target: self, action: action)
+                b.isBordered = false
+                b.attributedTitle = NSAttributedString(string: title, attributes: [
+                    .foregroundColor: NSColor.white, .font: NSFont.systemFont(ofSize: 17, weight: .medium)])
+                b.wantsLayer = true
+                b.layer?.backgroundColor = NSColor(white: 0.18, alpha: 1).cgColor
+                b.layer?.borderColor = NSColor(white: 0.85, alpha: 1).cgColor
+                b.layer?.borderWidth = 1.5
+                b.layer?.cornerRadius = 10
+                b.frame = NSRect(x: x, y: f.height / 2 - 100, width: 250, height: 44)
                 w.contentView?.addSubview(b)
             }
+            // A white X in the top right corner, the same as Continue.
+            let x = NSButton(title: "", target: self, action: #selector(continueClicked))
+            x.image = NSImage(systemSymbolName: "xmark", accessibilityDescription: "Close")?
+                .withSymbolConfiguration(.init(pointSize: 28, weight: .semibold))
+            x.contentTintColor = .white
+            x.isBordered = false
+            x.frame = NSRect(x: f.width - 84, y: f.height - 84, width: 56, height: 56)
+            w.contentView?.addSubview(x)
             w.orderFrontRegardless()
             windows.append(w)
         }
