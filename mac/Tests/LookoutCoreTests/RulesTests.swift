@@ -48,6 +48,32 @@ import Testing
     }
 }
 
+@Suite struct RedirectTests {
+    var s: Settings {
+        var s = Settings()
+        s.redirectPages = ["linkedin.com/feed": "https://www.linkedin.com/messaging/"]
+        return s
+    }
+
+    @Test func feedGoesToMessaging() {
+        for url in ["https://www.linkedin.com/feed/", "https://linkedin.com/feed", "https://www.linkedin.com/feed/foryou/?x=1"] {
+            #expect(redirect(for: url, settings: s) == "https://www.linkedin.com/messaging/")
+        }
+    }
+
+    @Test func restOfTheSiteAndLookalikesStayPut() {
+        for url in ["https://www.linkedin.com/messaging/", "https://www.linkedin.com/mynetwork/",
+                    "https://www.linkedin.com/feedback", "https://notlinkedin.com/feed",
+                    "https://badsite.example/linkedin.com/feed", "https://linkedin.com.evil.example/feed"] {
+            #expect(redirect(for: url, settings: s) == nil)
+        }
+    }
+
+    @Test func offByDefault() {
+        #expect(redirect(for: "https://www.linkedin.com/feed/", settings: Settings()) == nil)
+    }
+}
+
 @Suite struct SettingsTests {
     @Test func missingKeysKeepDefaults() throws {
         let s = try JSONDecoder().decode(Settings.self, from: Data(#"{"pause_minutes": 5, "skip_apps": []}"#.utf8))

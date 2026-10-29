@@ -25,6 +25,10 @@ public struct Settings: Codable, Equatable {
     /// matched in memory and never logged.
     public var skipApps = ["com.microsoft.Word"]
     public var skipPages = ["docs.google.com/spreadsheets"]
+    /// Pages to leave for another, even when a site opens them without a new
+    /// load: "linkedin.com/feed" -> "https://www.linkedin.com/messaging/".
+    /// Chrome-like browsers and Safari. Off by default.
+    public var redirectPages: [String: String] = [:]
 
     public init() {}
 
@@ -33,7 +37,7 @@ public struct Settings: Codable, Equatable {
              exposedThreshold = "exposed_threshold", revealingClasses = "revealing_classes",
              revealingThreshold = "revealing_threshold", revealingFramesNeeded = "revealing_frames_needed",
              coverSeconds = "cover_seconds", closeTab = "close_tab", pauseMinutes = "pause_minutes",
-             skipApps = "skip_apps", skipPages = "skip_pages"
+             skipApps = "skip_apps", skipPages = "skip_pages", redirectPages = "redirect_pages"
     }
 
     /// Any key left out of the file keeps its default.
@@ -51,6 +55,7 @@ public struct Settings: Codable, Equatable {
         pauseMinutes = try c.decodeIfPresent(Double.self, forKey: .pauseMinutes) ?? d.pauseMinutes
         skipApps = try c.decodeIfPresent([String].self, forKey: .skipApps) ?? d.skipApps
         skipPages = try c.decodeIfPresent([String].self, forKey: .skipPages) ?? d.skipPages
+        redirectPages = try c.decodeIfPresent([String: String].self, forKey: .redirectPages) ?? d.redirectPages
     }
 
     /// Defaults, overridden by `file` when it exists. A broken file is

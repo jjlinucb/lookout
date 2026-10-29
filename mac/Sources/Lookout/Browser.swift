@@ -24,6 +24,18 @@ enum Browser {
         return nil
     }
 
+    /// Send the active tab to `target`. False if the browser refused.
+    static func go(_ id: String, to target: String) -> Bool {
+        guard !target.contains("\""), !target.contains("\\") else { return false }
+        if chromium.contains(id) {
+            return scripts.run("tell application id \"\(id)\" to set URL of active tab of front window to \"\(target)\"") != nil
+        }
+        if safari.contains(id) {
+            return scripts.run("tell application id \"\(id)\" to set URL of current tab of front window to \"\(target)\"") != nil
+        }
+        return false
+    }
+
     /// Close the offending tab; for anything that isn't a browser, hide the app.
     static func close(_ app: NSRunningApplication) -> String {
         let id = app.bundleIdentifier ?? ""

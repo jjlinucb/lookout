@@ -33,16 +33,22 @@ actor Worker {
 
     func forget() { tracker.forget() }
 
-    /// Asking a browser costs an Apple event, so at most every 3 seconds.
-    func url(of id: String) -> String? {
+    /// Asking a browser costs an Apple event, so at most every 3 seconds, or
+    /// every look while there are pages to redirect.
+    func url(of id: String, maxAge: Double = 3) -> String? {
         guard Browser.chromium.contains(id) || Browser.safari.contains(id) else { return nil }
-        if id != urlCache.id || Date().timeIntervalSince(urlCache.at) > 3 {
+        if id != urlCache.id || Date().timeIntervalSince(urlCache.at) > maxAge {
             urlCache = (id, Date(), Browser.url(of: id))
         }
         return urlCache.url
     }
 
     func close(_ app: NSRunningApplication) -> String { Browser.close(app) }
+
+    func go(_ id: String, to target: String) -> Bool {
+        urlCache.at = .distantPast
+        return Browser.go(id, to: target)
+    }
 }
 
 /// The loop: look once a second, judge, and cover the screen when it counts.
@@ -92,6 +98,8 @@ final class Guard {
     }
 
     private func pass() async {
+        // Redirects are a restriction, not a check, so a pause doesn't stop them.
+        if await redirected() { return }
         guard state.shouldCheck() else {
             judge.reset()
             await worker.forget()
@@ -119,6 +127,18 @@ final class Guard {
         if let (verdict, reasons) = judge.judge(hits) {
             await handle(verdict, reasons)
         }
+    }
+
+    /// Sends the front tab away from a page in `redirectPages`. True if it did.
+    private func redirected() async -> Bool {
+        guard !settings.redirectPages.isEmpty, let front = NSWorkspace.shared.frontmostApplication,
+              let id = front.bundleIdentifier else { return false }
+        let url = await worker.url(of: id, maxAge: 0.5)
+        guard let target = redirect(for: url, settings: settings) else { return false }
+        let ok = await worker.go(id, to: target)
+        log.append(Event(verdict: "redirect", app: front.localizedName ?? "", domain: domain(of: url),
+                         action: ok ? "sent to \(domain(of: target) ?? "")" : "redirect failed"))
+        return true
     }
 
     private func handle(_ verdict: Verdict, _ reasons: [Hit]) async {

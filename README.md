@@ -109,6 +109,7 @@ want to change, then quit and reopen Lookout. For example:
 | `pause_minutes` | 10 | Length of a "Wrong flag" pause |
 | `skip_apps` | Word | Apps that are never checked, by bundle ID |
 | `skip_pages` | Google Sheets | Pages that are never checked, by the start of the address |
+| `redirect_pages` | none | Pages to leave for another, like `{"linkedin.com/feed": "https://www.linkedin.com/messaging/"}`. Catches sites that change pages without a reload, which a browser's URL block misses. Chrome-like browsers and Safari; a "Wrong flag" pause doesn't stop it |
 
 ## Website blocking in detail
 

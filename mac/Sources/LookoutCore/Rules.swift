@@ -58,6 +58,20 @@ public func isSkipped(bundleID: String, url: String?, settings: Settings) -> Boo
     return settings.skipPages.contains { page.hasPrefix($0) }
 }
 
+/// Where to send a page listed in `redirectPages`, or nil. "linkedin.com/feed"
+/// matches linkedin.com and its subdomains, at /feed and anything under it.
+public func redirect(for url: String?, settings: Settings) -> String? {
+    guard let url, let u = URL(string: url), let host = u.host?.lowercased() else { return nil }
+    for (page, target) in settings.redirectPages.sorted(by: { $0.key < $1.key }) {
+        let parts = page.lowercased().split(separator: "/", maxSplits: 1).map(String.init)
+        guard let site = parts.first, host == site || host.hasSuffix("." + site) else { continue }
+        guard parts.count > 1 else { return target }
+        let path = "/" + parts[1]
+        if u.path == path || u.path.hasPrefix(path + "/") { return target }
+    }
+    return nil
+}
+
 /// The site's domain (chase.com), never the full address, which can carry
 /// account numbers or session tokens.
 public func domain(of url: String?) -> String? {
