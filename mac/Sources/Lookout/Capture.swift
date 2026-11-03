@@ -10,6 +10,8 @@ import ScreenCaptureKit
 final class Capture {
     private var content: SCShareableContent?
     private var fetched = Date.distantPast
+    /// The display each frame of the last `frames()` came from, in order.
+    private(set) var displayIDs: [CGDirectDisplayID] = []
 
     /// Screen Recording permission. Asking shows macOS's prompt once.
     static var allowed: Bool { CGPreflightScreenCaptureAccess() }
@@ -24,6 +26,7 @@ final class Capture {
         guard let content else { return [] }
         let me = content.applications.filter { $0.processID == ProcessInfo.processInfo.processIdentifier }
         var out: [CVPixelBuffer] = []
+        displayIDs = []
         for display in content.displays {
             let filter = SCContentFilter(display: display, excludingApplications: me, exceptingWindows: [])
             let config = SCStreamConfiguration()
@@ -34,7 +37,10 @@ final class Capture {
             config.captureResolution = .nominal
             do {
                 let sample = try await SCScreenshotManager.captureSampleBuffer(contentFilter: filter, configuration: config)
-                if let pb = sample.imageBuffer { out.append(pb) }
+                if let pb = sample.imageBuffer {
+                    out.append(pb)
+                    displayIDs.append(display.displayID)
+                }
             } catch {
                 // A display was unplugged: look again for displays next time.
                 self.content = nil

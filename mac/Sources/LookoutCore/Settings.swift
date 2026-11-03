@@ -19,6 +19,9 @@ public struct Settings: Codable, Equatable {
     public var coverSeconds = 3.0
     /// Close the browser tab (or hide the app) after a flag. Off: cover only.
     public var closeTab = true
+    /// Explicit nudity always closes. A revealing image only covers, unless
+    /// it scores this much or more, so a beach photo doesn't cost a tab.
+    public var closeRevealingAt: Float = 0.65
     /// "Wrong flag" on the cover pauses checking this long. Each pause is logged.
     public var pauseMinutes = 10.0
     /// Not checked while in front. Apps by bundle ID; pages by address start,
@@ -29,6 +32,11 @@ public struct Settings: Codable, Equatable {
     /// load: "linkedin.com/feed" -> "https://www.linkedin.com/messaging/".
     /// Chrome-like browsers and Safari. Off by default.
     public var redirectPages: [String: String] = [:]
+    /// A nightly curfew screen that only the working-late pass lifts. Off
+    /// unless set: {"start": "22:00", "end": "07:00", ...}.
+    public var curfew: Curfew?
+    /// Revealing images count on the first frame during the curfew hours.
+    public var nightRevealingFrames = 1
 
     public init() {}
 
@@ -37,7 +45,8 @@ public struct Settings: Codable, Equatable {
              exposedThreshold = "exposed_threshold", revealingClasses = "revealing_classes",
              revealingThreshold = "revealing_threshold", revealingFramesNeeded = "revealing_frames_needed",
              coverSeconds = "cover_seconds", closeTab = "close_tab", pauseMinutes = "pause_minutes",
-             skipApps = "skip_apps", skipPages = "skip_pages", redirectPages = "redirect_pages"
+             skipApps = "skip_apps", skipPages = "skip_pages", redirectPages = "redirect_pages",
+             closeRevealingAt = "close_revealing_at", curfew, nightRevealingFrames = "night_revealing_frames"
     }
 
     /// Any key left out of the file keeps its default.
@@ -56,6 +65,9 @@ public struct Settings: Codable, Equatable {
         skipApps = try c.decodeIfPresent([String].self, forKey: .skipApps) ?? d.skipApps
         skipPages = try c.decodeIfPresent([String].self, forKey: .skipPages) ?? d.skipPages
         redirectPages = try c.decodeIfPresent([String: String].self, forKey: .redirectPages) ?? d.redirectPages
+        closeRevealingAt = try c.decodeIfPresent(Float.self, forKey: .closeRevealingAt) ?? d.closeRevealingAt
+        curfew = try c.decodeIfPresent(Curfew.self, forKey: .curfew) ?? d.curfew
+        nightRevealingFrames = try c.decodeIfPresent(Int.self, forKey: .nightRevealingFrames) ?? d.nightRevealingFrames
     }
 
     /// Defaults, overridden by `file` when it exists. A broken file is

@@ -74,6 +74,58 @@ import Testing
     }
 }
 
+@Suite struct CloseByKindTests {
+    @Test func exposedAlwaysCloses() {
+        #expect(shouldClose(.exposed, [Hit("FEMALE_BREAST_EXPOSED", 0.41)], settings: Settings()))
+    }
+
+    @Test func revealingClosesOnlyWhenStrong() {
+        #expect(!shouldClose(.revealing, [Hit("BUTTOCKS_COVERED", 0.6)], settings: Settings()))
+        #expect(shouldClose(.revealing, [Hit("BUTTOCKS_COVERED", 0.5), Hit("BELLY_EXPOSED", 0.7)], settings: Settings()))
+    }
+
+    @Test func closeTabOffNeverCloses() {
+        var s = Settings()
+        s.closeTab = false
+        #expect(!shouldClose(.exposed, [Hit("FEMALE_BREAST_EXPOSED", 0.9)], settings: s))
+    }
+
+    @Test func nightCountsRevealingOnTheFirstFrame() {
+        var j = Judge(Settings())
+        #expect(j.judge([Hit("BUTTOCKS_COVERED", 0.7)], night: true)?.0 == .revealing)
+    }
+}
+
+@Suite struct CurfewTests {
+    let c = Curfew()
+    var cal: Calendar {
+        var cal = Calendar(identifier: .gregorian)
+        cal.timeZone = TimeZone(identifier: "America/Los_Angeles")!
+        return cal
+    }
+    func at(_ h: Int, _ m: Int) -> Date { cal.date(from: DateComponents(year: 2026, month: 11, day: 3, hour: h, minute: m))! }
+
+    @Test func hoursWrapPastMidnight() {
+        #expect(c.state(at: at(21, 0), lastPass: nil, calendar: cal) == .off)
+        #expect(c.state(at: at(21, 50), lastPass: nil, calendar: cal) == .warn)
+        #expect(c.state(at: at(22, 0), lastPass: nil, calendar: cal) == .night)
+        #expect(c.state(at: at(3, 0), lastPass: nil, calendar: cal) == .night)
+        #expect(c.state(at: at(7, 0), lastPass: nil, calendar: cal) == .off)
+    }
+
+    @Test func passLiftsItThirtyMinutes() {
+        #expect(c.state(at: at(23, 20), lastPass: at(23, 0), calendar: cal) == .pass)
+        #expect(c.state(at: at(23, 31), lastPass: at(23, 0), calendar: cal) == .night)
+    }
+
+    @Test func offUnlessSetAndReadFromJSON() throws {
+        #expect(Settings().curfew == nil)
+        let s = try JSONDecoder().decode(Settings.self, from: Data(#"{"curfew": {"start": "23:00"}}"#.utf8))
+        #expect(s.curfew?.start == "23:00")
+        #expect(s.curfew?.passMinutes == 30)
+    }
+}
+
 @Suite struct SettingsTests {
     @Test func missingKeysKeepDefaults() throws {
         let s = try JSONDecoder().decode(Settings.self, from: Data(#"{"pause_minutes": 5, "skip_apps": []}"#.utf8))

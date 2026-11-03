@@ -32,7 +32,7 @@ public struct Judge {
 
     public mutating func reset() { revealingStreak = 0 }
 
-    public mutating func judge(_ hits: [Hit]) -> (Verdict, [Hit])? {
+    public mutating func judge(_ hits: [Hit], night: Bool = false) -> (Verdict, [Hit])? {
         let exposed = hits.filter { settings.exposedClasses.contains($0.label) && $0.score >= settings.exposedThreshold }
         if !exposed.isEmpty {
             revealingStreak = 0
@@ -44,10 +44,19 @@ public struct Judge {
             return nil
         }
         revealingStreak += 1
-        guard revealingStreak >= settings.revealingFramesNeeded else { return nil }
+        let needed = night ? settings.nightRevealingFrames : settings.revealingFramesNeeded
+        guard revealingStreak >= needed else { return nil }
         revealingStreak = 0
         return (.revealing, revealing)
     }
+}
+
+/// Close the tab for this flag, or only cover? Exposed closes; revealing
+/// closes only at `closeRevealingAt` or more. `closeTab` off means never.
+public func shouldClose(_ verdict: Verdict, _ hits: [Hit], settings: Settings) -> Bool {
+    guard settings.closeTab else { return false }
+    if verdict == .exposed { return true }
+    return (hits.map(\.score).max() ?? 0) >= settings.closeRevealingAt
 }
 
 /// True while a skipped app or page is in front.

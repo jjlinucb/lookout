@@ -1,7 +1,9 @@
 import AppKit
+import CoreImage
 
-/// Black windows over every display, above everything including full-screen
-/// apps, with two ways out so a wrong flag never locks the screen.
+/// Windows over every display, above everything including full-screen apps,
+/// with two ways out so a wrong flag never locks the screen. Behind the
+/// words is the screen itself, blurred past recognition, or black.
 @MainActor
 final class Cover {
     private var windows: [NSWindow] = []
@@ -12,7 +14,21 @@ final class Cover {
         override var canBecomeKey: Bool { true }
     }
 
-    func show(_ message: String, pauseMinutes: Int) {
+    /// Pixelated in big blocks, then blurred and darkened: only colour is left.
+    static func blurred(_ frame: CVPixelBuffer) -> CGImage? {
+        let image = CIImage(cvPixelBuffer: frame)
+        let size = image.extent.size
+        let block = max(size.width, size.height) / 16
+        let out = image
+            .applyingFilter("CIPixellate", parameters: [kCIInputScaleKey: block])
+            .clampedToExtent()
+            .applyingGaussianBlur(sigma: block)
+            .applyingFilter("CIColorControls", parameters: [kCIInputBrightnessKey: -0.35, kCIInputSaturationKey: 0.8])
+            .cropped(to: image.extent)
+        return CIContext().createCGImage(out, from: image.extent)
+    }
+
+    func show(_ message: String, pauseMinutes: Int, backgrounds: [CGDirectDisplayID: CGImage] = [:]) {
         hide()
         for screen in NSScreen.screens {
             let f = screen.frame
@@ -22,10 +38,22 @@ final class Cover {
             w.isOpaque = true
             w.collectionBehavior = [.canJoinAllSpaces, .stationary, .fullScreenAuxiliary]
             w.setFrame(f, display: false)
+            let id = screen.deviceDescription[NSDeviceDescriptionKey("NSScreenNumber")] as? CGDirectDisplayID
+            if let id, let image = backgrounds[id] {
+                let back = NSImageView(frame: NSRect(origin: .zero, size: f.size))
+                back.image = NSImage(cgImage: image, size: f.size)
+                back.imageScaling = .scaleAxesIndependently
+                w.contentView?.addSubview(back)
+                // A dark tint so the white words read on a blurred white page.
+                let tint = NSView(frame: NSRect(origin: .zero, size: f.size))
+                tint.wantsLayer = true
+                tint.layer?.backgroundColor = NSColor(white: 0, alpha: 0.55).cgColor
+                w.contentView?.addSubview(tint)
+            }
 
             let label = NSTextField(labelWithString: message)
             label.font = .systemFont(ofSize: 28)
-            label.textColor = NSColor(white: 0.85, alpha: 1)
+            label.textColor = .white
             label.alignment = .center
             label.frame = NSRect(x: 0, y: f.height / 2 - 30, width: f.width, height: 60)
             w.contentView?.addSubview(label)

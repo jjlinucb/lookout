@@ -16,9 +16,11 @@ monitor children.
 screen that changed and runs a nudity detector on them
 ([NudeNet](https://github.com/notAI-tech/NudeNet), converted to run on the
 Mac's Neural Engine). When it finds explicit nudity, it covers every display
-with a black screen and closes the browser tab, or hides the app if it isn't
-a browser. Revealing images (lingerie, swimsuits) only count when they stay
-on screen for two checks in a row, so one misread doesn't close your tab.
+with the screen blurred past recognition and closes the browser tab, or hides
+the app if it isn't a browser. Revealing images (lingerie, swimsuits) only count
+when they stay on screen for two checks in a row, and they close the tab only
+when the match is strong, so one misread doesn't cost you a tab. An optional
+nightly curfew covers the screen until morning, with a logged working-late pass.
 
 The cover lifts by itself after 3 seconds, and it has two buttons:
 
@@ -106,10 +108,13 @@ want to change, then quit and reopen Lookout. For example:
 | `revealing_frames_needed` | 2 | Checks in a row before a revealing image counts |
 | `cover_seconds` | 3 | How long the cover stays up if you don't press a button |
 | `close_tab` | true | Close the tab (or hide the app) after covering |
+| `close_revealing_at` | 0.65 | Explicit nudity always closes; a revealing image only covers unless it scores this much |
 | `pause_minutes` | 10 | Length of a "Wrong flag" pause |
 | `skip_apps` | Word | Apps that are never checked, by bundle ID |
 | `skip_pages` | Google Sheets | Pages that are never checked, by the start of the address |
 | `redirect_pages` | none | Pages to leave for another, like `{"linkedin.com/feed": "https://www.linkedin.com/messaging/"}`. Catches sites that change pages without a reload, which a browser's URL block misses. Chrome-like browsers and Safari; a "Wrong flag" pause doesn't stop it |
+| `curfew` | off | A nightly screen, like `{"start": "22:00", "end": "07:00", "warn_minutes": 15, "pass_minutes": 30}`. A notice comes first; only **Working late** lifts it, for `pass_minutes`, and each pass is logged. Turn Off and Wrong flag don't lift it |
+| `night_revealing_frames` | 1 | During curfew hours, a revealing image counts on the first check |
 
 ## Website blocking in detail
 

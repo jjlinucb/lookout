@@ -61,6 +61,9 @@ final class Guard {
     let worker: Worker
     let capture = Capture()
     let cover = Cover()
+    let curfewScreen = CurfewScreen()
+    private var lastPass: Date?
+    private var warnedAt = Date.distantPast
     var onStateChange: () -> Void = {}
     private var dismissed = false
     private var warnedNoPermission = Date.distantPast
@@ -72,6 +75,13 @@ final class Guard {
         judge = Judge(settings)
         worker = Worker(detector: detector)
         cover.onContinue = { [weak self] in self?.dismissed = true }
+        lastPass = lastCurfewPass(log.read())
+        curfewScreen.onPass = { [weak self] in
+            guard let self, let c = settings.curfew else { return }
+            lastPass = Date()
+            log.append(Event(verdict: "curfew pass", action: "working late: \(c.passMinutes) min"))
+            curfewScreen.hide()
+        }
         cover.onWrongFlag = { [weak self] in
             guard let self else { return }
             state.pause()
@@ -100,6 +110,11 @@ final class Guard {
     private func pass() async {
         // Redirects are a restriction, not a check, so a pause doesn't stop them.
         if await redirected() { return }
+        // Neither Turn Off nor a wrong-flag pause lifts the curfew; only the pass does.
+        if curfewUp() {
+            judge.reset()
+            return
+        }
         guard state.shouldCheck() else {
             judge.reset()
             await worker.forget()
@@ -124,9 +139,32 @@ final class Guard {
         let frames: [CVPixelBuffer]
         do { frames = try await capture.frames() } catch { return }
         let hits = await worker.check(frames)
-        if let (verdict, reasons) = judge.judge(hits) {
-            await handle(verdict, reasons)
+        let night = settings.curfew?.isNight(at: Date()) ?? false
+        if let (verdict, reasons) = judge.judge(hits, night: night) {
+            var backgrounds: [CGDirectDisplayID: CGImage] = [:]
+            for (id, frame) in zip(capture.displayIDs, frames) { backgrounds[id] = Cover.blurred(frame) }
+            await handle(verdict, reasons, backgrounds: backgrounds)
         }
+    }
+
+    /// Shows or lifts the curfew screen and the notice before it. True while it's up.
+    private func curfewUp() -> Bool {
+        guard let c = settings.curfew else { return false }
+        switch c.state(at: Date(), lastPass: lastPass) {
+        case .night:
+            if !curfewScreen.isShown { log.append(Event(verdict: "curfew", action: "screen up until \(c.end)")) }
+            curfewScreen.show(until: c.end, passMinutes: c.passMinutes)
+            return true
+        case .warn:
+            if Date().timeIntervalSince(warnedAt) > Double(c.warnMinutes + 1) * 60 {
+                warnedAt = Date()
+                curfewScreen.showNotice("Curfew at \(c.start). Time to wrap up.")
+            }
+        case .pass, .off:
+            break
+        }
+        curfewScreen.hide()
+        return false
     }
 
     /// Sends the front tab away from a page in `redirectPages`. True if it did.
@@ -141,14 +179,15 @@ final class Guard {
         return true
     }
 
-    private func handle(_ verdict: Verdict, _ reasons: [Hit]) async {
+    private func handle(_ verdict: Verdict, _ reasons: [Hit], backgrounds: [CGDirectDisplayID: CGImage] = [:]) async {
         let app = NSWorkspace.shared.frontmostApplication
         let id = app?.bundleIdentifier ?? ""
         let site = Browser.isBrowser(id) ? domain(of: await worker.url(of: id)) : nil
         dismissed = false
-        cover.show("Blocked. That was taken off your screen.", pauseMinutes: Int(settings.pauseMinutes))
+        cover.show("Blocked. That was taken off your screen.", pauseMinutes: Int(settings.pauseMinutes),
+                   backgrounds: backgrounds)
         var action = "covered only"
-        if settings.closeTab, let app { action = await worker.close(app) }
+        if shouldClose(verdict, reasons, settings: settings), let app { action = await worker.close(app) }
         log.append(Event(verdict: verdict.rawValue, app: app?.localizedName ?? "", domain: site, action: action, hits: reasons))
         let until = Date().addingTimeInterval(settings.coverSeconds)
         while !dismissed && Date() < until { try? await Task.sleep(nanoseconds: 100_000_000) }
@@ -159,7 +198,12 @@ final class Guard {
     /// For trying the cover without anything on screen: `Lookout --test-cover`.
     func testCover() async {
         dismissed = false
-        cover.show("Test: this is what a block looks like.", pauseMinutes: Int(settings.pauseMinutes))
+        var backgrounds: [CGDirectDisplayID: CGImage] = [:]
+        if Capture.allowed, let frames = try? await capture.frames() {
+            for (id, frame) in zip(capture.displayIDs, frames) { backgrounds[id] = Cover.blurred(frame) }
+        }
+        cover.show("Test: this is what a block looks like.", pauseMinutes: Int(settings.pauseMinutes),
+                   backgrounds: backgrounds)
         log.append(Event(verdict: "test", action: "test cover"))
         let until = Date().addingTimeInterval(settings.coverSeconds)
         while !dismissed && Date() < until { try? await Task.sleep(nanoseconds: 100_000_000) }
