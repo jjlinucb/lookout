@@ -50,4 +50,14 @@ func tempLog() -> EventLog {
         #expect(g.shouldCheck(at: now.addingTimeInterval(10 * 60 + 1)))
         #expect(log.read().map(\.verdict) == ["paused"])
     }
+
+    @Test func menuPauseLastsThirtyMinutesAndIsLogged() {
+        let log = tempLog()
+        var g = GuardState(log: log, pauseMinutes: 10)
+        let now = Date()
+        g.pauseFromMenu(minutes: 30, at: now)
+        #expect(!g.shouldCheck(at: now.addingTimeInterval(29 * 60)))
+        #expect(g.shouldCheck(at: now.addingTimeInterval(30 * 60 + 1)))
+        #expect(log.read().map(\.action) == ["menu bar: paused 30 min"])
+    }
 }

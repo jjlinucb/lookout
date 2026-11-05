@@ -86,6 +86,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
             item("Allow Screen Recording…", #selector(openScreenRecording))
         }
         if guardian != nil { item(on ? "Turn Off" : "Turn On", #selector(toggle)) }
+        if guardian != nil && on { item(paused ? "Pause 30 More Minutes" : "Pause 30 Minutes", #selector(pause30)) }
 
         if !Watchdog.installed && !blockingBusy {
             item("Keep Lookout Running…", #selector(installWatchdog))
@@ -116,6 +117,8 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
     }
 
     @objc func toggle() { guardian?.toggle() }
+
+    @objc func pause30() { guardian?.pauseFromMenu(minutes: 30) }
 
     @objc func openLog() {
         try? FileManager.default.createDirectory(at: Self.support, withIntermediateDirectories: true)

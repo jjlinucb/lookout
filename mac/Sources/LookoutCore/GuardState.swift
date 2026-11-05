@@ -22,4 +22,11 @@ public struct GuardState {
         pausedUntil = now.addingTimeInterval(pauseMinutes * 60)
         log.append(Event(verdict: "paused", action: "wrong flag: paused \(Int(pauseMinutes)) min"))
     }
+
+    /// The menu bar's Pause 30 Minutes, for a video that keeps getting flagged.
+    /// Like Turn Off it's logged, but it comes back by itself.
+    public mutating func pauseFromMenu(minutes: Double, at now: Date = Date()) {
+        pausedUntil = now.addingTimeInterval(minutes * 60)
+        log.append(Event(verdict: "paused", action: "menu bar: paused \(Int(minutes)) min"))
+    }
 }

@@ -96,6 +96,12 @@ final class Guard {
         onStateChange()
     }
 
+    func pauseFromMenu(minutes: Double) {
+        state.pauseFromMenu(minutes: minutes)
+        judge.reset()
+        onStateChange()
+    }
+
     func start() { Task { await loop() } }
 
     private func loop() async {
