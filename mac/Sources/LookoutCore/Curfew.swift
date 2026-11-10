@@ -34,7 +34,9 @@ public struct Curfew: Codable, Equatable {
     public func isNight(at date: Date, calendar: Calendar = .current) -> Bool {
         let c = calendar.dateComponents([.hour, .minute], from: date)
         let t = (c.hour ?? 0) * 60 + (c.minute ?? 0), s = Self.minutes(start), e = Self.minutes(end)
-        return s < e ? (s <= t && t < e) : (t >= s || t < e)
+        // Kept line for line with isNight in proofs/Lookout.lean. A start equal
+        // to the end is an empty window (it used to mean start to midnight).
+        return s < e ? (s <= t && t < e) : s > e ? (t >= s || t < e) : false
     }
 
     /// Where things stand at `date`, given when the last pass was taken.

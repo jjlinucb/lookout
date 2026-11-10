@@ -3,6 +3,7 @@
 #
 #   mac/build_app.sh            build
 #   mac/build_app.sh --test     run the tests first
+#   mac/build_app.sh --test-only  run the tests and stop (../check.sh does this)
 #   mac/build_app.sh --install  also copy it to /Applications and open it
 #   mac/build_app.sh --zip      also make dist/Lookout.zip for a GitHub Release
 #
@@ -11,12 +12,13 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 
-INSTALL=0; ZIP=0; TEST=0
+INSTALL=0; ZIP=0; TEST=0; TEST_ONLY=0
 for arg in "$@"; do
     case "$arg" in
         --install) INSTALL=1 ;;
         --zip) ZIP=1 ;;
         --test) TEST=1 ;;
+        --test-only) TEST=1; TEST_ONLY=1 ;;
         *) echo "unknown option: $arg" >&2; exit 2 ;;
     esac
 done
@@ -44,6 +46,7 @@ if [ "$TEST" = 1 ]; then
     swift test ${BUILD_FLAGS[@]+"${BUILD_FLAGS[@]}"} ${TEST_FLAGS[@]+"${TEST_FLAGS[@]}"}
     ../blocking/test.sh
     ../watchdog/test.sh
+    [ "$TEST_ONLY" = 1 ] && exit 0
 fi
 
 swift build ${BUILD_FLAGS[@]+"${BUILD_FLAGS[@]}"} -c release
