@@ -1,0 +1,7360 @@
+night 0 0 0 false
+night 0 0 1 false
+night 0 0 59 false
+night 0 0 60 false
+night 0 0 419 false
+night 0 0 420 false
+night 0 0 421 false
+night 0 0 719 false
+night 0 0 720 false
+night 0 0 1259 false
+night 0 0 1260 false
+night 0 0 1319 false
+night 0 0 1320 false
+night 0 0 1321 false
+night 0 0 1380 false
+night 0 0 1438 false
+night 0 0 1439 false
+night 0 0 30 false
+night 0 0 300 false
+night 0 0 600 false
+night 0 0 1000 false
+night 0 0 1350 false
+night 0 1 0 true
+night 0 1 1 false
+night 0 1 59 false
+night 0 1 60 false
+night 0 1 419 false
+night 0 1 420 false
+night 0 1 421 false
+night 0 1 719 false
+night 0 1 720 false
+night 0 1 1259 false
+night 0 1 1260 false
+night 0 1 1319 false
+night 0 1 1320 false
+night 0 1 1321 false
+night 0 1 1380 false
+night 0 1 1438 false
+night 0 1 1439 false
+night 0 1 30 false
+night 0 1 300 false
+night 0 1 600 false
+night 0 1 1000 false
+night 0 1 1350 false
+night 0 59 0 true
+night 0 59 1 true
+night 0 59 59 false
+night 0 59 60 false
+night 0 59 419 false
+night 0 59 420 false
+night 0 59 421 false
+night 0 59 719 false
+night 0 59 720 false
+night 0 59 1259 false
+night 0 59 1260 false
+night 0 59 1319 false
+night 0 59 1320 false
+night 0 59 1321 false
+night 0 59 1380 false
+night 0 59 1438 false
+night 0 59 1439 false
+night 0 59 30 true
+night 0 59 300 false
+night 0 59 600 false
+night 0 59 1000 false
+night 0 59 1350 false
+night 0 60 0 true
+night 0 60 1 true
+night 0 60 59 true
+night 0 60 60 false
+night 0 60 419 false
+night 0 60 420 false
+night 0 60 421 false
+night 0 60 719 false
+night 0 60 720 false
+night 0 60 1259 false
+night 0 60 1260 false
+night 0 60 1319 false
+night 0 60 1320 false
+night 0 60 1321 false
+night 0 60 1380 false
+night 0 60 1438 false
+night 0 60 1439 false
+night 0 60 30 true
+night 0 60 300 false
+night 0 60 600 false
+night 0 60 1000 false
+night 0 60 1350 false
+night 0 419 0 true
+night 0 419 1 true
+night 0 419 59 true
+night 0 419 60 true
+night 0 419 419 false
+night 0 419 420 false
+night 0 419 421 false
+night 0 419 719 false
+night 0 419 720 false
+night 0 419 1259 false
+night 0 419 1260 false
+night 0 419 1319 false
+night 0 419 1320 false
+night 0 419 1321 false
+night 0 419 1380 false
+night 0 419 1438 false
+night 0 419 1439 false
+night 0 419 30 true
+night 0 419 300 true
+night 0 419 600 false
+night 0 419 1000 false
+night 0 419 1350 false
+night 0 420 0 true
+night 0 420 1 true
+night 0 420 59 true
+night 0 420 60 true
+night 0 420 419 true
+night 0 420 420 false
+night 0 420 421 false
+night 0 420 719 false
+night 0 420 720 false
+night 0 420 1259 false
+night 0 420 1260 false
+night 0 420 1319 false
+night 0 420 1320 false
+night 0 420 1321 false
+night 0 420 1380 false
+night 0 420 1438 false
+night 0 420 1439 false
+night 0 420 30 true
+night 0 420 300 true
+night 0 420 600 false
+night 0 420 1000 false
+night 0 420 1350 false
+night 0 421 0 true
+night 0 421 1 true
+night 0 421 59 true
+night 0 421 60 true
+night 0 421 419 true
+night 0 421 420 true
+night 0 421 421 false
+night 0 421 719 false
+night 0 421 720 false
+night 0 421 1259 false
+night 0 421 1260 false
+night 0 421 1319 false
+night 0 421 1320 false
+night 0 421 1321 false
+night 0 421 1380 false
+night 0 421 1438 false
+night 0 421 1439 false
+night 0 421 30 true
+night 0 421 300 true
+night 0 421 600 false
+night 0 421 1000 false
+night 0 421 1350 false
+night 0 719 0 true
+night 0 719 1 true
+night 0 719 59 true
+night 0 719 60 true
+night 0 719 419 true
+night 0 719 420 true
+night 0 719 421 true
+night 0 719 719 false
+night 0 719 720 false
+night 0 719 1259 false
+night 0 719 1260 false
+night 0 719 1319 false
+night 0 719 1320 false
+night 0 719 1321 false
+night 0 719 1380 false
+night 0 719 1438 false
+night 0 719 1439 false
+night 0 719 30 true
+night 0 719 300 true
+night 0 719 600 true
+night 0 719 1000 false
+night 0 719 1350 false
+night 0 720 0 true
+night 0 720 1 true
+night 0 720 59 true
+night 0 720 60 true
+night 0 720 419 true
+night 0 720 420 true
+night 0 720 421 true
+night 0 720 719 true
+night 0 720 720 false
+night 0 720 1259 false
+night 0 720 1260 false
+night 0 720 1319 false
+night 0 720 1320 false
+night 0 720 1321 false
+night 0 720 1380 false
+night 0 720 1438 false
+night 0 720 1439 false
+night 0 720 30 true
+night 0 720 300 true
+night 0 720 600 true
+night 0 720 1000 false
+night 0 720 1350 false
+night 0 1259 0 true
+night 0 1259 1 true
+night 0 1259 59 true
+night 0 1259 60 true
+night 0 1259 419 true
+night 0 1259 420 true
+night 0 1259 421 true
+night 0 1259 719 true
+night 0 1259 720 true
+night 0 1259 1259 false
+night 0 1259 1260 false
+night 0 1259 1319 false
+night 0 1259 1320 false
+night 0 1259 1321 false
+night 0 1259 1380 false
+night 0 1259 1438 false
+night 0 1259 1439 false
+night 0 1259 30 true
+night 0 1259 300 true
+night 0 1259 600 true
+night 0 1259 1000 true
+night 0 1259 1350 false
+night 0 1260 0 true
+night 0 1260 1 true
+night 0 1260 59 true
+night 0 1260 60 true
+night 0 1260 419 true
+night 0 1260 420 true
+night 0 1260 421 true
+night 0 1260 719 true
+night 0 1260 720 true
+night 0 1260 1259 true
+night 0 1260 1260 false
+night 0 1260 1319 false
+night 0 1260 1320 false
+night 0 1260 1321 false
+night 0 1260 1380 false
+night 0 1260 1438 false
+night 0 1260 1439 false
+night 0 1260 30 true
+night 0 1260 300 true
+night 0 1260 600 true
+night 0 1260 1000 true
+night 0 1260 1350 false
+night 0 1319 0 true
+night 0 1319 1 true
+night 0 1319 59 true
+night 0 1319 60 true
+night 0 1319 419 true
+night 0 1319 420 true
+night 0 1319 421 true
+night 0 1319 719 true
+night 0 1319 720 true
+night 0 1319 1259 true
+night 0 1319 1260 true
+night 0 1319 1319 false
+night 0 1319 1320 false
+night 0 1319 1321 false
+night 0 1319 1380 false
+night 0 1319 1438 false
+night 0 1319 1439 false
+night 0 1319 30 true
+night 0 1319 300 true
+night 0 1319 600 true
+night 0 1319 1000 true
+night 0 1319 1350 false
+night 0 1320 0 true
+night 0 1320 1 true
+night 0 1320 59 true
+night 0 1320 60 true
+night 0 1320 419 true
+night 0 1320 420 true
+night 0 1320 421 true
+night 0 1320 719 true
+night 0 1320 720 true
+night 0 1320 1259 true
+night 0 1320 1260 true
+night 0 1320 1319 true
+night 0 1320 1320 false
+night 0 1320 1321 false
+night 0 1320 1380 false
+night 0 1320 1438 false
+night 0 1320 1439 false
+night 0 1320 30 true
+night 0 1320 300 true
+night 0 1320 600 true
+night 0 1320 1000 true
+night 0 1320 1350 false
+night 0 1321 0 true
+night 0 1321 1 true
+night 0 1321 59 true
+night 0 1321 60 true
+night 0 1321 419 true
+night 0 1321 420 true
+night 0 1321 421 true
+night 0 1321 719 true
+night 0 1321 720 true
+night 0 1321 1259 true
+night 0 1321 1260 true
+night 0 1321 1319 true
+night 0 1321 1320 true
+night 0 1321 1321 false
+night 0 1321 1380 false
+night 0 1321 1438 false
+night 0 1321 1439 false
+night 0 1321 30 true
+night 0 1321 300 true
+night 0 1321 600 true
+night 0 1321 1000 true
+night 0 1321 1350 false
+night 0 1380 0 true
+night 0 1380 1 true
+night 0 1380 59 true
+night 0 1380 60 true
+night 0 1380 419 true
+night 0 1380 420 true
+night 0 1380 421 true
+night 0 1380 719 true
+night 0 1380 720 true
+night 0 1380 1259 true
+night 0 1380 1260 true
+night 0 1380 1319 true
+night 0 1380 1320 true
+night 0 1380 1321 true
+night 0 1380 1380 false
+night 0 1380 1438 false
+night 0 1380 1439 false
+night 0 1380 30 true
+night 0 1380 300 true
+night 0 1380 600 true
+night 0 1380 1000 true
+night 0 1380 1350 true
+night 0 1438 0 true
+night 0 1438 1 true
+night 0 1438 59 true
+night 0 1438 60 true
+night 0 1438 419 true
+night 0 1438 420 true
+night 0 1438 421 true
+night 0 1438 719 true
+night 0 1438 720 true
+night 0 1438 1259 true
+night 0 1438 1260 true
+night 0 1438 1319 true
+night 0 1438 1320 true
+night 0 1438 1321 true
+night 0 1438 1380 true
+night 0 1438 1438 false
+night 0 1438 1439 false
+night 0 1438 30 true
+night 0 1438 300 true
+night 0 1438 600 true
+night 0 1438 1000 true
+night 0 1438 1350 true
+night 0 1439 0 true
+night 0 1439 1 true
+night 0 1439 59 true
+night 0 1439 60 true
+night 0 1439 419 true
+night 0 1439 420 true
+night 0 1439 421 true
+night 0 1439 719 true
+night 0 1439 720 true
+night 0 1439 1259 true
+night 0 1439 1260 true
+night 0 1439 1319 true
+night 0 1439 1320 true
+night 0 1439 1321 true
+night 0 1439 1380 true
+night 0 1439 1438 true
+night 0 1439 1439 false
+night 0 1439 30 true
+night 0 1439 300 true
+night 0 1439 600 true
+night 0 1439 1000 true
+night 0 1439 1350 true
+night 1 0 0 false
+night 1 0 1 true
+night 1 0 59 true
+night 1 0 60 true
+night 1 0 419 true
+night 1 0 420 true
+night 1 0 421 true
+night 1 0 719 true
+night 1 0 720 true
+night 1 0 1259 true
+night 1 0 1260 true
+night 1 0 1319 true
+night 1 0 1320 true
+night 1 0 1321 true
+night 1 0 1380 true
+night 1 0 1438 true
+night 1 0 1439 true
+night 1 0 30 true
+night 1 0 300 true
+night 1 0 600 true
+night 1 0 1000 true
+night 1 0 1350 true
+night 1 1 0 false
+night 1 1 1 false
+night 1 1 59 false
+night 1 1 60 false
+night 1 1 419 false
+night 1 1 420 false
+night 1 1 421 false
+night 1 1 719 false
+night 1 1 720 false
+night 1 1 1259 false
+night 1 1 1260 false
+night 1 1 1319 false
+night 1 1 1320 false
+night 1 1 1321 false
+night 1 1 1380 false
+night 1 1 1438 false
+night 1 1 1439 false
+night 1 1 30 false
+night 1 1 300 false
+night 1 1 600 false
+night 1 1 1000 false
+night 1 1 1350 false
+night 1 59 0 false
+night 1 59 1 true
+night 1 59 59 false
+night 1 59 60 false
+night 1 59 419 false
+night 1 59 420 false
+night 1 59 421 false
+night 1 59 719 false
+night 1 59 720 false
+night 1 59 1259 false
+night 1 59 1260 false
+night 1 59 1319 false
+night 1 59 1320 false
+night 1 59 1321 false
+night 1 59 1380 false
+night 1 59 1438 false
+night 1 59 1439 false
+night 1 59 30 true
+night 1 59 300 false
+night 1 59 600 false
+night 1 59 1000 false
+night 1 59 1350 false
+night 1 60 0 false
+night 1 60 1 true
+night 1 60 59 true
+night 1 60 60 false
+night 1 60 419 false
+night 1 60 420 false
+night 1 60 421 false
+night 1 60 719 false
+night 1 60 720 false
+night 1 60 1259 false
+night 1 60 1260 false
+night 1 60 1319 false
+night 1 60 1320 false
+night 1 60 1321 false
+night 1 60 1380 false
+night 1 60 1438 false
+night 1 60 1439 false
+night 1 60 30 true
+night 1 60 300 false
+night 1 60 600 false
+night 1 60 1000 false
+night 1 60 1350 false
+night 1 419 0 false
+night 1 419 1 true
+night 1 419 59 true
+night 1 419 60 true
+night 1 419 419 false
+night 1 419 420 false
+night 1 419 421 false
+night 1 419 719 false
+night 1 419 720 false
+night 1 419 1259 false
+night 1 419 1260 false
+night 1 419 1319 false
+night 1 419 1320 false
+night 1 419 1321 false
+night 1 419 1380 false
+night 1 419 1438 false
+night 1 419 1439 false
+night 1 419 30 true
+night 1 419 300 true
+night 1 419 600 false
+night 1 419 1000 false
+night 1 419 1350 false
+night 1 420 0 false
+night 1 420 1 true
+night 1 420 59 true
+night 1 420 60 true
+night 1 420 419 true
+night 1 420 420 false
+night 1 420 421 false
+night 1 420 719 false
+night 1 420 720 false
+night 1 420 1259 false
+night 1 420 1260 false
+night 1 420 1319 false
+night 1 420 1320 false
+night 1 420 1321 false
+night 1 420 1380 false
+night 1 420 1438 false
+night 1 420 1439 false
+night 1 420 30 true
+night 1 420 300 true
+night 1 420 600 false
+night 1 420 1000 false
+night 1 420 1350 false
+night 1 421 0 false
+night 1 421 1 true
+night 1 421 59 true
+night 1 421 60 true
+night 1 421 419 true
+night 1 421 420 true
+night 1 421 421 false
+night 1 421 719 false
+night 1 421 720 false
+night 1 421 1259 false
+night 1 421 1260 false
+night 1 421 1319 false
+night 1 421 1320 false
+night 1 421 1321 false
+night 1 421 1380 false
+night 1 421 1438 false
+night 1 421 1439 false
+night 1 421 30 true
+night 1 421 300 true
+night 1 421 600 false
+night 1 421 1000 false
+night 1 421 1350 false
+night 1 719 0 false
+night 1 719 1 true
+night 1 719 59 true
+night 1 719 60 true
+night 1 719 419 true
+night 1 719 420 true
+night 1 719 421 true
+night 1 719 719 false
+night 1 719 720 false
+night 1 719 1259 false
+night 1 719 1260 false
+night 1 719 1319 false
+night 1 719 1320 false
+night 1 719 1321 false
+night 1 719 1380 false
+night 1 719 1438 false
+night 1 719 1439 false
+night 1 719 30 true
+night 1 719 300 true
+night 1 719 600 true
+night 1 719 1000 false
+night 1 719 1350 false
+night 1 720 0 false
+night 1 720 1 true
+night 1 720 59 true
+night 1 720 60 true
+night 1 720 419 true
+night 1 720 420 true
+night 1 720 421 true
+night 1 720 719 true
+night 1 720 720 false
+night 1 720 1259 false
+night 1 720 1260 false
+night 1 720 1319 false
+night 1 720 1320 false
+night 1 720 1321 false
+night 1 720 1380 false
+night 1 720 1438 false
+night 1 720 1439 false
+night 1 720 30 true
+night 1 720 300 true
+night 1 720 600 true
+night 1 720 1000 false
+night 1 720 1350 false
+night 1 1259 0 false
+night 1 1259 1 true
+night 1 1259 59 true
+night 1 1259 60 true
+night 1 1259 419 true
+night 1 1259 420 true
+night 1 1259 421 true
+night 1 1259 719 true
+night 1 1259 720 true
+night 1 1259 1259 false
+night 1 1259 1260 false
+night 1 1259 1319 false
+night 1 1259 1320 false
+night 1 1259 1321 false
+night 1 1259 1380 false
+night 1 1259 1438 false
+night 1 1259 1439 false
+night 1 1259 30 true
+night 1 1259 300 true
+night 1 1259 600 true
+night 1 1259 1000 true
+night 1 1259 1350 false
+night 1 1260 0 false
+night 1 1260 1 true
+night 1 1260 59 true
+night 1 1260 60 true
+night 1 1260 419 true
+night 1 1260 420 true
+night 1 1260 421 true
+night 1 1260 719 true
+night 1 1260 720 true
+night 1 1260 1259 true
+night 1 1260 1260 false
+night 1 1260 1319 false
+night 1 1260 1320 false
+night 1 1260 1321 false
+night 1 1260 1380 false
+night 1 1260 1438 false
+night 1 1260 1439 false
+night 1 1260 30 true
+night 1 1260 300 true
+night 1 1260 600 true
+night 1 1260 1000 true
+night 1 1260 1350 false
+night 1 1319 0 false
+night 1 1319 1 true
+night 1 1319 59 true
+night 1 1319 60 true
+night 1 1319 419 true
+night 1 1319 420 true
+night 1 1319 421 true
+night 1 1319 719 true
+night 1 1319 720 true
+night 1 1319 1259 true
+night 1 1319 1260 true
+night 1 1319 1319 false
+night 1 1319 1320 false
+night 1 1319 1321 false
+night 1 1319 1380 false
+night 1 1319 1438 false
+night 1 1319 1439 false
+night 1 1319 30 true
+night 1 1319 300 true
+night 1 1319 600 true
+night 1 1319 1000 true
+night 1 1319 1350 false
+night 1 1320 0 false
+night 1 1320 1 true
+night 1 1320 59 true
+night 1 1320 60 true
+night 1 1320 419 true
+night 1 1320 420 true
+night 1 1320 421 true
+night 1 1320 719 true
+night 1 1320 720 true
+night 1 1320 1259 true
+night 1 1320 1260 true
+night 1 1320 1319 true
+night 1 1320 1320 false
+night 1 1320 1321 false
+night 1 1320 1380 false
+night 1 1320 1438 false
+night 1 1320 1439 false
+night 1 1320 30 true
+night 1 1320 300 true
+night 1 1320 600 true
+night 1 1320 1000 true
+night 1 1320 1350 false
+night 1 1321 0 false
+night 1 1321 1 true
+night 1 1321 59 true
+night 1 1321 60 true
+night 1 1321 419 true
+night 1 1321 420 true
+night 1 1321 421 true
+night 1 1321 719 true
+night 1 1321 720 true
+night 1 1321 1259 true
+night 1 1321 1260 true
+night 1 1321 1319 true
+night 1 1321 1320 true
+night 1 1321 1321 false
+night 1 1321 1380 false
+night 1 1321 1438 false
+night 1 1321 1439 false
+night 1 1321 30 true
+night 1 1321 300 true
+night 1 1321 600 true
+night 1 1321 1000 true
+night 1 1321 1350 false
+night 1 1380 0 false
+night 1 1380 1 true
+night 1 1380 59 true
+night 1 1380 60 true
+night 1 1380 419 true
+night 1 1380 420 true
+night 1 1380 421 true
+night 1 1380 719 true
+night 1 1380 720 true
+night 1 1380 1259 true
+night 1 1380 1260 true
+night 1 1380 1319 true
+night 1 1380 1320 true
+night 1 1380 1321 true
+night 1 1380 1380 false
+night 1 1380 1438 false
+night 1 1380 1439 false
+night 1 1380 30 true
+night 1 1380 300 true
+night 1 1380 600 true
+night 1 1380 1000 true
+night 1 1380 1350 true
+night 1 1438 0 false
+night 1 1438 1 true
+night 1 1438 59 true
+night 1 1438 60 true
+night 1 1438 419 true
+night 1 1438 420 true
+night 1 1438 421 true
+night 1 1438 719 true
+night 1 1438 720 true
+night 1 1438 1259 true
+night 1 1438 1260 true
+night 1 1438 1319 true
+night 1 1438 1320 true
+night 1 1438 1321 true
+night 1 1438 1380 true
+night 1 1438 1438 false
+night 1 1438 1439 false
+night 1 1438 30 true
+night 1 1438 300 true
+night 1 1438 600 true
+night 1 1438 1000 true
+night 1 1438 1350 true
+night 1 1439 0 false
+night 1 1439 1 true
+night 1 1439 59 true
+night 1 1439 60 true
+night 1 1439 419 true
+night 1 1439 420 true
+night 1 1439 421 true
+night 1 1439 719 true
+night 1 1439 720 true
+night 1 1439 1259 true
+night 1 1439 1260 true
+night 1 1439 1319 true
+night 1 1439 1320 true
+night 1 1439 1321 true
+night 1 1439 1380 true
+night 1 1439 1438 true
+night 1 1439 1439 false
+night 1 1439 30 true
+night 1 1439 300 true
+night 1 1439 600 true
+night 1 1439 1000 true
+night 1 1439 1350 true
+night 59 0 0 false
+night 59 0 1 false
+night 59 0 59 true
+night 59 0 60 true
+night 59 0 419 true
+night 59 0 420 true
+night 59 0 421 true
+night 59 0 719 true
+night 59 0 720 true
+night 59 0 1259 true
+night 59 0 1260 true
+night 59 0 1319 true
+night 59 0 1320 true
+night 59 0 1321 true
+night 59 0 1380 true
+night 59 0 1438 true
+night 59 0 1439 true
+night 59 0 30 false
+night 59 0 300 true
+night 59 0 600 true
+night 59 0 1000 true
+night 59 0 1350 true
+night 59 1 0 true
+night 59 1 1 false
+night 59 1 59 true
+night 59 1 60 true
+night 59 1 419 true
+night 59 1 420 true
+night 59 1 421 true
+night 59 1 719 true
+night 59 1 720 true
+night 59 1 1259 true
+night 59 1 1260 true
+night 59 1 1319 true
+night 59 1 1320 true
+night 59 1 1321 true
+night 59 1 1380 true
+night 59 1 1438 true
+night 59 1 1439 true
+night 59 1 30 false
+night 59 1 300 true
+night 59 1 600 true
+night 59 1 1000 true
+night 59 1 1350 true
+night 59 59 0 false
+night 59 59 1 false
+night 59 59 59 false
+night 59 59 60 false
+night 59 59 419 false
+night 59 59 420 false
+night 59 59 421 false
+night 59 59 719 false
+night 59 59 720 false
+night 59 59 1259 false
+night 59 59 1260 false
+night 59 59 1319 false
+night 59 59 1320 false
+night 59 59 1321 false
+night 59 59 1380 false
+night 59 59 1438 false
+night 59 59 1439 false
+night 59 59 30 false
+night 59 59 300 false
+night 59 59 600 false
+night 59 59 1000 false
+night 59 59 1350 false
+night 59 60 0 false
+night 59 60 1 false
+night 59 60 59 true
+night 59 60 60 false
+night 59 60 419 false
+night 59 60 420 false
+night 59 60 421 false
+night 59 60 719 false
+night 59 60 720 false
+night 59 60 1259 false
+night 59 60 1260 false
+night 59 60 1319 false
+night 59 60 1320 false
+night 59 60 1321 false
+night 59 60 1380 false
+night 59 60 1438 false
+night 59 60 1439 false
+night 59 60 30 false
+night 59 60 300 false
+night 59 60 600 false
+night 59 60 1000 false
+night 59 60 1350 false
+night 59 419 0 false
+night 59 419 1 false
+night 59 419 59 true
+night 59 419 60 true
+night 59 419 419 false
+night 59 419 420 false
+night 59 419 421 false
+night 59 419 719 false
+night 59 419 720 false
+night 59 419 1259 false
+night 59 419 1260 false
+night 59 419 1319 false
+night 59 419 1320 false
+night 59 419 1321 false
+night 59 419 1380 false
+night 59 419 1438 false
+night 59 419 1439 false
+night 59 419 30 false
+night 59 419 300 true
+night 59 419 600 false
+night 59 419 1000 false
+night 59 419 1350 false
+night 59 420 0 false
+night 59 420 1 false
+night 59 420 59 true
+night 59 420 60 true
+night 59 420 419 true
+night 59 420 420 false
+night 59 420 421 false
+night 59 420 719 false
+night 59 420 720 false
+night 59 420 1259 false
+night 59 420 1260 false
+night 59 420 1319 false
+night 59 420 1320 false
+night 59 420 1321 false
+night 59 420 1380 false
+night 59 420 1438 false
+night 59 420 1439 false
+night 59 420 30 false
+night 59 420 300 true
+night 59 420 600 false
+night 59 420 1000 false
+night 59 420 1350 false
+night 59 421 0 false
+night 59 421 1 false
+night 59 421 59 true
+night 59 421 60 true
+night 59 421 419 true
+night 59 421 420 true
+night 59 421 421 false
+night 59 421 719 false
+night 59 421 720 false
+night 59 421 1259 false
+night 59 421 1260 false
+night 59 421 1319 false
+night 59 421 1320 false
+night 59 421 1321 false
+night 59 421 1380 false
+night 59 421 1438 false
+night 59 421 1439 false
+night 59 421 30 false
+night 59 421 300 true
+night 59 421 600 false
+night 59 421 1000 false
+night 59 421 1350 false
+night 59 719 0 false
+night 59 719 1 false
+night 59 719 59 true
+night 59 719 60 true
+night 59 719 419 true
+night 59 719 420 true
+night 59 719 421 true
+night 59 719 719 false
+night 59 719 720 false
+night 59 719 1259 false
+night 59 719 1260 false
+night 59 719 1319 false
+night 59 719 1320 false
+night 59 719 1321 false
+night 59 719 1380 false
+night 59 719 1438 false
+night 59 719 1439 false
+night 59 719 30 false
+night 59 719 300 true
+night 59 719 600 true
+night 59 719 1000 false
+night 59 719 1350 false
+night 59 720 0 false
+night 59 720 1 false
+night 59 720 59 true
+night 59 720 60 true
+night 59 720 419 true
+night 59 720 420 true
+night 59 720 421 true
+night 59 720 719 true
+night 59 720 720 false
+night 59 720 1259 false
+night 59 720 1260 false
+night 59 720 1319 false
+night 59 720 1320 false
+night 59 720 1321 false
+night 59 720 1380 false
+night 59 720 1438 false
+night 59 720 1439 false
+night 59 720 30 false
+night 59 720 300 true
+night 59 720 600 true
+night 59 720 1000 false
+night 59 720 1350 false
+night 59 1259 0 false
+night 59 1259 1 false
+night 59 1259 59 true
+night 59 1259 60 true
+night 59 1259 419 true
+night 59 1259 420 true
+night 59 1259 421 true
+night 59 1259 719 true
+night 59 1259 720 true
+night 59 1259 1259 false
+night 59 1259 1260 false
+night 59 1259 1319 false
+night 59 1259 1320 false
+night 59 1259 1321 false
+night 59 1259 1380 false
+night 59 1259 1438 false
+night 59 1259 1439 false
+night 59 1259 30 false
+night 59 1259 300 true
+night 59 1259 600 true
+night 59 1259 1000 true
+night 59 1259 1350 false
+night 59 1260 0 false
+night 59 1260 1 false
+night 59 1260 59 true
+night 59 1260 60 true
+night 59 1260 419 true
+night 59 1260 420 true
+night 59 1260 421 true
+night 59 1260 719 true
+night 59 1260 720 true
+night 59 1260 1259 true
+night 59 1260 1260 false
+night 59 1260 1319 false
+night 59 1260 1320 false
+night 59 1260 1321 false
+night 59 1260 1380 false
+night 59 1260 1438 false
+night 59 1260 1439 false
+night 59 1260 30 false
+night 59 1260 300 true
+night 59 1260 600 true
+night 59 1260 1000 true
+night 59 1260 1350 false
+night 59 1319 0 false
+night 59 1319 1 false
+night 59 1319 59 true
+night 59 1319 60 true
+night 59 1319 419 true
+night 59 1319 420 true
+night 59 1319 421 true
+night 59 1319 719 true
+night 59 1319 720 true
+night 59 1319 1259 true
+night 59 1319 1260 true
+night 59 1319 1319 false
+night 59 1319 1320 false
+night 59 1319 1321 false
+night 59 1319 1380 false
+night 59 1319 1438 false
+night 59 1319 1439 false
+night 59 1319 30 false
+night 59 1319 300 true
+night 59 1319 600 true
+night 59 1319 1000 true
+night 59 1319 1350 false
+night 59 1320 0 false
+night 59 1320 1 false
+night 59 1320 59 true
+night 59 1320 60 true
+night 59 1320 419 true
+night 59 1320 420 true
+night 59 1320 421 true
+night 59 1320 719 true
+night 59 1320 720 true
+night 59 1320 1259 true
+night 59 1320 1260 true
+night 59 1320 1319 true
+night 59 1320 1320 false
+night 59 1320 1321 false
+night 59 1320 1380 false
+night 59 1320 1438 false
+night 59 1320 1439 false
+night 59 1320 30 false
+night 59 1320 300 true
+night 59 1320 600 true
+night 59 1320 1000 true
+night 59 1320 1350 false
+night 59 1321 0 false
+night 59 1321 1 false
+night 59 1321 59 true
+night 59 1321 60 true
+night 59 1321 419 true
+night 59 1321 420 true
+night 59 1321 421 true
+night 59 1321 719 true
+night 59 1321 720 true
+night 59 1321 1259 true
+night 59 1321 1260 true
+night 59 1321 1319 true
+night 59 1321 1320 true
+night 59 1321 1321 false
+night 59 1321 1380 false
+night 59 1321 1438 false
+night 59 1321 1439 false
+night 59 1321 30 false
+night 59 1321 300 true
+night 59 1321 600 true
+night 59 1321 1000 true
+night 59 1321 1350 false
+night 59 1380 0 false
+night 59 1380 1 false
+night 59 1380 59 true
+night 59 1380 60 true
+night 59 1380 419 true
+night 59 1380 420 true
+night 59 1380 421 true
+night 59 1380 719 true
+night 59 1380 720 true
+night 59 1380 1259 true
+night 59 1380 1260 true
+night 59 1380 1319 true
+night 59 1380 1320 true
+night 59 1380 1321 true
+night 59 1380 1380 false
+night 59 1380 1438 false
+night 59 1380 1439 false
+night 59 1380 30 false
+night 59 1380 300 true
+night 59 1380 600 true
+night 59 1380 1000 true
+night 59 1380 1350 true
+night 59 1438 0 false
+night 59 1438 1 false
+night 59 1438 59 true
+night 59 1438 60 true
+night 59 1438 419 true
+night 59 1438 420 true
+night 59 1438 421 true
+night 59 1438 719 true
+night 59 1438 720 true
+night 59 1438 1259 true
+night 59 1438 1260 true
+night 59 1438 1319 true
+night 59 1438 1320 true
+night 59 1438 1321 true
+night 59 1438 1380 true
+night 59 1438 1438 false
+night 59 1438 1439 false
+night 59 1438 30 false
+night 59 1438 300 true
+night 59 1438 600 true
+night 59 1438 1000 true
+night 59 1438 1350 true
+night 59 1439 0 false
+night 59 1439 1 false
+night 59 1439 59 true
+night 59 1439 60 true
+night 59 1439 419 true
+night 59 1439 420 true
+night 59 1439 421 true
+night 59 1439 719 true
+night 59 1439 720 true
+night 59 1439 1259 true
+night 59 1439 1260 true
+night 59 1439 1319 true
+night 59 1439 1320 true
+night 59 1439 1321 true
+night 59 1439 1380 true
+night 59 1439 1438 true
+night 59 1439 1439 false
+night 59 1439 30 false
+night 59 1439 300 true
+night 59 1439 600 true
+night 59 1439 1000 true
+night 59 1439 1350 true
+night 60 0 0 false
+night 60 0 1 false
+night 60 0 59 false
+night 60 0 60 true
+night 60 0 419 true
+night 60 0 420 true
+night 60 0 421 true
+night 60 0 719 true
+night 60 0 720 true
+night 60 0 1259 true
+night 60 0 1260 true
+night 60 0 1319 true
+night 60 0 1320 true
+night 60 0 1321 true
+night 60 0 1380 true
+night 60 0 1438 true
+night 60 0 1439 true
+night 60 0 30 false
+night 60 0 300 true
+night 60 0 600 true
+night 60 0 1000 true
+night 60 0 1350 true
+night 60 1 0 true
+night 60 1 1 false
+night 60 1 59 false
+night 60 1 60 true
+night 60 1 419 true
+night 60 1 420 true
+night 60 1 421 true
+night 60 1 719 true
+night 60 1 720 true
+night 60 1 1259 true
+night 60 1 1260 true
+night 60 1 1319 true
+night 60 1 1320 true
+night 60 1 1321 true
+night 60 1 1380 true
+night 60 1 1438 true
+night 60 1 1439 true
+night 60 1 30 false
+night 60 1 300 true
+night 60 1 600 true
+night 60 1 1000 true
+night 60 1 1350 true
+night 60 59 0 true
+night 60 59 1 true
+night 60 59 59 false
+night 60 59 60 true
+night 60 59 419 true
+night 60 59 420 true
+night 60 59 421 true
+night 60 59 719 true
+night 60 59 720 true
+night 60 59 1259 true
+night 60 59 1260 true
+night 60 59 1319 true
+night 60 59 1320 true
+night 60 59 1321 true
+night 60 59 1380 true
+night 60 59 1438 true
+night 60 59 1439 true
+night 60 59 30 true
+night 60 59 300 true
+night 60 59 600 true
+night 60 59 1000 true
+night 60 59 1350 true
+night 60 60 0 false
+night 60 60 1 false
+night 60 60 59 false
+night 60 60 60 false
+night 60 60 419 false
+night 60 60 420 false
+night 60 60 421 false
+night 60 60 719 false
+night 60 60 720 false
+night 60 60 1259 false
+night 60 60 1260 false
+night 60 60 1319 false
+night 60 60 1320 false
+night 60 60 1321 false
+night 60 60 1380 false
+night 60 60 1438 false
+night 60 60 1439 false
+night 60 60 30 false
+night 60 60 300 false
+night 60 60 600 false
+night 60 60 1000 false
+night 60 60 1350 false
+night 60 419 0 false
+night 60 419 1 false
+night 60 419 59 false
+night 60 419 60 true
+night 60 419 419 false
+night 60 419 420 false
+night 60 419 421 false
+night 60 419 719 false
+night 60 419 720 false
+night 60 419 1259 false
+night 60 419 1260 false
+night 60 419 1319 false
+night 60 419 1320 false
+night 60 419 1321 false
+night 60 419 1380 false
+night 60 419 1438 false
+night 60 419 1439 false
+night 60 419 30 false
+night 60 419 300 true
+night 60 419 600 false
+night 60 419 1000 false
+night 60 419 1350 false
+night 60 420 0 false
+night 60 420 1 false
+night 60 420 59 false
+night 60 420 60 true
+night 60 420 419 true
+night 60 420 420 false
+night 60 420 421 false
+night 60 420 719 false
+night 60 420 720 false
+night 60 420 1259 false
+night 60 420 1260 false
+night 60 420 1319 false
+night 60 420 1320 false
+night 60 420 1321 false
+night 60 420 1380 false
+night 60 420 1438 false
+night 60 420 1439 false
+night 60 420 30 false
+night 60 420 300 true
+night 60 420 600 false
+night 60 420 1000 false
+night 60 420 1350 false
+night 60 421 0 false
+night 60 421 1 false
+night 60 421 59 false
+night 60 421 60 true
+night 60 421 419 true
+night 60 421 420 true
+night 60 421 421 false
+night 60 421 719 false
+night 60 421 720 false
+night 60 421 1259 false
+night 60 421 1260 false
+night 60 421 1319 false
+night 60 421 1320 false
+night 60 421 1321 false
+night 60 421 1380 false
+night 60 421 1438 false
+night 60 421 1439 false
+night 60 421 30 false
+night 60 421 300 true
+night 60 421 600 false
+night 60 421 1000 false
+night 60 421 1350 false
+night 60 719 0 false
+night 60 719 1 false
+night 60 719 59 false
+night 60 719 60 true
+night 60 719 419 true
+night 60 719 420 true
+night 60 719 421 true
+night 60 719 719 false
+night 60 719 720 false
+night 60 719 1259 false
+night 60 719 1260 false
+night 60 719 1319 false
+night 60 719 1320 false
+night 60 719 1321 false
+night 60 719 1380 false
+night 60 719 1438 false
+night 60 719 1439 false
+night 60 719 30 false
+night 60 719 300 true
+night 60 719 600 true
+night 60 719 1000 false
+night 60 719 1350 false
+night 60 720 0 false
+night 60 720 1 false
+night 60 720 59 false
+night 60 720 60 true
+night 60 720 419 true
+night 60 720 420 true
+night 60 720 421 true
+night 60 720 719 true
+night 60 720 720 false
+night 60 720 1259 false
+night 60 720 1260 false
+night 60 720 1319 false
+night 60 720 1320 false
+night 60 720 1321 false
+night 60 720 1380 false
+night 60 720 1438 false
+night 60 720 1439 false
+night 60 720 30 false
+night 60 720 300 true
+night 60 720 600 true
+night 60 720 1000 false
+night 60 720 1350 false
+night 60 1259 0 false
+night 60 1259 1 false
+night 60 1259 59 false
+night 60 1259 60 true
+night 60 1259 419 true
+night 60 1259 420 true
+night 60 1259 421 true
+night 60 1259 719 true
+night 60 1259 720 true
+night 60 1259 1259 false
+night 60 1259 1260 false
+night 60 1259 1319 false
+night 60 1259 1320 false
+night 60 1259 1321 false
+night 60 1259 1380 false
+night 60 1259 1438 false
+night 60 1259 1439 false
+night 60 1259 30 false
+night 60 1259 300 true
+night 60 1259 600 true
+night 60 1259 1000 true
+night 60 1259 1350 false
+night 60 1260 0 false
+night 60 1260 1 false
+night 60 1260 59 false
+night 60 1260 60 true
+night 60 1260 419 true
+night 60 1260 420 true
+night 60 1260 421 true
+night 60 1260 719 true
+night 60 1260 720 true
+night 60 1260 1259 true
+night 60 1260 1260 false
+night 60 1260 1319 false
+night 60 1260 1320 false
+night 60 1260 1321 false
+night 60 1260 1380 false
+night 60 1260 1438 false
+night 60 1260 1439 false
+night 60 1260 30 false
+night 60 1260 300 true
+night 60 1260 600 true
+night 60 1260 1000 true
+night 60 1260 1350 false
+night 60 1319 0 false
+night 60 1319 1 false
+night 60 1319 59 false
+night 60 1319 60 true
+night 60 1319 419 true
+night 60 1319 420 true
+night 60 1319 421 true
+night 60 1319 719 true
+night 60 1319 720 true
+night 60 1319 1259 true
+night 60 1319 1260 true
+night 60 1319 1319 false
+night 60 1319 1320 false
+night 60 1319 1321 false
+night 60 1319 1380 false
+night 60 1319 1438 false
+night 60 1319 1439 false
+night 60 1319 30 false
+night 60 1319 300 true
+night 60 1319 600 true
+night 60 1319 1000 true
+night 60 1319 1350 false
+night 60 1320 0 false
+night 60 1320 1 false
+night 60 1320 59 false
+night 60 1320 60 true
+night 60 1320 419 true
+night 60 1320 420 true
+night 60 1320 421 true
+night 60 1320 719 true
+night 60 1320 720 true
+night 60 1320 1259 true
+night 60 1320 1260 true
+night 60 1320 1319 true
+night 60 1320 1320 false
+night 60 1320 1321 false
+night 60 1320 1380 false
+night 60 1320 1438 false
+night 60 1320 1439 false
+night 60 1320 30 false
+night 60 1320 300 true
+night 60 1320 600 true
+night 60 1320 1000 true
+night 60 1320 1350 false
+night 60 1321 0 false
+night 60 1321 1 false
+night 60 1321 59 false
+night 60 1321 60 true
+night 60 1321 419 true
+night 60 1321 420 true
+night 60 1321 421 true
+night 60 1321 719 true
+night 60 1321 720 true
+night 60 1321 1259 true
+night 60 1321 1260 true
+night 60 1321 1319 true
+night 60 1321 1320 true
+night 60 1321 1321 false
+night 60 1321 1380 false
+night 60 1321 1438 false
+night 60 1321 1439 false
+night 60 1321 30 false
+night 60 1321 300 true
+night 60 1321 600 true
+night 60 1321 1000 true
+night 60 1321 1350 false
+night 60 1380 0 false
+night 60 1380 1 false
+night 60 1380 59 false
+night 60 1380 60 true
+night 60 1380 419 true
+night 60 1380 420 true
+night 60 1380 421 true
+night 60 1380 719 true
+night 60 1380 720 true
+night 60 1380 1259 true
+night 60 1380 1260 true
+night 60 1380 1319 true
+night 60 1380 1320 true
+night 60 1380 1321 true
+night 60 1380 1380 false
+night 60 1380 1438 false
+night 60 1380 1439 false
+night 60 1380 30 false
+night 60 1380 300 true
+night 60 1380 600 true
+night 60 1380 1000 true
+night 60 1380 1350 true
+night 60 1438 0 false
+night 60 1438 1 false
+night 60 1438 59 false
+night 60 1438 60 true
+night 60 1438 419 true
+night 60 1438 420 true
+night 60 1438 421 true
+night 60 1438 719 true
+night 60 1438 720 true
+night 60 1438 1259 true
+night 60 1438 1260 true
+night 60 1438 1319 true
+night 60 1438 1320 true
+night 60 1438 1321 true
+night 60 1438 1380 true
+night 60 1438 1438 false
+night 60 1438 1439 false
+night 60 1438 30 false
+night 60 1438 300 true
+night 60 1438 600 true
+night 60 1438 1000 true
+night 60 1438 1350 true
+night 60 1439 0 false
+night 60 1439 1 false
+night 60 1439 59 false
+night 60 1439 60 true
+night 60 1439 419 true
+night 60 1439 420 true
+night 60 1439 421 true
+night 60 1439 719 true
+night 60 1439 720 true
+night 60 1439 1259 true
+night 60 1439 1260 true
+night 60 1439 1319 true
+night 60 1439 1320 true
+night 60 1439 1321 true
+night 60 1439 1380 true
+night 60 1439 1438 true
+night 60 1439 1439 false
+night 60 1439 30 false
+night 60 1439 300 true
+night 60 1439 600 true
+night 60 1439 1000 true
+night 60 1439 1350 true
+night 419 0 0 false
+night 419 0 1 false
+night 419 0 59 false
+night 419 0 60 false
+night 419 0 419 true
+night 419 0 420 true
+night 419 0 421 true
+night 419 0 719 true
+night 419 0 720 true
+night 419 0 1259 true
+night 419 0 1260 true
+night 419 0 1319 true
+night 419 0 1320 true
+night 419 0 1321 true
+night 419 0 1380 true
+night 419 0 1438 true
+night 419 0 1439 true
+night 419 0 30 false
+night 419 0 300 false
+night 419 0 600 true
+night 419 0 1000 true
+night 419 0 1350 true
+night 419 1 0 true
+night 419 1 1 false
+night 419 1 59 false
+night 419 1 60 false
+night 419 1 419 true
+night 419 1 420 true
+night 419 1 421 true
+night 419 1 719 true
+night 419 1 720 true
+night 419 1 1259 true
+night 419 1 1260 true
+night 419 1 1319 true
+night 419 1 1320 true
+night 419 1 1321 true
+night 419 1 1380 true
+night 419 1 1438 true
+night 419 1 1439 true
+night 419 1 30 false
+night 419 1 300 false
+night 419 1 600 true
+night 419 1 1000 true
+night 419 1 1350 true
+night 419 59 0 true
+night 419 59 1 true
+night 419 59 59 false
+night 419 59 60 false
+night 419 59 419 true
+night 419 59 420 true
+night 419 59 421 true
+night 419 59 719 true
+night 419 59 720 true
+night 419 59 1259 true
+night 419 59 1260 true
+night 419 59 1319 true
+night 419 59 1320 true
+night 419 59 1321 true
+night 419 59 1380 true
+night 419 59 1438 true
+night 419 59 1439 true
+night 419 59 30 true
+night 419 59 300 false
+night 419 59 600 true
+night 419 59 1000 true
+night 419 59 1350 true
+night 419 60 0 true
+night 419 60 1 true
+night 419 60 59 true
+night 419 60 60 false
+night 419 60 419 true
+night 419 60 420 true
+night 419 60 421 true
+night 419 60 719 true
+night 419 60 720 true
+night 419 60 1259 true
+night 419 60 1260 true
+night 419 60 1319 true
+night 419 60 1320 true
+night 419 60 1321 true
+night 419 60 1380 true
+night 419 60 1438 true
+night 419 60 1439 true
+night 419 60 30 true
+night 419 60 300 false
+night 419 60 600 true
+night 419 60 1000 true
+night 419 60 1350 true
+night 419 419 0 false
+night 419 419 1 false
+night 419 419 59 false
+night 419 419 60 false
+night 419 419 419 false
+night 419 419 420 false
+night 419 419 421 false
+night 419 419 719 false
+night 419 419 720 false
+night 419 419 1259 false
+night 419 419 1260 false
+night 419 419 1319 false
+night 419 419 1320 false
+night 419 419 1321 false
+night 419 419 1380 false
+night 419 419 1438 false
+night 419 419 1439 false
+night 419 419 30 false
+night 419 419 300 false
+night 419 419 600 false
+night 419 419 1000 false
+night 419 419 1350 false
+night 419 420 0 false
+night 419 420 1 false
+night 419 420 59 false
+night 419 420 60 false
+night 419 420 419 true
+night 419 420 420 false
+night 419 420 421 false
+night 419 420 719 false
+night 419 420 720 false
+night 419 420 1259 false
+night 419 420 1260 false
+night 419 420 1319 false
+night 419 420 1320 false
+night 419 420 1321 false
+night 419 420 1380 false
+night 419 420 1438 false
+night 419 420 1439 false
+night 419 420 30 false
+night 419 420 300 false
+night 419 420 600 false
+night 419 420 1000 false
+night 419 420 1350 false
+night 419 421 0 false
+night 419 421 1 false
+night 419 421 59 false
+night 419 421 60 false
+night 419 421 419 true
+night 419 421 420 true
+night 419 421 421 false
+night 419 421 719 false
+night 419 421 720 false
+night 419 421 1259 false
+night 419 421 1260 false
+night 419 421 1319 false
+night 419 421 1320 false
+night 419 421 1321 false
+night 419 421 1380 false
+night 419 421 1438 false
+night 419 421 1439 false
+night 419 421 30 false
+night 419 421 300 false
+night 419 421 600 false
+night 419 421 1000 false
+night 419 421 1350 false
+night 419 719 0 false
+night 419 719 1 false
+night 419 719 59 false
+night 419 719 60 false
+night 419 719 419 true
+night 419 719 420 true
+night 419 719 421 true
+night 419 719 719 false
+night 419 719 720 false
+night 419 719 1259 false
+night 419 719 1260 false
+night 419 719 1319 false
+night 419 719 1320 false
+night 419 719 1321 false
+night 419 719 1380 false
+night 419 719 1438 false
+night 419 719 1439 false
+night 419 719 30 false
+night 419 719 300 false
+night 419 719 600 true
+night 419 719 1000 false
+night 419 719 1350 false
+night 419 720 0 false
+night 419 720 1 false
+night 419 720 59 false
+night 419 720 60 false
+night 419 720 419 true
+night 419 720 420 true
+night 419 720 421 true
+night 419 720 719 true
+night 419 720 720 false
+night 419 720 1259 false
+night 419 720 1260 false
+night 419 720 1319 false
+night 419 720 1320 false
+night 419 720 1321 false
+night 419 720 1380 false
+night 419 720 1438 false
+night 419 720 1439 false
+night 419 720 30 false
+night 419 720 300 false
+night 419 720 600 true
+night 419 720 1000 false
+night 419 720 1350 false
+night 419 1259 0 false
+night 419 1259 1 false
+night 419 1259 59 false
+night 419 1259 60 false
+night 419 1259 419 true
+night 419 1259 420 true
+night 419 1259 421 true
+night 419 1259 719 true
+night 419 1259 720 true
+night 419 1259 1259 false
+night 419 1259 1260 false
+night 419 1259 1319 false
+night 419 1259 1320 false
+night 419 1259 1321 false
+night 419 1259 1380 false
+night 419 1259 1438 false
+night 419 1259 1439 false
+night 419 1259 30 false
+night 419 1259 300 false
+night 419 1259 600 true
+night 419 1259 1000 true
+night 419 1259 1350 false
+night 419 1260 0 false
+night 419 1260 1 false
+night 419 1260 59 false
+night 419 1260 60 false
+night 419 1260 419 true
+night 419 1260 420 true
+night 419 1260 421 true
+night 419 1260 719 true
+night 419 1260 720 true
+night 419 1260 1259 true
+night 419 1260 1260 false
+night 419 1260 1319 false
+night 419 1260 1320 false
+night 419 1260 1321 false
+night 419 1260 1380 false
+night 419 1260 1438 false
+night 419 1260 1439 false
+night 419 1260 30 false
+night 419 1260 300 false
+night 419 1260 600 true
+night 419 1260 1000 true
+night 419 1260 1350 false
+night 419 1319 0 false
+night 419 1319 1 false
+night 419 1319 59 false
+night 419 1319 60 false
+night 419 1319 419 true
+night 419 1319 420 true
+night 419 1319 421 true
+night 419 1319 719 true
+night 419 1319 720 true
+night 419 1319 1259 true
+night 419 1319 1260 true
+night 419 1319 1319 false
+night 419 1319 1320 false
+night 419 1319 1321 false
+night 419 1319 1380 false
+night 419 1319 1438 false
+night 419 1319 1439 false
+night 419 1319 30 false
+night 419 1319 300 false
+night 419 1319 600 true
+night 419 1319 1000 true
+night 419 1319 1350 false
+night 419 1320 0 false
+night 419 1320 1 false
+night 419 1320 59 false
+night 419 1320 60 false
+night 419 1320 419 true
+night 419 1320 420 true
+night 419 1320 421 true
+night 419 1320 719 true
+night 419 1320 720 true
+night 419 1320 1259 true
+night 419 1320 1260 true
+night 419 1320 1319 true
+night 419 1320 1320 false
+night 419 1320 1321 false
+night 419 1320 1380 false
+night 419 1320 1438 false
+night 419 1320 1439 false
+night 419 1320 30 false
+night 419 1320 300 false
+night 419 1320 600 true
+night 419 1320 1000 true
+night 419 1320 1350 false
+night 419 1321 0 false
+night 419 1321 1 false
+night 419 1321 59 false
+night 419 1321 60 false
+night 419 1321 419 true
+night 419 1321 420 true
+night 419 1321 421 true
+night 419 1321 719 true
+night 419 1321 720 true
+night 419 1321 1259 true
+night 419 1321 1260 true
+night 419 1321 1319 true
+night 419 1321 1320 true
+night 419 1321 1321 false
+night 419 1321 1380 false
+night 419 1321 1438 false
+night 419 1321 1439 false
+night 419 1321 30 false
+night 419 1321 300 false
+night 419 1321 600 true
+night 419 1321 1000 true
+night 419 1321 1350 false
+night 419 1380 0 false
+night 419 1380 1 false
+night 419 1380 59 false
+night 419 1380 60 false
+night 419 1380 419 true
+night 419 1380 420 true
+night 419 1380 421 true
+night 419 1380 719 true
+night 419 1380 720 true
+night 419 1380 1259 true
+night 419 1380 1260 true
+night 419 1380 1319 true
+night 419 1380 1320 true
+night 419 1380 1321 true
+night 419 1380 1380 false
+night 419 1380 1438 false
+night 419 1380 1439 false
+night 419 1380 30 false
+night 419 1380 300 false
+night 419 1380 600 true
+night 419 1380 1000 true
+night 419 1380 1350 true
+night 419 1438 0 false
+night 419 1438 1 false
+night 419 1438 59 false
+night 419 1438 60 false
+night 419 1438 419 true
+night 419 1438 420 true
+night 419 1438 421 true
+night 419 1438 719 true
+night 419 1438 720 true
+night 419 1438 1259 true
+night 419 1438 1260 true
+night 419 1438 1319 true
+night 419 1438 1320 true
+night 419 1438 1321 true
+night 419 1438 1380 true
+night 419 1438 1438 false
+night 419 1438 1439 false
+night 419 1438 30 false
+night 419 1438 300 false
+night 419 1438 600 true
+night 419 1438 1000 true
+night 419 1438 1350 true
+night 419 1439 0 false
+night 419 1439 1 false
+night 419 1439 59 false
+night 419 1439 60 false
+night 419 1439 419 true
+night 419 1439 420 true
+night 419 1439 421 true
+night 419 1439 719 true
+night 419 1439 720 true
+night 419 1439 1259 true
+night 419 1439 1260 true
+night 419 1439 1319 true
+night 419 1439 1320 true
+night 419 1439 1321 true
+night 419 1439 1380 true
+night 419 1439 1438 true
+night 419 1439 1439 false
+night 419 1439 30 false
+night 419 1439 300 false
+night 419 1439 600 true
+night 419 1439 1000 true
+night 419 1439 1350 true
+night 420 0 0 false
+night 420 0 1 false
+night 420 0 59 false
+night 420 0 60 false
+night 420 0 419 false
+night 420 0 420 true
+night 420 0 421 true
+night 420 0 719 true
+night 420 0 720 true
+night 420 0 1259 true
+night 420 0 1260 true
+night 420 0 1319 true
+night 420 0 1320 true
+night 420 0 1321 true
+night 420 0 1380 true
+night 420 0 1438 true
+night 420 0 1439 true
+night 420 0 30 false
+night 420 0 300 false
+night 420 0 600 true
+night 420 0 1000 true
+night 420 0 1350 true
+night 420 1 0 true
+night 420 1 1 false
+night 420 1 59 false
+night 420 1 60 false
+night 420 1 419 false
+night 420 1 420 true
+night 420 1 421 true
+night 420 1 719 true
+night 420 1 720 true
+night 420 1 1259 true
+night 420 1 1260 true
+night 420 1 1319 true
+night 420 1 1320 true
+night 420 1 1321 true
+night 420 1 1380 true
+night 420 1 1438 true
+night 420 1 1439 true
+night 420 1 30 false
+night 420 1 300 false
+night 420 1 600 true
+night 420 1 1000 true
+night 420 1 1350 true
+night 420 59 0 true
+night 420 59 1 true
+night 420 59 59 false
+night 420 59 60 false
+night 420 59 419 false
+night 420 59 420 true
+night 420 59 421 true
+night 420 59 719 true
+night 420 59 720 true
+night 420 59 1259 true
+night 420 59 1260 true
+night 420 59 1319 true
+night 420 59 1320 true
+night 420 59 1321 true
+night 420 59 1380 true
+night 420 59 1438 true
+night 420 59 1439 true
+night 420 59 30 true
+night 420 59 300 false
+night 420 59 600 true
+night 420 59 1000 true
+night 420 59 1350 true
+night 420 60 0 true
+night 420 60 1 true
+night 420 60 59 true
+night 420 60 60 false
+night 420 60 419 false
+night 420 60 420 true
+night 420 60 421 true
+night 420 60 719 true
+night 420 60 720 true
+night 420 60 1259 true
+night 420 60 1260 true
+night 420 60 1319 true
+night 420 60 1320 true
+night 420 60 1321 true
+night 420 60 1380 true
+night 420 60 1438 true
+night 420 60 1439 true
+night 420 60 30 true
+night 420 60 300 false
+night 420 60 600 true
+night 420 60 1000 true
+night 420 60 1350 true
+night 420 419 0 true
+night 420 419 1 true
+night 420 419 59 true
+night 420 419 60 true
+night 420 419 419 false
+night 420 419 420 true
+night 420 419 421 true
+night 420 419 719 true
+night 420 419 720 true
+night 420 419 1259 true
+night 420 419 1260 true
+night 420 419 1319 true
+night 420 419 1320 true
+night 420 419 1321 true
+night 420 419 1380 true
+night 420 419 1438 true
+night 420 419 1439 true
+night 420 419 30 true
+night 420 419 300 true
+night 420 419 600 true
+night 420 419 1000 true
+night 420 419 1350 true
+night 420 420 0 false
+night 420 420 1 false
+night 420 420 59 false
+night 420 420 60 false
+night 420 420 419 false
+night 420 420 420 false
+night 420 420 421 false
+night 420 420 719 false
+night 420 420 720 false
+night 420 420 1259 false
+night 420 420 1260 false
+night 420 420 1319 false
+night 420 420 1320 false
+night 420 420 1321 false
+night 420 420 1380 false
+night 420 420 1438 false
+night 420 420 1439 false
+night 420 420 30 false
+night 420 420 300 false
+night 420 420 600 false
+night 420 420 1000 false
+night 420 420 1350 false
+night 420 421 0 false
+night 420 421 1 false
+night 420 421 59 false
+night 420 421 60 false
+night 420 421 419 false
+night 420 421 420 true
+night 420 421 421 false
+night 420 421 719 false
+night 420 421 720 false
+night 420 421 1259 false
+night 420 421 1260 false
+night 420 421 1319 false
+night 420 421 1320 false
+night 420 421 1321 false
+night 420 421 1380 false
+night 420 421 1438 false
+night 420 421 1439 false
+night 420 421 30 false
+night 420 421 300 false
+night 420 421 600 false
+night 420 421 1000 false
+night 420 421 1350 false
+night 420 719 0 false
+night 420 719 1 false
+night 420 719 59 false
+night 420 719 60 false
+night 420 719 419 false
+night 420 719 420 true
+night 420 719 421 true
+night 420 719 719 false
+night 420 719 720 false
+night 420 719 1259 false
+night 420 719 1260 false
+night 420 719 1319 false
+night 420 719 1320 false
+night 420 719 1321 false
+night 420 719 1380 false
+night 420 719 1438 false
+night 420 719 1439 false
+night 420 719 30 false
+night 420 719 300 false
+night 420 719 600 true
+night 420 719 1000 false
+night 420 719 1350 false
+night 420 720 0 false
+night 420 720 1 false
+night 420 720 59 false
+night 420 720 60 false
+night 420 720 419 false
+night 420 720 420 true
+night 420 720 421 true
+night 420 720 719 true
+night 420 720 720 false
+night 420 720 1259 false
+night 420 720 1260 false
+night 420 720 1319 false
+night 420 720 1320 false
+night 420 720 1321 false
+night 420 720 1380 false
+night 420 720 1438 false
+night 420 720 1439 false
+night 420 720 30 false
+night 420 720 300 false
+night 420 720 600 true
+night 420 720 1000 false
+night 420 720 1350 false
+night 420 1259 0 false
+night 420 1259 1 false
+night 420 1259 59 false
+night 420 1259 60 false
+night 420 1259 419 false
+night 420 1259 420 true
+night 420 1259 421 true
+night 420 1259 719 true
+night 420 1259 720 true
+night 420 1259 1259 false
+night 420 1259 1260 false
+night 420 1259 1319 false
+night 420 1259 1320 false
+night 420 1259 1321 false
+night 420 1259 1380 false
+night 420 1259 1438 false
+night 420 1259 1439 false
+night 420 1259 30 false
+night 420 1259 300 false
+night 420 1259 600 true
+night 420 1259 1000 true
+night 420 1259 1350 false
+night 420 1260 0 false
+night 420 1260 1 false
+night 420 1260 59 false
+night 420 1260 60 false
+night 420 1260 419 false
+night 420 1260 420 true
+night 420 1260 421 true
+night 420 1260 719 true
+night 420 1260 720 true
+night 420 1260 1259 true
+night 420 1260 1260 false
+night 420 1260 1319 false
+night 420 1260 1320 false
+night 420 1260 1321 false
+night 420 1260 1380 false
+night 420 1260 1438 false
+night 420 1260 1439 false
+night 420 1260 30 false
+night 420 1260 300 false
+night 420 1260 600 true
+night 420 1260 1000 true
+night 420 1260 1350 false
+night 420 1319 0 false
+night 420 1319 1 false
+night 420 1319 59 false
+night 420 1319 60 false
+night 420 1319 419 false
+night 420 1319 420 true
+night 420 1319 421 true
+night 420 1319 719 true
+night 420 1319 720 true
+night 420 1319 1259 true
+night 420 1319 1260 true
+night 420 1319 1319 false
+night 420 1319 1320 false
+night 420 1319 1321 false
+night 420 1319 1380 false
+night 420 1319 1438 false
+night 420 1319 1439 false
+night 420 1319 30 false
+night 420 1319 300 false
+night 420 1319 600 true
+night 420 1319 1000 true
+night 420 1319 1350 false
+night 420 1320 0 false
+night 420 1320 1 false
+night 420 1320 59 false
+night 420 1320 60 false
+night 420 1320 419 false
+night 420 1320 420 true
+night 420 1320 421 true
+night 420 1320 719 true
+night 420 1320 720 true
+night 420 1320 1259 true
+night 420 1320 1260 true
+night 420 1320 1319 true
+night 420 1320 1320 false
+night 420 1320 1321 false
+night 420 1320 1380 false
+night 420 1320 1438 false
+night 420 1320 1439 false
+night 420 1320 30 false
+night 420 1320 300 false
+night 420 1320 600 true
+night 420 1320 1000 true
+night 420 1320 1350 false
+night 420 1321 0 false
+night 420 1321 1 false
+night 420 1321 59 false
+night 420 1321 60 false
+night 420 1321 419 false
+night 420 1321 420 true
+night 420 1321 421 true
+night 420 1321 719 true
+night 420 1321 720 true
+night 420 1321 1259 true
+night 420 1321 1260 true
+night 420 1321 1319 true
+night 420 1321 1320 true
+night 420 1321 1321 false
+night 420 1321 1380 false
+night 420 1321 1438 false
+night 420 1321 1439 false
+night 420 1321 30 false
+night 420 1321 300 false
+night 420 1321 600 true
+night 420 1321 1000 true
+night 420 1321 1350 false
+night 420 1380 0 false
+night 420 1380 1 false
+night 420 1380 59 false
+night 420 1380 60 false
+night 420 1380 419 false
+night 420 1380 420 true
+night 420 1380 421 true
+night 420 1380 719 true
+night 420 1380 720 true
+night 420 1380 1259 true
+night 420 1380 1260 true
+night 420 1380 1319 true
+night 420 1380 1320 true
+night 420 1380 1321 true
+night 420 1380 1380 false
+night 420 1380 1438 false
+night 420 1380 1439 false
+night 420 1380 30 false
+night 420 1380 300 false
+night 420 1380 600 true
+night 420 1380 1000 true
+night 420 1380 1350 true
+night 420 1438 0 false
+night 420 1438 1 false
+night 420 1438 59 false
+night 420 1438 60 false
+night 420 1438 419 false
+night 420 1438 420 true
+night 420 1438 421 true
+night 420 1438 719 true
+night 420 1438 720 true
+night 420 1438 1259 true
+night 420 1438 1260 true
+night 420 1438 1319 true
+night 420 1438 1320 true
+night 420 1438 1321 true
+night 420 1438 1380 true
+night 420 1438 1438 false
+night 420 1438 1439 false
+night 420 1438 30 false
+night 420 1438 300 false
+night 420 1438 600 true
+night 420 1438 1000 true
+night 420 1438 1350 true
+night 420 1439 0 false
+night 420 1439 1 false
+night 420 1439 59 false
+night 420 1439 60 false
+night 420 1439 419 false
+night 420 1439 420 true
+night 420 1439 421 true
+night 420 1439 719 true
+night 420 1439 720 true
+night 420 1439 1259 true
+night 420 1439 1260 true
+night 420 1439 1319 true
+night 420 1439 1320 true
+night 420 1439 1321 true
+night 420 1439 1380 true
+night 420 1439 1438 true
+night 420 1439 1439 false
+night 420 1439 30 false
+night 420 1439 300 false
+night 420 1439 600 true
+night 420 1439 1000 true
+night 420 1439 1350 true
+night 421 0 0 false
+night 421 0 1 false
+night 421 0 59 false
+night 421 0 60 false
+night 421 0 419 false
+night 421 0 420 false
+night 421 0 421 true
+night 421 0 719 true
+night 421 0 720 true
+night 421 0 1259 true
+night 421 0 1260 true
+night 421 0 1319 true
+night 421 0 1320 true
+night 421 0 1321 true
+night 421 0 1380 true
+night 421 0 1438 true
+night 421 0 1439 true
+night 421 0 30 false
+night 421 0 300 false
+night 421 0 600 true
+night 421 0 1000 true
+night 421 0 1350 true
+night 421 1 0 true
+night 421 1 1 false
+night 421 1 59 false
+night 421 1 60 false
+night 421 1 419 false
+night 421 1 420 false
+night 421 1 421 true
+night 421 1 719 true
+night 421 1 720 true
+night 421 1 1259 true
+night 421 1 1260 true
+night 421 1 1319 true
+night 421 1 1320 true
+night 421 1 1321 true
+night 421 1 1380 true
+night 421 1 1438 true
+night 421 1 1439 true
+night 421 1 30 false
+night 421 1 300 false
+night 421 1 600 true
+night 421 1 1000 true
+night 421 1 1350 true
+night 421 59 0 true
+night 421 59 1 true
+night 421 59 59 false
+night 421 59 60 false
+night 421 59 419 false
+night 421 59 420 false
+night 421 59 421 true
+night 421 59 719 true
+night 421 59 720 true
+night 421 59 1259 true
+night 421 59 1260 true
+night 421 59 1319 true
+night 421 59 1320 true
+night 421 59 1321 true
+night 421 59 1380 true
+night 421 59 1438 true
+night 421 59 1439 true
+night 421 59 30 true
+night 421 59 300 false
+night 421 59 600 true
+night 421 59 1000 true
+night 421 59 1350 true
+night 421 60 0 true
+night 421 60 1 true
+night 421 60 59 true
+night 421 60 60 false
+night 421 60 419 false
+night 421 60 420 false
+night 421 60 421 true
+night 421 60 719 true
+night 421 60 720 true
+night 421 60 1259 true
+night 421 60 1260 true
+night 421 60 1319 true
+night 421 60 1320 true
+night 421 60 1321 true
+night 421 60 1380 true
+night 421 60 1438 true
+night 421 60 1439 true
+night 421 60 30 true
+night 421 60 300 false
+night 421 60 600 true
+night 421 60 1000 true
+night 421 60 1350 true
+night 421 419 0 true
+night 421 419 1 true
+night 421 419 59 true
+night 421 419 60 true
+night 421 419 419 false
+night 421 419 420 false
+night 421 419 421 true
+night 421 419 719 true
+night 421 419 720 true
+night 421 419 1259 true
+night 421 419 1260 true
+night 421 419 1319 true
+night 421 419 1320 true
+night 421 419 1321 true
+night 421 419 1380 true
+night 421 419 1438 true
+night 421 419 1439 true
+night 421 419 30 true
+night 421 419 300 true
+night 421 419 600 true
+night 421 419 1000 true
+night 421 419 1350 true
+night 421 420 0 true
+night 421 420 1 true
+night 421 420 59 true
+night 421 420 60 true
+night 421 420 419 true
+night 421 420 420 false
+night 421 420 421 true
+night 421 420 719 true
+night 421 420 720 true
+night 421 420 1259 true
+night 421 420 1260 true
+night 421 420 1319 true
+night 421 420 1320 true
+night 421 420 1321 true
+night 421 420 1380 true
+night 421 420 1438 true
+night 421 420 1439 true
+night 421 420 30 true
+night 421 420 300 true
+night 421 420 600 true
+night 421 420 1000 true
+night 421 420 1350 true
+night 421 421 0 false
+night 421 421 1 false
+night 421 421 59 false
+night 421 421 60 false
+night 421 421 419 false
+night 421 421 420 false
+night 421 421 421 false
+night 421 421 719 false
+night 421 421 720 false
+night 421 421 1259 false
+night 421 421 1260 false
+night 421 421 1319 false
+night 421 421 1320 false
+night 421 421 1321 false
+night 421 421 1380 false
+night 421 421 1438 false
+night 421 421 1439 false
+night 421 421 30 false
+night 421 421 300 false
+night 421 421 600 false
+night 421 421 1000 false
+night 421 421 1350 false
+night 421 719 0 false
+night 421 719 1 false
+night 421 719 59 false
+night 421 719 60 false
+night 421 719 419 false
+night 421 719 420 false
+night 421 719 421 true
+night 421 719 719 false
+night 421 719 720 false
+night 421 719 1259 false
+night 421 719 1260 false
+night 421 719 1319 false
+night 421 719 1320 false
+night 421 719 1321 false
+night 421 719 1380 false
+night 421 719 1438 false
+night 421 719 1439 false
+night 421 719 30 false
+night 421 719 300 false
+night 421 719 600 true
+night 421 719 1000 false
+night 421 719 1350 false
+night 421 720 0 false
+night 421 720 1 false
+night 421 720 59 false
+night 421 720 60 false
+night 421 720 419 false
+night 421 720 420 false
+night 421 720 421 true
+night 421 720 719 true
+night 421 720 720 false
+night 421 720 1259 false
+night 421 720 1260 false
+night 421 720 1319 false
+night 421 720 1320 false
+night 421 720 1321 false
+night 421 720 1380 false
+night 421 720 1438 false
+night 421 720 1439 false
+night 421 720 30 false
+night 421 720 300 false
+night 421 720 600 true
+night 421 720 1000 false
+night 421 720 1350 false
+night 421 1259 0 false
+night 421 1259 1 false
+night 421 1259 59 false
+night 421 1259 60 false
+night 421 1259 419 false
+night 421 1259 420 false
+night 421 1259 421 true
+night 421 1259 719 true
+night 421 1259 720 true
+night 421 1259 1259 false
+night 421 1259 1260 false
+night 421 1259 1319 false
+night 421 1259 1320 false
+night 421 1259 1321 false
+night 421 1259 1380 false
+night 421 1259 1438 false
+night 421 1259 1439 false
+night 421 1259 30 false
+night 421 1259 300 false
+night 421 1259 600 true
+night 421 1259 1000 true
+night 421 1259 1350 false
+night 421 1260 0 false
+night 421 1260 1 false
+night 421 1260 59 false
+night 421 1260 60 false
+night 421 1260 419 false
+night 421 1260 420 false
+night 421 1260 421 true
+night 421 1260 719 true
+night 421 1260 720 true
+night 421 1260 1259 true
+night 421 1260 1260 false
+night 421 1260 1319 false
+night 421 1260 1320 false
+night 421 1260 1321 false
+night 421 1260 1380 false
+night 421 1260 1438 false
+night 421 1260 1439 false
+night 421 1260 30 false
+night 421 1260 300 false
+night 421 1260 600 true
+night 421 1260 1000 true
+night 421 1260 1350 false
+night 421 1319 0 false
+night 421 1319 1 false
+night 421 1319 59 false
+night 421 1319 60 false
+night 421 1319 419 false
+night 421 1319 420 false
+night 421 1319 421 true
+night 421 1319 719 true
+night 421 1319 720 true
+night 421 1319 1259 true
+night 421 1319 1260 true
+night 421 1319 1319 false
+night 421 1319 1320 false
+night 421 1319 1321 false
+night 421 1319 1380 false
+night 421 1319 1438 false
+night 421 1319 1439 false
+night 421 1319 30 false
+night 421 1319 300 false
+night 421 1319 600 true
+night 421 1319 1000 true
+night 421 1319 1350 false
+night 421 1320 0 false
+night 421 1320 1 false
+night 421 1320 59 false
+night 421 1320 60 false
+night 421 1320 419 false
+night 421 1320 420 false
+night 421 1320 421 true
+night 421 1320 719 true
+night 421 1320 720 true
+night 421 1320 1259 true
+night 421 1320 1260 true
+night 421 1320 1319 true
+night 421 1320 1320 false
+night 421 1320 1321 false
+night 421 1320 1380 false
+night 421 1320 1438 false
+night 421 1320 1439 false
+night 421 1320 30 false
+night 421 1320 300 false
+night 421 1320 600 true
+night 421 1320 1000 true
+night 421 1320 1350 false
+night 421 1321 0 false
+night 421 1321 1 false
+night 421 1321 59 false
+night 421 1321 60 false
+night 421 1321 419 false
+night 421 1321 420 false
+night 421 1321 421 true
+night 421 1321 719 true
+night 421 1321 720 true
+night 421 1321 1259 true
+night 421 1321 1260 true
+night 421 1321 1319 true
+night 421 1321 1320 true
+night 421 1321 1321 false
+night 421 1321 1380 false
+night 421 1321 1438 false
+night 421 1321 1439 false
+night 421 1321 30 false
+night 421 1321 300 false
+night 421 1321 600 true
+night 421 1321 1000 true
+night 421 1321 1350 false
+night 421 1380 0 false
+night 421 1380 1 false
+night 421 1380 59 false
+night 421 1380 60 false
+night 421 1380 419 false
+night 421 1380 420 false
+night 421 1380 421 true
+night 421 1380 719 true
+night 421 1380 720 true
+night 421 1380 1259 true
+night 421 1380 1260 true
+night 421 1380 1319 true
+night 421 1380 1320 true
+night 421 1380 1321 true
+night 421 1380 1380 false
+night 421 1380 1438 false
+night 421 1380 1439 false
+night 421 1380 30 false
+night 421 1380 300 false
+night 421 1380 600 true
+night 421 1380 1000 true
+night 421 1380 1350 true
+night 421 1438 0 false
+night 421 1438 1 false
+night 421 1438 59 false
+night 421 1438 60 false
+night 421 1438 419 false
+night 421 1438 420 false
+night 421 1438 421 true
+night 421 1438 719 true
+night 421 1438 720 true
+night 421 1438 1259 true
+night 421 1438 1260 true
+night 421 1438 1319 true
+night 421 1438 1320 true
+night 421 1438 1321 true
+night 421 1438 1380 true
+night 421 1438 1438 false
+night 421 1438 1439 false
+night 421 1438 30 false
+night 421 1438 300 false
+night 421 1438 600 true
+night 421 1438 1000 true
+night 421 1438 1350 true
+night 421 1439 0 false
+night 421 1439 1 false
+night 421 1439 59 false
+night 421 1439 60 false
+night 421 1439 419 false
+night 421 1439 420 false
+night 421 1439 421 true
+night 421 1439 719 true
+night 421 1439 720 true
+night 421 1439 1259 true
+night 421 1439 1260 true
+night 421 1439 1319 true
+night 421 1439 1320 true
+night 421 1439 1321 true
+night 421 1439 1380 true
+night 421 1439 1438 true
+night 421 1439 1439 false
+night 421 1439 30 false
+night 421 1439 300 false
+night 421 1439 600 true
+night 421 1439 1000 true
+night 421 1439 1350 true
+night 719 0 0 false
+night 719 0 1 false
+night 719 0 59 false
+night 719 0 60 false
+night 719 0 419 false
+night 719 0 420 false
+night 719 0 421 false
+night 719 0 719 true
+night 719 0 720 true
+night 719 0 1259 true
+night 719 0 1260 true
+night 719 0 1319 true
+night 719 0 1320 true
+night 719 0 1321 true
+night 719 0 1380 true
+night 719 0 1438 true
+night 719 0 1439 true
+night 719 0 30 false
+night 719 0 300 false
+night 719 0 600 false
+night 719 0 1000 true
+night 719 0 1350 true
+night 719 1 0 true
+night 719 1 1 false
+night 719 1 59 false
+night 719 1 60 false
+night 719 1 419 false
+night 719 1 420 false
+night 719 1 421 false
+night 719 1 719 true
+night 719 1 720 true
+night 719 1 1259 true
+night 719 1 1260 true
+night 719 1 1319 true
+night 719 1 1320 true
+night 719 1 1321 true
+night 719 1 1380 true
+night 719 1 1438 true
+night 719 1 1439 true
+night 719 1 30 false
+night 719 1 300 false
+night 719 1 600 false
+night 719 1 1000 true
+night 719 1 1350 true
+night 719 59 0 true
+night 719 59 1 true
+night 719 59 59 false
+night 719 59 60 false
+night 719 59 419 false
+night 719 59 420 false
+night 719 59 421 false
+night 719 59 719 true
+night 719 59 720 true
+night 719 59 1259 true
+night 719 59 1260 true
+night 719 59 1319 true
+night 719 59 1320 true
+night 719 59 1321 true
+night 719 59 1380 true
+night 719 59 1438 true
+night 719 59 1439 true
+night 719 59 30 true
+night 719 59 300 false
+night 719 59 600 false
+night 719 59 1000 true
+night 719 59 1350 true
+night 719 60 0 true
+night 719 60 1 true
+night 719 60 59 true
+night 719 60 60 false
+night 719 60 419 false
+night 719 60 420 false
+night 719 60 421 false
+night 719 60 719 true
+night 719 60 720 true
+night 719 60 1259 true
+night 719 60 1260 true
+night 719 60 1319 true
+night 719 60 1320 true
+night 719 60 1321 true
+night 719 60 1380 true
+night 719 60 1438 true
+night 719 60 1439 true
+night 719 60 30 true
+night 719 60 300 false
+night 719 60 600 false
+night 719 60 1000 true
+night 719 60 1350 true
+night 719 419 0 true
+night 719 419 1 true
+night 719 419 59 true
+night 719 419 60 true
+night 719 419 419 false
+night 719 419 420 false
+night 719 419 421 false
+night 719 419 719 true
+night 719 419 720 true
+night 719 419 1259 true
+night 719 419 1260 true
+night 719 419 1319 true
+night 719 419 1320 true
+night 719 419 1321 true
+night 719 419 1380 true
+night 719 419 1438 true
+night 719 419 1439 true
+night 719 419 30 true
+night 719 419 300 true
+night 719 419 600 false
+night 719 419 1000 true
+night 719 419 1350 true
+night 719 420 0 true
+night 719 420 1 true
+night 719 420 59 true
+night 719 420 60 true
+night 719 420 419 true
+night 719 420 420 false
+night 719 420 421 false
+night 719 420 719 true
+night 719 420 720 true
+night 719 420 1259 true
+night 719 420 1260 true
+night 719 420 1319 true
+night 719 420 1320 true
+night 719 420 1321 true
+night 719 420 1380 true
+night 719 420 1438 true
+night 719 420 1439 true
+night 719 420 30 true
+night 719 420 300 true
+night 719 420 600 false
+night 719 420 1000 true
+night 719 420 1350 true
+night 719 421 0 true
+night 719 421 1 true
+night 719 421 59 true
+night 719 421 60 true
+night 719 421 419 true
+night 719 421 420 true
+night 719 421 421 false
+night 719 421 719 true
+night 719 421 720 true
+night 719 421 1259 true
+night 719 421 1260 true
+night 719 421 1319 true
+night 719 421 1320 true
+night 719 421 1321 true
+night 719 421 1380 true
+night 719 421 1438 true
+night 719 421 1439 true
+night 719 421 30 true
+night 719 421 300 true
+night 719 421 600 false
+night 719 421 1000 true
+night 719 421 1350 true
+night 719 719 0 false
+night 719 719 1 false
+night 719 719 59 false
+night 719 719 60 false
+night 719 719 419 false
+night 719 719 420 false
+night 719 719 421 false
+night 719 719 719 false
+night 719 719 720 false
+night 719 719 1259 false
+night 719 719 1260 false
+night 719 719 1319 false
+night 719 719 1320 false
+night 719 719 1321 false
+night 719 719 1380 false
+night 719 719 1438 false
+night 719 719 1439 false
+night 719 719 30 false
+night 719 719 300 false
+night 719 719 600 false
+night 719 719 1000 false
+night 719 719 1350 false
+night 719 720 0 false
+night 719 720 1 false
+night 719 720 59 false
+night 719 720 60 false
+night 719 720 419 false
+night 719 720 420 false
+night 719 720 421 false
+night 719 720 719 true
+night 719 720 720 false
+night 719 720 1259 false
+night 719 720 1260 false
+night 719 720 1319 false
+night 719 720 1320 false
+night 719 720 1321 false
+night 719 720 1380 false
+night 719 720 1438 false
+night 719 720 1439 false
+night 719 720 30 false
+night 719 720 300 false
+night 719 720 600 false
+night 719 720 1000 false
+night 719 720 1350 false
+night 719 1259 0 false
+night 719 1259 1 false
+night 719 1259 59 false
+night 719 1259 60 false
+night 719 1259 419 false
+night 719 1259 420 false
+night 719 1259 421 false
+night 719 1259 719 true
+night 719 1259 720 true
+night 719 1259 1259 false
+night 719 1259 1260 false
+night 719 1259 1319 false
+night 719 1259 1320 false
+night 719 1259 1321 false
+night 719 1259 1380 false
+night 719 1259 1438 false
+night 719 1259 1439 false
+night 719 1259 30 false
+night 719 1259 300 false
+night 719 1259 600 false
+night 719 1259 1000 true
+night 719 1259 1350 false
+night 719 1260 0 false
+night 719 1260 1 false
+night 719 1260 59 false
+night 719 1260 60 false
+night 719 1260 419 false
+night 719 1260 420 false
+night 719 1260 421 false
+night 719 1260 719 true
+night 719 1260 720 true
+night 719 1260 1259 true
+night 719 1260 1260 false
+night 719 1260 1319 false
+night 719 1260 1320 false
+night 719 1260 1321 false
+night 719 1260 1380 false
+night 719 1260 1438 false
+night 719 1260 1439 false
+night 719 1260 30 false
+night 719 1260 300 false
+night 719 1260 600 false
+night 719 1260 1000 true
+night 719 1260 1350 false
+night 719 1319 0 false
+night 719 1319 1 false
+night 719 1319 59 false
+night 719 1319 60 false
+night 719 1319 419 false
+night 719 1319 420 false
+night 719 1319 421 false
+night 719 1319 719 true
+night 719 1319 720 true
+night 719 1319 1259 true
+night 719 1319 1260 true
+night 719 1319 1319 false
+night 719 1319 1320 false
+night 719 1319 1321 false
+night 719 1319 1380 false
+night 719 1319 1438 false
+night 719 1319 1439 false
+night 719 1319 30 false
+night 719 1319 300 false
+night 719 1319 600 false
+night 719 1319 1000 true
+night 719 1319 1350 false
+night 719 1320 0 false
+night 719 1320 1 false
+night 719 1320 59 false
+night 719 1320 60 false
+night 719 1320 419 false
+night 719 1320 420 false
+night 719 1320 421 false
+night 719 1320 719 true
+night 719 1320 720 true
+night 719 1320 1259 true
+night 719 1320 1260 true
+night 719 1320 1319 true
+night 719 1320 1320 false
+night 719 1320 1321 false
+night 719 1320 1380 false
+night 719 1320 1438 false
+night 719 1320 1439 false
+night 719 1320 30 false
+night 719 1320 300 false
+night 719 1320 600 false
+night 719 1320 1000 true
+night 719 1320 1350 false
+night 719 1321 0 false
+night 719 1321 1 false
+night 719 1321 59 false
+night 719 1321 60 false
+night 719 1321 419 false
+night 719 1321 420 false
+night 719 1321 421 false
+night 719 1321 719 true
+night 719 1321 720 true
+night 719 1321 1259 true
+night 719 1321 1260 true
+night 719 1321 1319 true
+night 719 1321 1320 true
+night 719 1321 1321 false
+night 719 1321 1380 false
+night 719 1321 1438 false
+night 719 1321 1439 false
+night 719 1321 30 false
+night 719 1321 300 false
+night 719 1321 600 false
+night 719 1321 1000 true
+night 719 1321 1350 false
+night 719 1380 0 false
+night 719 1380 1 false
+night 719 1380 59 false
+night 719 1380 60 false
+night 719 1380 419 false
+night 719 1380 420 false
+night 719 1380 421 false
+night 719 1380 719 true
+night 719 1380 720 true
+night 719 1380 1259 true
+night 719 1380 1260 true
+night 719 1380 1319 true
+night 719 1380 1320 true
+night 719 1380 1321 true
+night 719 1380 1380 false
+night 719 1380 1438 false
+night 719 1380 1439 false
+night 719 1380 30 false
+night 719 1380 300 false
+night 719 1380 600 false
+night 719 1380 1000 true
+night 719 1380 1350 true
+night 719 1438 0 false
+night 719 1438 1 false
+night 719 1438 59 false
+night 719 1438 60 false
+night 719 1438 419 false
+night 719 1438 420 false
+night 719 1438 421 false
+night 719 1438 719 true
+night 719 1438 720 true
+night 719 1438 1259 true
+night 719 1438 1260 true
+night 719 1438 1319 true
+night 719 1438 1320 true
+night 719 1438 1321 true
+night 719 1438 1380 true
+night 719 1438 1438 false
+night 719 1438 1439 false
+night 719 1438 30 false
+night 719 1438 300 false
+night 719 1438 600 false
+night 719 1438 1000 true
+night 719 1438 1350 true
+night 719 1439 0 false
+night 719 1439 1 false
+night 719 1439 59 false
+night 719 1439 60 false
+night 719 1439 419 false
+night 719 1439 420 false
+night 719 1439 421 false
+night 719 1439 719 true
+night 719 1439 720 true
+night 719 1439 1259 true
+night 719 1439 1260 true
+night 719 1439 1319 true
+night 719 1439 1320 true
+night 719 1439 1321 true
+night 719 1439 1380 true
+night 719 1439 1438 true
+night 719 1439 1439 false
+night 719 1439 30 false
+night 719 1439 300 false
+night 719 1439 600 false
+night 719 1439 1000 true
+night 719 1439 1350 true
+night 720 0 0 false
+night 720 0 1 false
+night 720 0 59 false
+night 720 0 60 false
+night 720 0 419 false
+night 720 0 420 false
+night 720 0 421 false
+night 720 0 719 false
+night 720 0 720 true
+night 720 0 1259 true
+night 720 0 1260 true
+night 720 0 1319 true
+night 720 0 1320 true
+night 720 0 1321 true
+night 720 0 1380 true
+night 720 0 1438 true
+night 720 0 1439 true
+night 720 0 30 false
+night 720 0 300 false
+night 720 0 600 false
+night 720 0 1000 true
+night 720 0 1350 true
+night 720 1 0 true
+night 720 1 1 false
+night 720 1 59 false
+night 720 1 60 false
+night 720 1 419 false
+night 720 1 420 false
+night 720 1 421 false
+night 720 1 719 false
+night 720 1 720 true
+night 720 1 1259 true
+night 720 1 1260 true
+night 720 1 1319 true
+night 720 1 1320 true
+night 720 1 1321 true
+night 720 1 1380 true
+night 720 1 1438 true
+night 720 1 1439 true
+night 720 1 30 false
+night 720 1 300 false
+night 720 1 600 false
+night 720 1 1000 true
+night 720 1 1350 true
+night 720 59 0 true
+night 720 59 1 true
+night 720 59 59 false
+night 720 59 60 false
+night 720 59 419 false
+night 720 59 420 false
+night 720 59 421 false
+night 720 59 719 false
+night 720 59 720 true
+night 720 59 1259 true
+night 720 59 1260 true
+night 720 59 1319 true
+night 720 59 1320 true
+night 720 59 1321 true
+night 720 59 1380 true
+night 720 59 1438 true
+night 720 59 1439 true
+night 720 59 30 true
+night 720 59 300 false
+night 720 59 600 false
+night 720 59 1000 true
+night 720 59 1350 true
+night 720 60 0 true
+night 720 60 1 true
+night 720 60 59 true
+night 720 60 60 false
+night 720 60 419 false
+night 720 60 420 false
+night 720 60 421 false
+night 720 60 719 false
+night 720 60 720 true
+night 720 60 1259 true
+night 720 60 1260 true
+night 720 60 1319 true
+night 720 60 1320 true
+night 720 60 1321 true
+night 720 60 1380 true
+night 720 60 1438 true
+night 720 60 1439 true
+night 720 60 30 true
+night 720 60 300 false
+night 720 60 600 false
+night 720 60 1000 true
+night 720 60 1350 true
+night 720 419 0 true
+night 720 419 1 true
+night 720 419 59 true
+night 720 419 60 true
+night 720 419 419 false
+night 720 419 420 false
+night 720 419 421 false
+night 720 419 719 false
+night 720 419 720 true
+night 720 419 1259 true
+night 720 419 1260 true
+night 720 419 1319 true
+night 720 419 1320 true
+night 720 419 1321 true
+night 720 419 1380 true
+night 720 419 1438 true
+night 720 419 1439 true
+night 720 419 30 true
+night 720 419 300 true
+night 720 419 600 false
+night 720 419 1000 true
+night 720 419 1350 true
+night 720 420 0 true
+night 720 420 1 true
+night 720 420 59 true
+night 720 420 60 true
+night 720 420 419 true
+night 720 420 420 false
+night 720 420 421 false
+night 720 420 719 false
+night 720 420 720 true
+night 720 420 1259 true
+night 720 420 1260 true
+night 720 420 1319 true
+night 720 420 1320 true
+night 720 420 1321 true
+night 720 420 1380 true
+night 720 420 1438 true
+night 720 420 1439 true
+night 720 420 30 true
+night 720 420 300 true
+night 720 420 600 false
+night 720 420 1000 true
+night 720 420 1350 true
+night 720 421 0 true
+night 720 421 1 true
+night 720 421 59 true
+night 720 421 60 true
+night 720 421 419 true
+night 720 421 420 true
+night 720 421 421 false
+night 720 421 719 false
+night 720 421 720 true
+night 720 421 1259 true
+night 720 421 1260 true
+night 720 421 1319 true
+night 720 421 1320 true
+night 720 421 1321 true
+night 720 421 1380 true
+night 720 421 1438 true
+night 720 421 1439 true
+night 720 421 30 true
+night 720 421 300 true
+night 720 421 600 false
+night 720 421 1000 true
+night 720 421 1350 true
+night 720 719 0 true
+night 720 719 1 true
+night 720 719 59 true
+night 720 719 60 true
+night 720 719 419 true
+night 720 719 420 true
+night 720 719 421 true
+night 720 719 719 false
+night 720 719 720 true
+night 720 719 1259 true
+night 720 719 1260 true
+night 720 719 1319 true
+night 720 719 1320 true
+night 720 719 1321 true
+night 720 719 1380 true
+night 720 719 1438 true
+night 720 719 1439 true
+night 720 719 30 true
+night 720 719 300 true
+night 720 719 600 true
+night 720 719 1000 true
+night 720 719 1350 true
+night 720 720 0 false
+night 720 720 1 false
+night 720 720 59 false
+night 720 720 60 false
+night 720 720 419 false
+night 720 720 420 false
+night 720 720 421 false
+night 720 720 719 false
+night 720 720 720 false
+night 720 720 1259 false
+night 720 720 1260 false
+night 720 720 1319 false
+night 720 720 1320 false
+night 720 720 1321 false
+night 720 720 1380 false
+night 720 720 1438 false
+night 720 720 1439 false
+night 720 720 30 false
+night 720 720 300 false
+night 720 720 600 false
+night 720 720 1000 false
+night 720 720 1350 false
+night 720 1259 0 false
+night 720 1259 1 false
+night 720 1259 59 false
+night 720 1259 60 false
+night 720 1259 419 false
+night 720 1259 420 false
+night 720 1259 421 false
+night 720 1259 719 false
+night 720 1259 720 true
+night 720 1259 1259 false
+night 720 1259 1260 false
+night 720 1259 1319 false
+night 720 1259 1320 false
+night 720 1259 1321 false
+night 720 1259 1380 false
+night 720 1259 1438 false
+night 720 1259 1439 false
+night 720 1259 30 false
+night 720 1259 300 false
+night 720 1259 600 false
+night 720 1259 1000 true
+night 720 1259 1350 false
+night 720 1260 0 false
+night 720 1260 1 false
+night 720 1260 59 false
+night 720 1260 60 false
+night 720 1260 419 false
+night 720 1260 420 false
+night 720 1260 421 false
+night 720 1260 719 false
+night 720 1260 720 true
+night 720 1260 1259 true
+night 720 1260 1260 false
+night 720 1260 1319 false
+night 720 1260 1320 false
+night 720 1260 1321 false
+night 720 1260 1380 false
+night 720 1260 1438 false
+night 720 1260 1439 false
+night 720 1260 30 false
+night 720 1260 300 false
+night 720 1260 600 false
+night 720 1260 1000 true
+night 720 1260 1350 false
+night 720 1319 0 false
+night 720 1319 1 false
+night 720 1319 59 false
+night 720 1319 60 false
+night 720 1319 419 false
+night 720 1319 420 false
+night 720 1319 421 false
+night 720 1319 719 false
+night 720 1319 720 true
+night 720 1319 1259 true
+night 720 1319 1260 true
+night 720 1319 1319 false
+night 720 1319 1320 false
+night 720 1319 1321 false
+night 720 1319 1380 false
+night 720 1319 1438 false
+night 720 1319 1439 false
+night 720 1319 30 false
+night 720 1319 300 false
+night 720 1319 600 false
+night 720 1319 1000 true
+night 720 1319 1350 false
+night 720 1320 0 false
+night 720 1320 1 false
+night 720 1320 59 false
+night 720 1320 60 false
+night 720 1320 419 false
+night 720 1320 420 false
+night 720 1320 421 false
+night 720 1320 719 false
+night 720 1320 720 true
+night 720 1320 1259 true
+night 720 1320 1260 true
+night 720 1320 1319 true
+night 720 1320 1320 false
+night 720 1320 1321 false
+night 720 1320 1380 false
+night 720 1320 1438 false
+night 720 1320 1439 false
+night 720 1320 30 false
+night 720 1320 300 false
+night 720 1320 600 false
+night 720 1320 1000 true
+night 720 1320 1350 false
+night 720 1321 0 false
+night 720 1321 1 false
+night 720 1321 59 false
+night 720 1321 60 false
+night 720 1321 419 false
+night 720 1321 420 false
+night 720 1321 421 false
+night 720 1321 719 false
+night 720 1321 720 true
+night 720 1321 1259 true
+night 720 1321 1260 true
+night 720 1321 1319 true
+night 720 1321 1320 true
+night 720 1321 1321 false
+night 720 1321 1380 false
+night 720 1321 1438 false
+night 720 1321 1439 false
+night 720 1321 30 false
+night 720 1321 300 false
+night 720 1321 600 false
+night 720 1321 1000 true
+night 720 1321 1350 false
+night 720 1380 0 false
+night 720 1380 1 false
+night 720 1380 59 false
+night 720 1380 60 false
+night 720 1380 419 false
+night 720 1380 420 false
+night 720 1380 421 false
+night 720 1380 719 false
+night 720 1380 720 true
+night 720 1380 1259 true
+night 720 1380 1260 true
+night 720 1380 1319 true
+night 720 1380 1320 true
+night 720 1380 1321 true
+night 720 1380 1380 false
+night 720 1380 1438 false
+night 720 1380 1439 false
+night 720 1380 30 false
+night 720 1380 300 false
+night 720 1380 600 false
+night 720 1380 1000 true
+night 720 1380 1350 true
+night 720 1438 0 false
+night 720 1438 1 false
+night 720 1438 59 false
+night 720 1438 60 false
+night 720 1438 419 false
+night 720 1438 420 false
+night 720 1438 421 false
+night 720 1438 719 false
+night 720 1438 720 true
+night 720 1438 1259 true
+night 720 1438 1260 true
+night 720 1438 1319 true
+night 720 1438 1320 true
+night 720 1438 1321 true
+night 720 1438 1380 true
+night 720 1438 1438 false
+night 720 1438 1439 false
+night 720 1438 30 false
+night 720 1438 300 false
+night 720 1438 600 false
+night 720 1438 1000 true
+night 720 1438 1350 true
+night 720 1439 0 false
+night 720 1439 1 false
+night 720 1439 59 false
+night 720 1439 60 false
+night 720 1439 419 false
+night 720 1439 420 false
+night 720 1439 421 false
+night 720 1439 719 false
+night 720 1439 720 true
+night 720 1439 1259 true
+night 720 1439 1260 true
+night 720 1439 1319 true
+night 720 1439 1320 true
+night 720 1439 1321 true
+night 720 1439 1380 true
+night 720 1439 1438 true
+night 720 1439 1439 false
+night 720 1439 30 false
+night 720 1439 300 false
+night 720 1439 600 false
+night 720 1439 1000 true
+night 720 1439 1350 true
+night 1259 0 0 false
+night 1259 0 1 false
+night 1259 0 59 false
+night 1259 0 60 false
+night 1259 0 419 false
+night 1259 0 420 false
+night 1259 0 421 false
+night 1259 0 719 false
+night 1259 0 720 false
+night 1259 0 1259 true
+night 1259 0 1260 true
+night 1259 0 1319 true
+night 1259 0 1320 true
+night 1259 0 1321 true
+night 1259 0 1380 true
+night 1259 0 1438 true
+night 1259 0 1439 true
+night 1259 0 30 false
+night 1259 0 300 false
+night 1259 0 600 false
+night 1259 0 1000 false
+night 1259 0 1350 true
+night 1259 1 0 true
+night 1259 1 1 false
+night 1259 1 59 false
+night 1259 1 60 false
+night 1259 1 419 false
+night 1259 1 420 false
+night 1259 1 421 false
+night 1259 1 719 false
+night 1259 1 720 false
+night 1259 1 1259 true
+night 1259 1 1260 true
+night 1259 1 1319 true
+night 1259 1 1320 true
+night 1259 1 1321 true
+night 1259 1 1380 true
+night 1259 1 1438 true
+night 1259 1 1439 true
+night 1259 1 30 false
+night 1259 1 300 false
+night 1259 1 600 false
+night 1259 1 1000 false
+night 1259 1 1350 true
+night 1259 59 0 true
+night 1259 59 1 true
+night 1259 59 59 false
+night 1259 59 60 false
+night 1259 59 419 false
+night 1259 59 420 false
+night 1259 59 421 false
+night 1259 59 719 false
+night 1259 59 720 false
+night 1259 59 1259 true
+night 1259 59 1260 true
+night 1259 59 1319 true
+night 1259 59 1320 true
+night 1259 59 1321 true
+night 1259 59 1380 true
+night 1259 59 1438 true
+night 1259 59 1439 true
+night 1259 59 30 true
+night 1259 59 300 false
+night 1259 59 600 false
+night 1259 59 1000 false
+night 1259 59 1350 true
+night 1259 60 0 true
+night 1259 60 1 true
+night 1259 60 59 true
+night 1259 60 60 false
+night 1259 60 419 false
+night 1259 60 420 false
+night 1259 60 421 false
+night 1259 60 719 false
+night 1259 60 720 false
+night 1259 60 1259 true
+night 1259 60 1260 true
+night 1259 60 1319 true
+night 1259 60 1320 true
+night 1259 60 1321 true
+night 1259 60 1380 true
+night 1259 60 1438 true
+night 1259 60 1439 true
+night 1259 60 30 true
+night 1259 60 300 false
+night 1259 60 600 false
+night 1259 60 1000 false
+night 1259 60 1350 true
+night 1259 419 0 true
+night 1259 419 1 true
+night 1259 419 59 true
+night 1259 419 60 true
+night 1259 419 419 false
+night 1259 419 420 false
+night 1259 419 421 false
+night 1259 419 719 false
+night 1259 419 720 false
+night 1259 419 1259 true
+night 1259 419 1260 true
+night 1259 419 1319 true
+night 1259 419 1320 true
+night 1259 419 1321 true
+night 1259 419 1380 true
+night 1259 419 1438 true
+night 1259 419 1439 true
+night 1259 419 30 true
+night 1259 419 300 true
+night 1259 419 600 false
+night 1259 419 1000 false
+night 1259 419 1350 true
+night 1259 420 0 true
+night 1259 420 1 true
+night 1259 420 59 true
+night 1259 420 60 true
+night 1259 420 419 true
+night 1259 420 420 false
+night 1259 420 421 false
+night 1259 420 719 false
+night 1259 420 720 false
+night 1259 420 1259 true
+night 1259 420 1260 true
+night 1259 420 1319 true
+night 1259 420 1320 true
+night 1259 420 1321 true
+night 1259 420 1380 true
+night 1259 420 1438 true
+night 1259 420 1439 true
+night 1259 420 30 true
+night 1259 420 300 true
+night 1259 420 600 false
+night 1259 420 1000 false
+night 1259 420 1350 true
+night 1259 421 0 true
+night 1259 421 1 true
+night 1259 421 59 true
+night 1259 421 60 true
+night 1259 421 419 true
+night 1259 421 420 true
+night 1259 421 421 false
+night 1259 421 719 false
+night 1259 421 720 false
+night 1259 421 1259 true
+night 1259 421 1260 true
+night 1259 421 1319 true
+night 1259 421 1320 true
+night 1259 421 1321 true
+night 1259 421 1380 true
+night 1259 421 1438 true
+night 1259 421 1439 true
+night 1259 421 30 true
+night 1259 421 300 true
+night 1259 421 600 false
+night 1259 421 1000 false
+night 1259 421 1350 true
+night 1259 719 0 true
+night 1259 719 1 true
+night 1259 719 59 true
+night 1259 719 60 true
+night 1259 719 419 true
+night 1259 719 420 true
+night 1259 719 421 true
+night 1259 719 719 false
+night 1259 719 720 false
+night 1259 719 1259 true
+night 1259 719 1260 true
+night 1259 719 1319 true
+night 1259 719 1320 true
+night 1259 719 1321 true
+night 1259 719 1380 true
+night 1259 719 1438 true
+night 1259 719 1439 true
+night 1259 719 30 true
+night 1259 719 300 true
+night 1259 719 600 true
+night 1259 719 1000 false
+night 1259 719 1350 true
+night 1259 720 0 true
+night 1259 720 1 true
+night 1259 720 59 true
+night 1259 720 60 true
+night 1259 720 419 true
+night 1259 720 420 true
+night 1259 720 421 true
+night 1259 720 719 true
+night 1259 720 720 false
+night 1259 720 1259 true
+night 1259 720 1260 true
+night 1259 720 1319 true
+night 1259 720 1320 true
+night 1259 720 1321 true
+night 1259 720 1380 true
+night 1259 720 1438 true
+night 1259 720 1439 true
+night 1259 720 30 true
+night 1259 720 300 true
+night 1259 720 600 true
+night 1259 720 1000 false
+night 1259 720 1350 true
+night 1259 1259 0 false
+night 1259 1259 1 false
+night 1259 1259 59 false
+night 1259 1259 60 false
+night 1259 1259 419 false
+night 1259 1259 420 false
+night 1259 1259 421 false
+night 1259 1259 719 false
+night 1259 1259 720 false
+night 1259 1259 1259 false
+night 1259 1259 1260 false
+night 1259 1259 1319 false
+night 1259 1259 1320 false
+night 1259 1259 1321 false
+night 1259 1259 1380 false
+night 1259 1259 1438 false
+night 1259 1259 1439 false
+night 1259 1259 30 false
+night 1259 1259 300 false
+night 1259 1259 600 false
+night 1259 1259 1000 false
+night 1259 1259 1350 false
+night 1259 1260 0 false
+night 1259 1260 1 false
+night 1259 1260 59 false
+night 1259 1260 60 false
+night 1259 1260 419 false
+night 1259 1260 420 false
+night 1259 1260 421 false
+night 1259 1260 719 false
+night 1259 1260 720 false
+night 1259 1260 1259 true
+night 1259 1260 1260 false
+night 1259 1260 1319 false
+night 1259 1260 1320 false
+night 1259 1260 1321 false
+night 1259 1260 1380 false
+night 1259 1260 1438 false
+night 1259 1260 1439 false
+night 1259 1260 30 false
+night 1259 1260 300 false
+night 1259 1260 600 false
+night 1259 1260 1000 false
+night 1259 1260 1350 false
+night 1259 1319 0 false
+night 1259 1319 1 false
+night 1259 1319 59 false
+night 1259 1319 60 false
+night 1259 1319 419 false
+night 1259 1319 420 false
+night 1259 1319 421 false
+night 1259 1319 719 false
+night 1259 1319 720 false
+night 1259 1319 1259 true
+night 1259 1319 1260 true
+night 1259 1319 1319 false
+night 1259 1319 1320 false
+night 1259 1319 1321 false
+night 1259 1319 1380 false
+night 1259 1319 1438 false
+night 1259 1319 1439 false
+night 1259 1319 30 false
+night 1259 1319 300 false
+night 1259 1319 600 false
+night 1259 1319 1000 false
+night 1259 1319 1350 false
+night 1259 1320 0 false
+night 1259 1320 1 false
+night 1259 1320 59 false
+night 1259 1320 60 false
+night 1259 1320 419 false
+night 1259 1320 420 false
+night 1259 1320 421 false
+night 1259 1320 719 false
+night 1259 1320 720 false
+night 1259 1320 1259 true
+night 1259 1320 1260 true
+night 1259 1320 1319 true
+night 1259 1320 1320 false
+night 1259 1320 1321 false
+night 1259 1320 1380 false
+night 1259 1320 1438 false
+night 1259 1320 1439 false
+night 1259 1320 30 false
+night 1259 1320 300 false
+night 1259 1320 600 false
+night 1259 1320 1000 false
+night 1259 1320 1350 false
+night 1259 1321 0 false
+night 1259 1321 1 false
+night 1259 1321 59 false
+night 1259 1321 60 false
+night 1259 1321 419 false
+night 1259 1321 420 false
+night 1259 1321 421 false
+night 1259 1321 719 false
+night 1259 1321 720 false
+night 1259 1321 1259 true
+night 1259 1321 1260 true
+night 1259 1321 1319 true
+night 1259 1321 1320 true
+night 1259 1321 1321 false
+night 1259 1321 1380 false
+night 1259 1321 1438 false
+night 1259 1321 1439 false
+night 1259 1321 30 false
+night 1259 1321 300 false
+night 1259 1321 600 false
+night 1259 1321 1000 false
+night 1259 1321 1350 false
+night 1259 1380 0 false
+night 1259 1380 1 false
+night 1259 1380 59 false
+night 1259 1380 60 false
+night 1259 1380 419 false
+night 1259 1380 420 false
+night 1259 1380 421 false
+night 1259 1380 719 false
+night 1259 1380 720 false
+night 1259 1380 1259 true
+night 1259 1380 1260 true
+night 1259 1380 1319 true
+night 1259 1380 1320 true
+night 1259 1380 1321 true
+night 1259 1380 1380 false
+night 1259 1380 1438 false
+night 1259 1380 1439 false
+night 1259 1380 30 false
+night 1259 1380 300 false
+night 1259 1380 600 false
+night 1259 1380 1000 false
+night 1259 1380 1350 true
+night 1259 1438 0 false
+night 1259 1438 1 false
+night 1259 1438 59 false
+night 1259 1438 60 false
+night 1259 1438 419 false
+night 1259 1438 420 false
+night 1259 1438 421 false
+night 1259 1438 719 false
+night 1259 1438 720 false
+night 1259 1438 1259 true
+night 1259 1438 1260 true
+night 1259 1438 1319 true
+night 1259 1438 1320 true
+night 1259 1438 1321 true
+night 1259 1438 1380 true
+night 1259 1438 1438 false
+night 1259 1438 1439 false
+night 1259 1438 30 false
+night 1259 1438 300 false
+night 1259 1438 600 false
+night 1259 1438 1000 false
+night 1259 1438 1350 true
+night 1259 1439 0 false
+night 1259 1439 1 false
+night 1259 1439 59 false
+night 1259 1439 60 false
+night 1259 1439 419 false
+night 1259 1439 420 false
+night 1259 1439 421 false
+night 1259 1439 719 false
+night 1259 1439 720 false
+night 1259 1439 1259 true
+night 1259 1439 1260 true
+night 1259 1439 1319 true
+night 1259 1439 1320 true
+night 1259 1439 1321 true
+night 1259 1439 1380 true
+night 1259 1439 1438 true
+night 1259 1439 1439 false
+night 1259 1439 30 false
+night 1259 1439 300 false
+night 1259 1439 600 false
+night 1259 1439 1000 false
+night 1259 1439 1350 true
+night 1260 0 0 false
+night 1260 0 1 false
+night 1260 0 59 false
+night 1260 0 60 false
+night 1260 0 419 false
+night 1260 0 420 false
+night 1260 0 421 false
+night 1260 0 719 false
+night 1260 0 720 false
+night 1260 0 1259 false
+night 1260 0 1260 true
+night 1260 0 1319 true
+night 1260 0 1320 true
+night 1260 0 1321 true
+night 1260 0 1380 true
+night 1260 0 1438 true
+night 1260 0 1439 true
+night 1260 0 30 false
+night 1260 0 300 false
+night 1260 0 600 false
+night 1260 0 1000 false
+night 1260 0 1350 true
+night 1260 1 0 true
+night 1260 1 1 false
+night 1260 1 59 false
+night 1260 1 60 false
+night 1260 1 419 false
+night 1260 1 420 false
+night 1260 1 421 false
+night 1260 1 719 false
+night 1260 1 720 false
+night 1260 1 1259 false
+night 1260 1 1260 true
+night 1260 1 1319 true
+night 1260 1 1320 true
+night 1260 1 1321 true
+night 1260 1 1380 true
+night 1260 1 1438 true
+night 1260 1 1439 true
+night 1260 1 30 false
+night 1260 1 300 false
+night 1260 1 600 false
+night 1260 1 1000 false
+night 1260 1 1350 true
+night 1260 59 0 true
+night 1260 59 1 true
+night 1260 59 59 false
+night 1260 59 60 false
+night 1260 59 419 false
+night 1260 59 420 false
+night 1260 59 421 false
+night 1260 59 719 false
+night 1260 59 720 false
+night 1260 59 1259 false
+night 1260 59 1260 true
+night 1260 59 1319 true
+night 1260 59 1320 true
+night 1260 59 1321 true
+night 1260 59 1380 true
+night 1260 59 1438 true
+night 1260 59 1439 true
+night 1260 59 30 true
+night 1260 59 300 false
+night 1260 59 600 false
+night 1260 59 1000 false
+night 1260 59 1350 true
+night 1260 60 0 true
+night 1260 60 1 true
+night 1260 60 59 true
+night 1260 60 60 false
+night 1260 60 419 false
+night 1260 60 420 false
+night 1260 60 421 false
+night 1260 60 719 false
+night 1260 60 720 false
+night 1260 60 1259 false
+night 1260 60 1260 true
+night 1260 60 1319 true
+night 1260 60 1320 true
+night 1260 60 1321 true
+night 1260 60 1380 true
+night 1260 60 1438 true
+night 1260 60 1439 true
+night 1260 60 30 true
+night 1260 60 300 false
+night 1260 60 600 false
+night 1260 60 1000 false
+night 1260 60 1350 true
+night 1260 419 0 true
+night 1260 419 1 true
+night 1260 419 59 true
+night 1260 419 60 true
+night 1260 419 419 false
+night 1260 419 420 false
+night 1260 419 421 false
+night 1260 419 719 false
+night 1260 419 720 false
+night 1260 419 1259 false
+night 1260 419 1260 true
+night 1260 419 1319 true
+night 1260 419 1320 true
+night 1260 419 1321 true
+night 1260 419 1380 true
+night 1260 419 1438 true
+night 1260 419 1439 true
+night 1260 419 30 true
+night 1260 419 300 true
+night 1260 419 600 false
+night 1260 419 1000 false
+night 1260 419 1350 true
+night 1260 420 0 true
+night 1260 420 1 true
+night 1260 420 59 true
+night 1260 420 60 true
+night 1260 420 419 true
+night 1260 420 420 false
+night 1260 420 421 false
+night 1260 420 719 false
+night 1260 420 720 false
+night 1260 420 1259 false
+night 1260 420 1260 true
+night 1260 420 1319 true
+night 1260 420 1320 true
+night 1260 420 1321 true
+night 1260 420 1380 true
+night 1260 420 1438 true
+night 1260 420 1439 true
+night 1260 420 30 true
+night 1260 420 300 true
+night 1260 420 600 false
+night 1260 420 1000 false
+night 1260 420 1350 true
+night 1260 421 0 true
+night 1260 421 1 true
+night 1260 421 59 true
+night 1260 421 60 true
+night 1260 421 419 true
+night 1260 421 420 true
+night 1260 421 421 false
+night 1260 421 719 false
+night 1260 421 720 false
+night 1260 421 1259 false
+night 1260 421 1260 true
+night 1260 421 1319 true
+night 1260 421 1320 true
+night 1260 421 1321 true
+night 1260 421 1380 true
+night 1260 421 1438 true
+night 1260 421 1439 true
+night 1260 421 30 true
+night 1260 421 300 true
+night 1260 421 600 false
+night 1260 421 1000 false
+night 1260 421 1350 true
+night 1260 719 0 true
+night 1260 719 1 true
+night 1260 719 59 true
+night 1260 719 60 true
+night 1260 719 419 true
+night 1260 719 420 true
+night 1260 719 421 true
+night 1260 719 719 false
+night 1260 719 720 false
+night 1260 719 1259 false
+night 1260 719 1260 true
+night 1260 719 1319 true
+night 1260 719 1320 true
+night 1260 719 1321 true
+night 1260 719 1380 true
+night 1260 719 1438 true
+night 1260 719 1439 true
+night 1260 719 30 true
+night 1260 719 300 true
+night 1260 719 600 true
+night 1260 719 1000 false
+night 1260 719 1350 true
+night 1260 720 0 true
+night 1260 720 1 true
+night 1260 720 59 true
+night 1260 720 60 true
+night 1260 720 419 true
+night 1260 720 420 true
+night 1260 720 421 true
+night 1260 720 719 true
+night 1260 720 720 false
+night 1260 720 1259 false
+night 1260 720 1260 true
+night 1260 720 1319 true
+night 1260 720 1320 true
+night 1260 720 1321 true
+night 1260 720 1380 true
+night 1260 720 1438 true
+night 1260 720 1439 true
+night 1260 720 30 true
+night 1260 720 300 true
+night 1260 720 600 true
+night 1260 720 1000 false
+night 1260 720 1350 true
+night 1260 1259 0 true
+night 1260 1259 1 true
+night 1260 1259 59 true
+night 1260 1259 60 true
+night 1260 1259 419 true
+night 1260 1259 420 true
+night 1260 1259 421 true
+night 1260 1259 719 true
+night 1260 1259 720 true
+night 1260 1259 1259 false
+night 1260 1259 1260 true
+night 1260 1259 1319 true
+night 1260 1259 1320 true
+night 1260 1259 1321 true
+night 1260 1259 1380 true
+night 1260 1259 1438 true
+night 1260 1259 1439 true
+night 1260 1259 30 true
+night 1260 1259 300 true
+night 1260 1259 600 true
+night 1260 1259 1000 true
+night 1260 1259 1350 true
+night 1260 1260 0 false
+night 1260 1260 1 false
+night 1260 1260 59 false
+night 1260 1260 60 false
+night 1260 1260 419 false
+night 1260 1260 420 false
+night 1260 1260 421 false
+night 1260 1260 719 false
+night 1260 1260 720 false
+night 1260 1260 1259 false
+night 1260 1260 1260 false
+night 1260 1260 1319 false
+night 1260 1260 1320 false
+night 1260 1260 1321 false
+night 1260 1260 1380 false
+night 1260 1260 1438 false
+night 1260 1260 1439 false
+night 1260 1260 30 false
+night 1260 1260 300 false
+night 1260 1260 600 false
+night 1260 1260 1000 false
+night 1260 1260 1350 false
+night 1260 1319 0 false
+night 1260 1319 1 false
+night 1260 1319 59 false
+night 1260 1319 60 false
+night 1260 1319 419 false
+night 1260 1319 420 false
+night 1260 1319 421 false
+night 1260 1319 719 false
+night 1260 1319 720 false
+night 1260 1319 1259 false
+night 1260 1319 1260 true
+night 1260 1319 1319 false
+night 1260 1319 1320 false
+night 1260 1319 1321 false
+night 1260 1319 1380 false
+night 1260 1319 1438 false
+night 1260 1319 1439 false
+night 1260 1319 30 false
+night 1260 1319 300 false
+night 1260 1319 600 false
+night 1260 1319 1000 false
+night 1260 1319 1350 false
+night 1260 1320 0 false
+night 1260 1320 1 false
+night 1260 1320 59 false
+night 1260 1320 60 false
+night 1260 1320 419 false
+night 1260 1320 420 false
+night 1260 1320 421 false
+night 1260 1320 719 false
+night 1260 1320 720 false
+night 1260 1320 1259 false
+night 1260 1320 1260 true
+night 1260 1320 1319 true
+night 1260 1320 1320 false
+night 1260 1320 1321 false
+night 1260 1320 1380 false
+night 1260 1320 1438 false
+night 1260 1320 1439 false
+night 1260 1320 30 false
+night 1260 1320 300 false
+night 1260 1320 600 false
+night 1260 1320 1000 false
+night 1260 1320 1350 false
+night 1260 1321 0 false
+night 1260 1321 1 false
+night 1260 1321 59 false
+night 1260 1321 60 false
+night 1260 1321 419 false
+night 1260 1321 420 false
+night 1260 1321 421 false
+night 1260 1321 719 false
+night 1260 1321 720 false
+night 1260 1321 1259 false
+night 1260 1321 1260 true
+night 1260 1321 1319 true
+night 1260 1321 1320 true
+night 1260 1321 1321 false
+night 1260 1321 1380 false
+night 1260 1321 1438 false
+night 1260 1321 1439 false
+night 1260 1321 30 false
+night 1260 1321 300 false
+night 1260 1321 600 false
+night 1260 1321 1000 false
+night 1260 1321 1350 false
+night 1260 1380 0 false
+night 1260 1380 1 false
+night 1260 1380 59 false
+night 1260 1380 60 false
+night 1260 1380 419 false
+night 1260 1380 420 false
+night 1260 1380 421 false
+night 1260 1380 719 false
+night 1260 1380 720 false
+night 1260 1380 1259 false
+night 1260 1380 1260 true
+night 1260 1380 1319 true
+night 1260 1380 1320 true
+night 1260 1380 1321 true
+night 1260 1380 1380 false
+night 1260 1380 1438 false
+night 1260 1380 1439 false
+night 1260 1380 30 false
+night 1260 1380 300 false
+night 1260 1380 600 false
+night 1260 1380 1000 false
+night 1260 1380 1350 true
+night 1260 1438 0 false
+night 1260 1438 1 false
+night 1260 1438 59 false
+night 1260 1438 60 false
+night 1260 1438 419 false
+night 1260 1438 420 false
+night 1260 1438 421 false
+night 1260 1438 719 false
+night 1260 1438 720 false
+night 1260 1438 1259 false
+night 1260 1438 1260 true
+night 1260 1438 1319 true
+night 1260 1438 1320 true
+night 1260 1438 1321 true
+night 1260 1438 1380 true
+night 1260 1438 1438 false
+night 1260 1438 1439 false
+night 1260 1438 30 false
+night 1260 1438 300 false
+night 1260 1438 600 false
+night 1260 1438 1000 false
+night 1260 1438 1350 true
+night 1260 1439 0 false
+night 1260 1439 1 false
+night 1260 1439 59 false
+night 1260 1439 60 false
+night 1260 1439 419 false
+night 1260 1439 420 false
+night 1260 1439 421 false
+night 1260 1439 719 false
+night 1260 1439 720 false
+night 1260 1439 1259 false
+night 1260 1439 1260 true
+night 1260 1439 1319 true
+night 1260 1439 1320 true
+night 1260 1439 1321 true
+night 1260 1439 1380 true
+night 1260 1439 1438 true
+night 1260 1439 1439 false
+night 1260 1439 30 false
+night 1260 1439 300 false
+night 1260 1439 600 false
+night 1260 1439 1000 false
+night 1260 1439 1350 true
+night 1319 0 0 false
+night 1319 0 1 false
+night 1319 0 59 false
+night 1319 0 60 false
+night 1319 0 419 false
+night 1319 0 420 false
+night 1319 0 421 false
+night 1319 0 719 false
+night 1319 0 720 false
+night 1319 0 1259 false
+night 1319 0 1260 false
+night 1319 0 1319 true
+night 1319 0 1320 true
+night 1319 0 1321 true
+night 1319 0 1380 true
+night 1319 0 1438 true
+night 1319 0 1439 true
+night 1319 0 30 false
+night 1319 0 300 false
+night 1319 0 600 false
+night 1319 0 1000 false
+night 1319 0 1350 true
+night 1319 1 0 true
+night 1319 1 1 false
+night 1319 1 59 false
+night 1319 1 60 false
+night 1319 1 419 false
+night 1319 1 420 false
+night 1319 1 421 false
+night 1319 1 719 false
+night 1319 1 720 false
+night 1319 1 1259 false
+night 1319 1 1260 false
+night 1319 1 1319 true
+night 1319 1 1320 true
+night 1319 1 1321 true
+night 1319 1 1380 true
+night 1319 1 1438 true
+night 1319 1 1439 true
+night 1319 1 30 false
+night 1319 1 300 false
+night 1319 1 600 false
+night 1319 1 1000 false
+night 1319 1 1350 true
+night 1319 59 0 true
+night 1319 59 1 true
+night 1319 59 59 false
+night 1319 59 60 false
+night 1319 59 419 false
+night 1319 59 420 false
+night 1319 59 421 false
+night 1319 59 719 false
+night 1319 59 720 false
+night 1319 59 1259 false
+night 1319 59 1260 false
+night 1319 59 1319 true
+night 1319 59 1320 true
+night 1319 59 1321 true
+night 1319 59 1380 true
+night 1319 59 1438 true
+night 1319 59 1439 true
+night 1319 59 30 true
+night 1319 59 300 false
+night 1319 59 600 false
+night 1319 59 1000 false
+night 1319 59 1350 true
+night 1319 60 0 true
+night 1319 60 1 true
+night 1319 60 59 true
+night 1319 60 60 false
+night 1319 60 419 false
+night 1319 60 420 false
+night 1319 60 421 false
+night 1319 60 719 false
+night 1319 60 720 false
+night 1319 60 1259 false
+night 1319 60 1260 false
+night 1319 60 1319 true
+night 1319 60 1320 true
+night 1319 60 1321 true
+night 1319 60 1380 true
+night 1319 60 1438 true
+night 1319 60 1439 true
+night 1319 60 30 true
+night 1319 60 300 false
+night 1319 60 600 false
+night 1319 60 1000 false
+night 1319 60 1350 true
+night 1319 419 0 true
+night 1319 419 1 true
+night 1319 419 59 true
+night 1319 419 60 true
+night 1319 419 419 false
+night 1319 419 420 false
+night 1319 419 421 false
+night 1319 419 719 false
+night 1319 419 720 false
+night 1319 419 1259 false
+night 1319 419 1260 false
+night 1319 419 1319 true
+night 1319 419 1320 true
+night 1319 419 1321 true
+night 1319 419 1380 true
+night 1319 419 1438 true
+night 1319 419 1439 true
+night 1319 419 30 true
+night 1319 419 300 true
+night 1319 419 600 false
+night 1319 419 1000 false
+night 1319 419 1350 true
+night 1319 420 0 true
+night 1319 420 1 true
+night 1319 420 59 true
+night 1319 420 60 true
+night 1319 420 419 true
+night 1319 420 420 false
+night 1319 420 421 false
+night 1319 420 719 false
+night 1319 420 720 false
+night 1319 420 1259 false
+night 1319 420 1260 false
+night 1319 420 1319 true
+night 1319 420 1320 true
+night 1319 420 1321 true
+night 1319 420 1380 true
+night 1319 420 1438 true
+night 1319 420 1439 true
+night 1319 420 30 true
+night 1319 420 300 true
+night 1319 420 600 false
+night 1319 420 1000 false
+night 1319 420 1350 true
+night 1319 421 0 true
+night 1319 421 1 true
+night 1319 421 59 true
+night 1319 421 60 true
+night 1319 421 419 true
+night 1319 421 420 true
+night 1319 421 421 false
+night 1319 421 719 false
+night 1319 421 720 false
+night 1319 421 1259 false
+night 1319 421 1260 false
+night 1319 421 1319 true
+night 1319 421 1320 true
+night 1319 421 1321 true
+night 1319 421 1380 true
+night 1319 421 1438 true
+night 1319 421 1439 true
+night 1319 421 30 true
+night 1319 421 300 true
+night 1319 421 600 false
+night 1319 421 1000 false
+night 1319 421 1350 true
+night 1319 719 0 true
+night 1319 719 1 true
+night 1319 719 59 true
+night 1319 719 60 true
+night 1319 719 419 true
+night 1319 719 420 true
+night 1319 719 421 true
+night 1319 719 719 false
+night 1319 719 720 false
+night 1319 719 1259 false
+night 1319 719 1260 false
+night 1319 719 1319 true
+night 1319 719 1320 true
+night 1319 719 1321 true
+night 1319 719 1380 true
+night 1319 719 1438 true
+night 1319 719 1439 true
+night 1319 719 30 true
+night 1319 719 300 true
+night 1319 719 600 true
+night 1319 719 1000 false
+night 1319 719 1350 true
+night 1319 720 0 true
+night 1319 720 1 true
+night 1319 720 59 true
+night 1319 720 60 true
+night 1319 720 419 true
+night 1319 720 420 true
+night 1319 720 421 true
+night 1319 720 719 true
+night 1319 720 720 false
+night 1319 720 1259 false
+night 1319 720 1260 false
+night 1319 720 1319 true
+night 1319 720 1320 true
+night 1319 720 1321 true
+night 1319 720 1380 true
+night 1319 720 1438 true
+night 1319 720 1439 true
+night 1319 720 30 true
+night 1319 720 300 true
+night 1319 720 600 true
+night 1319 720 1000 false
+night 1319 720 1350 true
+night 1319 1259 0 true
+night 1319 1259 1 true
+night 1319 1259 59 true
+night 1319 1259 60 true
+night 1319 1259 419 true
+night 1319 1259 420 true
+night 1319 1259 421 true
+night 1319 1259 719 true
+night 1319 1259 720 true
+night 1319 1259 1259 false
+night 1319 1259 1260 false
+night 1319 1259 1319 true
+night 1319 1259 1320 true
+night 1319 1259 1321 true
+night 1319 1259 1380 true
+night 1319 1259 1438 true
+night 1319 1259 1439 true
+night 1319 1259 30 true
+night 1319 1259 300 true
+night 1319 1259 600 true
+night 1319 1259 1000 true
+night 1319 1259 1350 true
+night 1319 1260 0 true
+night 1319 1260 1 true
+night 1319 1260 59 true
+night 1319 1260 60 true
+night 1319 1260 419 true
+night 1319 1260 420 true
+night 1319 1260 421 true
+night 1319 1260 719 true
+night 1319 1260 720 true
+night 1319 1260 1259 true
+night 1319 1260 1260 false
+night 1319 1260 1319 true
+night 1319 1260 1320 true
+night 1319 1260 1321 true
+night 1319 1260 1380 true
+night 1319 1260 1438 true
+night 1319 1260 1439 true
+night 1319 1260 30 true
+night 1319 1260 300 true
+night 1319 1260 600 true
+night 1319 1260 1000 true
+night 1319 1260 1350 true
+night 1319 1319 0 false
+night 1319 1319 1 false
+night 1319 1319 59 false
+night 1319 1319 60 false
+night 1319 1319 419 false
+night 1319 1319 420 false
+night 1319 1319 421 false
+night 1319 1319 719 false
+night 1319 1319 720 false
+night 1319 1319 1259 false
+night 1319 1319 1260 false
+night 1319 1319 1319 false
+night 1319 1319 1320 false
+night 1319 1319 1321 false
+night 1319 1319 1380 false
+night 1319 1319 1438 false
+night 1319 1319 1439 false
+night 1319 1319 30 false
+night 1319 1319 300 false
+night 1319 1319 600 false
+night 1319 1319 1000 false
+night 1319 1319 1350 false
+night 1319 1320 0 false
+night 1319 1320 1 false
+night 1319 1320 59 false
+night 1319 1320 60 false
+night 1319 1320 419 false
+night 1319 1320 420 false
+night 1319 1320 421 false
+night 1319 1320 719 false
+night 1319 1320 720 false
+night 1319 1320 1259 false
+night 1319 1320 1260 false
+night 1319 1320 1319 true
+night 1319 1320 1320 false
+night 1319 1320 1321 false
+night 1319 1320 1380 false
+night 1319 1320 1438 false
+night 1319 1320 1439 false
+night 1319 1320 30 false
+night 1319 1320 300 false
+night 1319 1320 600 false
+night 1319 1320 1000 false
+night 1319 1320 1350 false
+night 1319 1321 0 false
+night 1319 1321 1 false
+night 1319 1321 59 false
+night 1319 1321 60 false
+night 1319 1321 419 false
+night 1319 1321 420 false
+night 1319 1321 421 false
+night 1319 1321 719 false
+night 1319 1321 720 false
+night 1319 1321 1259 false
+night 1319 1321 1260 false
+night 1319 1321 1319 true
+night 1319 1321 1320 true
+night 1319 1321 1321 false
+night 1319 1321 1380 false
+night 1319 1321 1438 false
+night 1319 1321 1439 false
+night 1319 1321 30 false
+night 1319 1321 300 false
+night 1319 1321 600 false
+night 1319 1321 1000 false
+night 1319 1321 1350 false
+night 1319 1380 0 false
+night 1319 1380 1 false
+night 1319 1380 59 false
+night 1319 1380 60 false
+night 1319 1380 419 false
+night 1319 1380 420 false
+night 1319 1380 421 false
+night 1319 1380 719 false
+night 1319 1380 720 false
+night 1319 1380 1259 false
+night 1319 1380 1260 false
+night 1319 1380 1319 true
+night 1319 1380 1320 true
+night 1319 1380 1321 true
+night 1319 1380 1380 false
+night 1319 1380 1438 false
+night 1319 1380 1439 false
+night 1319 1380 30 false
+night 1319 1380 300 false
+night 1319 1380 600 false
+night 1319 1380 1000 false
+night 1319 1380 1350 true
+night 1319 1438 0 false
+night 1319 1438 1 false
+night 1319 1438 59 false
+night 1319 1438 60 false
+night 1319 1438 419 false
+night 1319 1438 420 false
+night 1319 1438 421 false
+night 1319 1438 719 false
+night 1319 1438 720 false
+night 1319 1438 1259 false
+night 1319 1438 1260 false
+night 1319 1438 1319 true
+night 1319 1438 1320 true
+night 1319 1438 1321 true
+night 1319 1438 1380 true
+night 1319 1438 1438 false
+night 1319 1438 1439 false
+night 1319 1438 30 false
+night 1319 1438 300 false
+night 1319 1438 600 false
+night 1319 1438 1000 false
+night 1319 1438 1350 true
+night 1319 1439 0 false
+night 1319 1439 1 false
+night 1319 1439 59 false
+night 1319 1439 60 false
+night 1319 1439 419 false
+night 1319 1439 420 false
+night 1319 1439 421 false
+night 1319 1439 719 false
+night 1319 1439 720 false
+night 1319 1439 1259 false
+night 1319 1439 1260 false
+night 1319 1439 1319 true
+night 1319 1439 1320 true
+night 1319 1439 1321 true
+night 1319 1439 1380 true
+night 1319 1439 1438 true
+night 1319 1439 1439 false
+night 1319 1439 30 false
+night 1319 1439 300 false
+night 1319 1439 600 false
+night 1319 1439 1000 false
+night 1319 1439 1350 true
+night 1320 0 0 false
+night 1320 0 1 false
+night 1320 0 59 false
+night 1320 0 60 false
+night 1320 0 419 false
+night 1320 0 420 false
+night 1320 0 421 false
+night 1320 0 719 false
+night 1320 0 720 false
+night 1320 0 1259 false
+night 1320 0 1260 false
+night 1320 0 1319 false
+night 1320 0 1320 true
+night 1320 0 1321 true
+night 1320 0 1380 true
+night 1320 0 1438 true
+night 1320 0 1439 true
+night 1320 0 30 false
+night 1320 0 300 false
+night 1320 0 600 false
+night 1320 0 1000 false
+night 1320 0 1350 true
+night 1320 1 0 true
+night 1320 1 1 false
+night 1320 1 59 false
+night 1320 1 60 false
+night 1320 1 419 false
+night 1320 1 420 false
+night 1320 1 421 false
+night 1320 1 719 false
+night 1320 1 720 false
+night 1320 1 1259 false
+night 1320 1 1260 false
+night 1320 1 1319 false
+night 1320 1 1320 true
+night 1320 1 1321 true
+night 1320 1 1380 true
+night 1320 1 1438 true
+night 1320 1 1439 true
+night 1320 1 30 false
+night 1320 1 300 false
+night 1320 1 600 false
+night 1320 1 1000 false
+night 1320 1 1350 true
+night 1320 59 0 true
+night 1320 59 1 true
+night 1320 59 59 false
+night 1320 59 60 false
+night 1320 59 419 false
+night 1320 59 420 false
+night 1320 59 421 false
+night 1320 59 719 false
+night 1320 59 720 false
+night 1320 59 1259 false
+night 1320 59 1260 false
+night 1320 59 1319 false
+night 1320 59 1320 true
+night 1320 59 1321 true
+night 1320 59 1380 true
+night 1320 59 1438 true
+night 1320 59 1439 true
+night 1320 59 30 true
+night 1320 59 300 false
+night 1320 59 600 false
+night 1320 59 1000 false
+night 1320 59 1350 true
+night 1320 60 0 true
+night 1320 60 1 true
+night 1320 60 59 true
+night 1320 60 60 false
+night 1320 60 419 false
+night 1320 60 420 false
+night 1320 60 421 false
+night 1320 60 719 false
+night 1320 60 720 false
+night 1320 60 1259 false
+night 1320 60 1260 false
+night 1320 60 1319 false
+night 1320 60 1320 true
+night 1320 60 1321 true
+night 1320 60 1380 true
+night 1320 60 1438 true
+night 1320 60 1439 true
+night 1320 60 30 true
+night 1320 60 300 false
+night 1320 60 600 false
+night 1320 60 1000 false
+night 1320 60 1350 true
+night 1320 419 0 true
+night 1320 419 1 true
+night 1320 419 59 true
+night 1320 419 60 true
+night 1320 419 419 false
+night 1320 419 420 false
+night 1320 419 421 false
+night 1320 419 719 false
+night 1320 419 720 false
+night 1320 419 1259 false
+night 1320 419 1260 false
+night 1320 419 1319 false
+night 1320 419 1320 true
+night 1320 419 1321 true
+night 1320 419 1380 true
+night 1320 419 1438 true
+night 1320 419 1439 true
+night 1320 419 30 true
+night 1320 419 300 true
+night 1320 419 600 false
+night 1320 419 1000 false
+night 1320 419 1350 true
+night 1320 420 0 true
+night 1320 420 1 true
+night 1320 420 59 true
+night 1320 420 60 true
+night 1320 420 419 true
+night 1320 420 420 false
+night 1320 420 421 false
+night 1320 420 719 false
+night 1320 420 720 false
+night 1320 420 1259 false
+night 1320 420 1260 false
+night 1320 420 1319 false
+night 1320 420 1320 true
+night 1320 420 1321 true
+night 1320 420 1380 true
+night 1320 420 1438 true
+night 1320 420 1439 true
+night 1320 420 30 true
+night 1320 420 300 true
+night 1320 420 600 false
+night 1320 420 1000 false
+night 1320 420 1350 true
+night 1320 421 0 true
+night 1320 421 1 true
+night 1320 421 59 true
+night 1320 421 60 true
+night 1320 421 419 true
+night 1320 421 420 true
+night 1320 421 421 false
+night 1320 421 719 false
+night 1320 421 720 false
+night 1320 421 1259 false
+night 1320 421 1260 false
+night 1320 421 1319 false
+night 1320 421 1320 true
+night 1320 421 1321 true
+night 1320 421 1380 true
+night 1320 421 1438 true
+night 1320 421 1439 true
+night 1320 421 30 true
+night 1320 421 300 true
+night 1320 421 600 false
+night 1320 421 1000 false
+night 1320 421 1350 true
+night 1320 719 0 true
+night 1320 719 1 true
+night 1320 719 59 true
+night 1320 719 60 true
+night 1320 719 419 true
+night 1320 719 420 true
+night 1320 719 421 true
+night 1320 719 719 false
+night 1320 719 720 false
+night 1320 719 1259 false
+night 1320 719 1260 false
+night 1320 719 1319 false
+night 1320 719 1320 true
+night 1320 719 1321 true
+night 1320 719 1380 true
+night 1320 719 1438 true
+night 1320 719 1439 true
+night 1320 719 30 true
+night 1320 719 300 true
+night 1320 719 600 true
+night 1320 719 1000 false
+night 1320 719 1350 true
+night 1320 720 0 true
+night 1320 720 1 true
+night 1320 720 59 true
+night 1320 720 60 true
+night 1320 720 419 true
+night 1320 720 420 true
+night 1320 720 421 true
+night 1320 720 719 true
+night 1320 720 720 false
+night 1320 720 1259 false
+night 1320 720 1260 false
+night 1320 720 1319 false
+night 1320 720 1320 true
+night 1320 720 1321 true
+night 1320 720 1380 true
+night 1320 720 1438 true
+night 1320 720 1439 true
+night 1320 720 30 true
+night 1320 720 300 true
+night 1320 720 600 true
+night 1320 720 1000 false
+night 1320 720 1350 true
+night 1320 1259 0 true
+night 1320 1259 1 true
+night 1320 1259 59 true
+night 1320 1259 60 true
+night 1320 1259 419 true
+night 1320 1259 420 true
+night 1320 1259 421 true
+night 1320 1259 719 true
+night 1320 1259 720 true
+night 1320 1259 1259 false
+night 1320 1259 1260 false
+night 1320 1259 1319 false
+night 1320 1259 1320 true
+night 1320 1259 1321 true
+night 1320 1259 1380 true
+night 1320 1259 1438 true
+night 1320 1259 1439 true
+night 1320 1259 30 true
+night 1320 1259 300 true
+night 1320 1259 600 true
+night 1320 1259 1000 true
+night 1320 1259 1350 true
+night 1320 1260 0 true
+night 1320 1260 1 true
+night 1320 1260 59 true
+night 1320 1260 60 true
+night 1320 1260 419 true
+night 1320 1260 420 true
+night 1320 1260 421 true
+night 1320 1260 719 true
+night 1320 1260 720 true
+night 1320 1260 1259 true
+night 1320 1260 1260 false
+night 1320 1260 1319 false
+night 1320 1260 1320 true
+night 1320 1260 1321 true
+night 1320 1260 1380 true
+night 1320 1260 1438 true
+night 1320 1260 1439 true
+night 1320 1260 30 true
+night 1320 1260 300 true
+night 1320 1260 600 true
+night 1320 1260 1000 true
+night 1320 1260 1350 true
+night 1320 1319 0 true
+night 1320 1319 1 true
+night 1320 1319 59 true
+night 1320 1319 60 true
+night 1320 1319 419 true
+night 1320 1319 420 true
+night 1320 1319 421 true
+night 1320 1319 719 true
+night 1320 1319 720 true
+night 1320 1319 1259 true
+night 1320 1319 1260 true
+night 1320 1319 1319 false
+night 1320 1319 1320 true
+night 1320 1319 1321 true
+night 1320 1319 1380 true
+night 1320 1319 1438 true
+night 1320 1319 1439 true
+night 1320 1319 30 true
+night 1320 1319 300 true
+night 1320 1319 600 true
+night 1320 1319 1000 true
+night 1320 1319 1350 true
+night 1320 1320 0 false
+night 1320 1320 1 false
+night 1320 1320 59 false
+night 1320 1320 60 false
+night 1320 1320 419 false
+night 1320 1320 420 false
+night 1320 1320 421 false
+night 1320 1320 719 false
+night 1320 1320 720 false
+night 1320 1320 1259 false
+night 1320 1320 1260 false
+night 1320 1320 1319 false
+night 1320 1320 1320 false
+night 1320 1320 1321 false
+night 1320 1320 1380 false
+night 1320 1320 1438 false
+night 1320 1320 1439 false
+night 1320 1320 30 false
+night 1320 1320 300 false
+night 1320 1320 600 false
+night 1320 1320 1000 false
+night 1320 1320 1350 false
+night 1320 1321 0 false
+night 1320 1321 1 false
+night 1320 1321 59 false
+night 1320 1321 60 false
+night 1320 1321 419 false
+night 1320 1321 420 false
+night 1320 1321 421 false
+night 1320 1321 719 false
+night 1320 1321 720 false
+night 1320 1321 1259 false
+night 1320 1321 1260 false
+night 1320 1321 1319 false
+night 1320 1321 1320 true
+night 1320 1321 1321 false
+night 1320 1321 1380 false
+night 1320 1321 1438 false
+night 1320 1321 1439 false
+night 1320 1321 30 false
+night 1320 1321 300 false
+night 1320 1321 600 false
+night 1320 1321 1000 false
+night 1320 1321 1350 false
+night 1320 1380 0 false
+night 1320 1380 1 false
+night 1320 1380 59 false
+night 1320 1380 60 false
+night 1320 1380 419 false
+night 1320 1380 420 false
+night 1320 1380 421 false
+night 1320 1380 719 false
+night 1320 1380 720 false
+night 1320 1380 1259 false
+night 1320 1380 1260 false
+night 1320 1380 1319 false
+night 1320 1380 1320 true
+night 1320 1380 1321 true
+night 1320 1380 1380 false
+night 1320 1380 1438 false
+night 1320 1380 1439 false
+night 1320 1380 30 false
+night 1320 1380 300 false
+night 1320 1380 600 false
+night 1320 1380 1000 false
+night 1320 1380 1350 true
+night 1320 1438 0 false
+night 1320 1438 1 false
+night 1320 1438 59 false
+night 1320 1438 60 false
+night 1320 1438 419 false
+night 1320 1438 420 false
+night 1320 1438 421 false
+night 1320 1438 719 false
+night 1320 1438 720 false
+night 1320 1438 1259 false
+night 1320 1438 1260 false
+night 1320 1438 1319 false
+night 1320 1438 1320 true
+night 1320 1438 1321 true
+night 1320 1438 1380 true
+night 1320 1438 1438 false
+night 1320 1438 1439 false
+night 1320 1438 30 false
+night 1320 1438 300 false
+night 1320 1438 600 false
+night 1320 1438 1000 false
+night 1320 1438 1350 true
+night 1320 1439 0 false
+night 1320 1439 1 false
+night 1320 1439 59 false
+night 1320 1439 60 false
+night 1320 1439 419 false
+night 1320 1439 420 false
+night 1320 1439 421 false
+night 1320 1439 719 false
+night 1320 1439 720 false
+night 1320 1439 1259 false
+night 1320 1439 1260 false
+night 1320 1439 1319 false
+night 1320 1439 1320 true
+night 1320 1439 1321 true
+night 1320 1439 1380 true
+night 1320 1439 1438 true
+night 1320 1439 1439 false
+night 1320 1439 30 false
+night 1320 1439 300 false
+night 1320 1439 600 false
+night 1320 1439 1000 false
+night 1320 1439 1350 true
+night 1321 0 0 false
+night 1321 0 1 false
+night 1321 0 59 false
+night 1321 0 60 false
+night 1321 0 419 false
+night 1321 0 420 false
+night 1321 0 421 false
+night 1321 0 719 false
+night 1321 0 720 false
+night 1321 0 1259 false
+night 1321 0 1260 false
+night 1321 0 1319 false
+night 1321 0 1320 false
+night 1321 0 1321 true
+night 1321 0 1380 true
+night 1321 0 1438 true
+night 1321 0 1439 true
+night 1321 0 30 false
+night 1321 0 300 false
+night 1321 0 600 false
+night 1321 0 1000 false
+night 1321 0 1350 true
+night 1321 1 0 true
+night 1321 1 1 false
+night 1321 1 59 false
+night 1321 1 60 false
+night 1321 1 419 false
+night 1321 1 420 false
+night 1321 1 421 false
+night 1321 1 719 false
+night 1321 1 720 false
+night 1321 1 1259 false
+night 1321 1 1260 false
+night 1321 1 1319 false
+night 1321 1 1320 false
+night 1321 1 1321 true
+night 1321 1 1380 true
+night 1321 1 1438 true
+night 1321 1 1439 true
+night 1321 1 30 false
+night 1321 1 300 false
+night 1321 1 600 false
+night 1321 1 1000 false
+night 1321 1 1350 true
+night 1321 59 0 true
+night 1321 59 1 true
+night 1321 59 59 false
+night 1321 59 60 false
+night 1321 59 419 false
+night 1321 59 420 false
+night 1321 59 421 false
+night 1321 59 719 false
+night 1321 59 720 false
+night 1321 59 1259 false
+night 1321 59 1260 false
+night 1321 59 1319 false
+night 1321 59 1320 false
+night 1321 59 1321 true
+night 1321 59 1380 true
+night 1321 59 1438 true
+night 1321 59 1439 true
+night 1321 59 30 true
+night 1321 59 300 false
+night 1321 59 600 false
+night 1321 59 1000 false
+night 1321 59 1350 true
+night 1321 60 0 true
+night 1321 60 1 true
+night 1321 60 59 true
+night 1321 60 60 false
+night 1321 60 419 false
+night 1321 60 420 false
+night 1321 60 421 false
+night 1321 60 719 false
+night 1321 60 720 false
+night 1321 60 1259 false
+night 1321 60 1260 false
+night 1321 60 1319 false
+night 1321 60 1320 false
+night 1321 60 1321 true
+night 1321 60 1380 true
+night 1321 60 1438 true
+night 1321 60 1439 true
+night 1321 60 30 true
+night 1321 60 300 false
+night 1321 60 600 false
+night 1321 60 1000 false
+night 1321 60 1350 true
+night 1321 419 0 true
+night 1321 419 1 true
+night 1321 419 59 true
+night 1321 419 60 true
+night 1321 419 419 false
+night 1321 419 420 false
+night 1321 419 421 false
+night 1321 419 719 false
+night 1321 419 720 false
+night 1321 419 1259 false
+night 1321 419 1260 false
+night 1321 419 1319 false
+night 1321 419 1320 false
+night 1321 419 1321 true
+night 1321 419 1380 true
+night 1321 419 1438 true
+night 1321 419 1439 true
+night 1321 419 30 true
+night 1321 419 300 true
+night 1321 419 600 false
+night 1321 419 1000 false
+night 1321 419 1350 true
+night 1321 420 0 true
+night 1321 420 1 true
+night 1321 420 59 true
+night 1321 420 60 true
+night 1321 420 419 true
+night 1321 420 420 false
+night 1321 420 421 false
+night 1321 420 719 false
+night 1321 420 720 false
+night 1321 420 1259 false
+night 1321 420 1260 false
+night 1321 420 1319 false
+night 1321 420 1320 false
+night 1321 420 1321 true
+night 1321 420 1380 true
+night 1321 420 1438 true
+night 1321 420 1439 true
+night 1321 420 30 true
+night 1321 420 300 true
+night 1321 420 600 false
+night 1321 420 1000 false
+night 1321 420 1350 true
+night 1321 421 0 true
+night 1321 421 1 true
+night 1321 421 59 true
+night 1321 421 60 true
+night 1321 421 419 true
+night 1321 421 420 true
+night 1321 421 421 false
+night 1321 421 719 false
+night 1321 421 720 false
+night 1321 421 1259 false
+night 1321 421 1260 false
+night 1321 421 1319 false
+night 1321 421 1320 false
+night 1321 421 1321 true
+night 1321 421 1380 true
+night 1321 421 1438 true
+night 1321 421 1439 true
+night 1321 421 30 true
+night 1321 421 300 true
+night 1321 421 600 false
+night 1321 421 1000 false
+night 1321 421 1350 true
+night 1321 719 0 true
+night 1321 719 1 true
+night 1321 719 59 true
+night 1321 719 60 true
+night 1321 719 419 true
+night 1321 719 420 true
+night 1321 719 421 true
+night 1321 719 719 false
+night 1321 719 720 false
+night 1321 719 1259 false
+night 1321 719 1260 false
+night 1321 719 1319 false
+night 1321 719 1320 false
+night 1321 719 1321 true
+night 1321 719 1380 true
+night 1321 719 1438 true
+night 1321 719 1439 true
+night 1321 719 30 true
+night 1321 719 300 true
+night 1321 719 600 true
+night 1321 719 1000 false
+night 1321 719 1350 true
+night 1321 720 0 true
+night 1321 720 1 true
+night 1321 720 59 true
+night 1321 720 60 true
+night 1321 720 419 true
+night 1321 720 420 true
+night 1321 720 421 true
+night 1321 720 719 true
+night 1321 720 720 false
+night 1321 720 1259 false
+night 1321 720 1260 false
+night 1321 720 1319 false
+night 1321 720 1320 false
+night 1321 720 1321 true
+night 1321 720 1380 true
+night 1321 720 1438 true
+night 1321 720 1439 true
+night 1321 720 30 true
+night 1321 720 300 true
+night 1321 720 600 true
+night 1321 720 1000 false
+night 1321 720 1350 true
+night 1321 1259 0 true
+night 1321 1259 1 true
+night 1321 1259 59 true
+night 1321 1259 60 true
+night 1321 1259 419 true
+night 1321 1259 420 true
+night 1321 1259 421 true
+night 1321 1259 719 true
+night 1321 1259 720 true
+night 1321 1259 1259 false
+night 1321 1259 1260 false
+night 1321 1259 1319 false
+night 1321 1259 1320 false
+night 1321 1259 1321 true
+night 1321 1259 1380 true
+night 1321 1259 1438 true
+night 1321 1259 1439 true
+night 1321 1259 30 true
+night 1321 1259 300 true
+night 1321 1259 600 true
+night 1321 1259 1000 true
+night 1321 1259 1350 true
+night 1321 1260 0 true
+night 1321 1260 1 true
+night 1321 1260 59 true
+night 1321 1260 60 true
+night 1321 1260 419 true
+night 1321 1260 420 true
+night 1321 1260 421 true
+night 1321 1260 719 true
+night 1321 1260 720 true
+night 1321 1260 1259 true
+night 1321 1260 1260 false
+night 1321 1260 1319 false
+night 1321 1260 1320 false
+night 1321 1260 1321 true
+night 1321 1260 1380 true
+night 1321 1260 1438 true
+night 1321 1260 1439 true
+night 1321 1260 30 true
+night 1321 1260 300 true
+night 1321 1260 600 true
+night 1321 1260 1000 true
+night 1321 1260 1350 true
+night 1321 1319 0 true
+night 1321 1319 1 true
+night 1321 1319 59 true
+night 1321 1319 60 true
+night 1321 1319 419 true
+night 1321 1319 420 true
+night 1321 1319 421 true
+night 1321 1319 719 true
+night 1321 1319 720 true
+night 1321 1319 1259 true
+night 1321 1319 1260 true
+night 1321 1319 1319 false
+night 1321 1319 1320 false
+night 1321 1319 1321 true
+night 1321 1319 1380 true
+night 1321 1319 1438 true
+night 1321 1319 1439 true
+night 1321 1319 30 true
+night 1321 1319 300 true
+night 1321 1319 600 true
+night 1321 1319 1000 true
+night 1321 1319 1350 true
+night 1321 1320 0 true
+night 1321 1320 1 true
+night 1321 1320 59 true
+night 1321 1320 60 true
+night 1321 1320 419 true
+night 1321 1320 420 true
+night 1321 1320 421 true
+night 1321 1320 719 true
+night 1321 1320 720 true
+night 1321 1320 1259 true
+night 1321 1320 1260 true
+night 1321 1320 1319 true
+night 1321 1320 1320 false
+night 1321 1320 1321 true
+night 1321 1320 1380 true
+night 1321 1320 1438 true
+night 1321 1320 1439 true
+night 1321 1320 30 true
+night 1321 1320 300 true
+night 1321 1320 600 true
+night 1321 1320 1000 true
+night 1321 1320 1350 true
+night 1321 1321 0 false
+night 1321 1321 1 false
+night 1321 1321 59 false
+night 1321 1321 60 false
+night 1321 1321 419 false
+night 1321 1321 420 false
+night 1321 1321 421 false
+night 1321 1321 719 false
+night 1321 1321 720 false
+night 1321 1321 1259 false
+night 1321 1321 1260 false
+night 1321 1321 1319 false
+night 1321 1321 1320 false
+night 1321 1321 1321 false
+night 1321 1321 1380 false
+night 1321 1321 1438 false
+night 1321 1321 1439 false
+night 1321 1321 30 false
+night 1321 1321 300 false
+night 1321 1321 600 false
+night 1321 1321 1000 false
+night 1321 1321 1350 false
+night 1321 1380 0 false
+night 1321 1380 1 false
+night 1321 1380 59 false
+night 1321 1380 60 false
+night 1321 1380 419 false
+night 1321 1380 420 false
+night 1321 1380 421 false
+night 1321 1380 719 false
+night 1321 1380 720 false
+night 1321 1380 1259 false
+night 1321 1380 1260 false
+night 1321 1380 1319 false
+night 1321 1380 1320 false
+night 1321 1380 1321 true
+night 1321 1380 1380 false
+night 1321 1380 1438 false
+night 1321 1380 1439 false
+night 1321 1380 30 false
+night 1321 1380 300 false
+night 1321 1380 600 false
+night 1321 1380 1000 false
+night 1321 1380 1350 true
+night 1321 1438 0 false
+night 1321 1438 1 false
+night 1321 1438 59 false
+night 1321 1438 60 false
+night 1321 1438 419 false
+night 1321 1438 420 false
+night 1321 1438 421 false
+night 1321 1438 719 false
+night 1321 1438 720 false
+night 1321 1438 1259 false
+night 1321 1438 1260 false
+night 1321 1438 1319 false
+night 1321 1438 1320 false
+night 1321 1438 1321 true
+night 1321 1438 1380 true
+night 1321 1438 1438 false
+night 1321 1438 1439 false
+night 1321 1438 30 false
+night 1321 1438 300 false
+night 1321 1438 600 false
+night 1321 1438 1000 false
+night 1321 1438 1350 true
+night 1321 1439 0 false
+night 1321 1439 1 false
+night 1321 1439 59 false
+night 1321 1439 60 false
+night 1321 1439 419 false
+night 1321 1439 420 false
+night 1321 1439 421 false
+night 1321 1439 719 false
+night 1321 1439 720 false
+night 1321 1439 1259 false
+night 1321 1439 1260 false
+night 1321 1439 1319 false
+night 1321 1439 1320 false
+night 1321 1439 1321 true
+night 1321 1439 1380 true
+night 1321 1439 1438 true
+night 1321 1439 1439 false
+night 1321 1439 30 false
+night 1321 1439 300 false
+night 1321 1439 600 false
+night 1321 1439 1000 false
+night 1321 1439 1350 true
+night 1380 0 0 false
+night 1380 0 1 false
+night 1380 0 59 false
+night 1380 0 60 false
+night 1380 0 419 false
+night 1380 0 420 false
+night 1380 0 421 false
+night 1380 0 719 false
+night 1380 0 720 false
+night 1380 0 1259 false
+night 1380 0 1260 false
+night 1380 0 1319 false
+night 1380 0 1320 false
+night 1380 0 1321 false
+night 1380 0 1380 true
+night 1380 0 1438 true
+night 1380 0 1439 true
+night 1380 0 30 false
+night 1380 0 300 false
+night 1380 0 600 false
+night 1380 0 1000 false
+night 1380 0 1350 false
+night 1380 1 0 true
+night 1380 1 1 false
+night 1380 1 59 false
+night 1380 1 60 false
+night 1380 1 419 false
+night 1380 1 420 false
+night 1380 1 421 false
+night 1380 1 719 false
+night 1380 1 720 false
+night 1380 1 1259 false
+night 1380 1 1260 false
+night 1380 1 1319 false
+night 1380 1 1320 false
+night 1380 1 1321 false
+night 1380 1 1380 true
+night 1380 1 1438 true
+night 1380 1 1439 true
+night 1380 1 30 false
+night 1380 1 300 false
+night 1380 1 600 false
+night 1380 1 1000 false
+night 1380 1 1350 false
+night 1380 59 0 true
+night 1380 59 1 true
+night 1380 59 59 false
+night 1380 59 60 false
+night 1380 59 419 false
+night 1380 59 420 false
+night 1380 59 421 false
+night 1380 59 719 false
+night 1380 59 720 false
+night 1380 59 1259 false
+night 1380 59 1260 false
+night 1380 59 1319 false
+night 1380 59 1320 false
+night 1380 59 1321 false
+night 1380 59 1380 true
+night 1380 59 1438 true
+night 1380 59 1439 true
+night 1380 59 30 true
+night 1380 59 300 false
+night 1380 59 600 false
+night 1380 59 1000 false
+night 1380 59 1350 false
+night 1380 60 0 true
+night 1380 60 1 true
+night 1380 60 59 true
+night 1380 60 60 false
+night 1380 60 419 false
+night 1380 60 420 false
+night 1380 60 421 false
+night 1380 60 719 false
+night 1380 60 720 false
+night 1380 60 1259 false
+night 1380 60 1260 false
+night 1380 60 1319 false
+night 1380 60 1320 false
+night 1380 60 1321 false
+night 1380 60 1380 true
+night 1380 60 1438 true
+night 1380 60 1439 true
+night 1380 60 30 true
+night 1380 60 300 false
+night 1380 60 600 false
+night 1380 60 1000 false
+night 1380 60 1350 false
+night 1380 419 0 true
+night 1380 419 1 true
+night 1380 419 59 true
+night 1380 419 60 true
+night 1380 419 419 false
+night 1380 419 420 false
+night 1380 419 421 false
+night 1380 419 719 false
+night 1380 419 720 false
+night 1380 419 1259 false
+night 1380 419 1260 false
+night 1380 419 1319 false
+night 1380 419 1320 false
+night 1380 419 1321 false
+night 1380 419 1380 true
+night 1380 419 1438 true
+night 1380 419 1439 true
+night 1380 419 30 true
+night 1380 419 300 true
+night 1380 419 600 false
+night 1380 419 1000 false
+night 1380 419 1350 false
+night 1380 420 0 true
+night 1380 420 1 true
+night 1380 420 59 true
+night 1380 420 60 true
+night 1380 420 419 true
+night 1380 420 420 false
+night 1380 420 421 false
+night 1380 420 719 false
+night 1380 420 720 false
+night 1380 420 1259 false
+night 1380 420 1260 false
+night 1380 420 1319 false
+night 1380 420 1320 false
+night 1380 420 1321 false
+night 1380 420 1380 true
+night 1380 420 1438 true
+night 1380 420 1439 true
+night 1380 420 30 true
+night 1380 420 300 true
+night 1380 420 600 false
+night 1380 420 1000 false
+night 1380 420 1350 false
+night 1380 421 0 true
+night 1380 421 1 true
+night 1380 421 59 true
+night 1380 421 60 true
+night 1380 421 419 true
+night 1380 421 420 true
+night 1380 421 421 false
+night 1380 421 719 false
+night 1380 421 720 false
+night 1380 421 1259 false
+night 1380 421 1260 false
+night 1380 421 1319 false
+night 1380 421 1320 false
+night 1380 421 1321 false
+night 1380 421 1380 true
+night 1380 421 1438 true
+night 1380 421 1439 true
+night 1380 421 30 true
+night 1380 421 300 true
+night 1380 421 600 false
+night 1380 421 1000 false
+night 1380 421 1350 false
+night 1380 719 0 true
+night 1380 719 1 true
+night 1380 719 59 true
+night 1380 719 60 true
+night 1380 719 419 true
+night 1380 719 420 true
+night 1380 719 421 true
+night 1380 719 719 false
+night 1380 719 720 false
+night 1380 719 1259 false
+night 1380 719 1260 false
+night 1380 719 1319 false
+night 1380 719 1320 false
+night 1380 719 1321 false
+night 1380 719 1380 true
+night 1380 719 1438 true
+night 1380 719 1439 true
+night 1380 719 30 true
+night 1380 719 300 true
+night 1380 719 600 true
+night 1380 719 1000 false
+night 1380 719 1350 false
+night 1380 720 0 true
+night 1380 720 1 true
+night 1380 720 59 true
+night 1380 720 60 true
+night 1380 720 419 true
+night 1380 720 420 true
+night 1380 720 421 true
+night 1380 720 719 true
+night 1380 720 720 false
+night 1380 720 1259 false
+night 1380 720 1260 false
+night 1380 720 1319 false
+night 1380 720 1320 false
+night 1380 720 1321 false
+night 1380 720 1380 true
+night 1380 720 1438 true
+night 1380 720 1439 true
+night 1380 720 30 true
+night 1380 720 300 true
+night 1380 720 600 true
+night 1380 720 1000 false
+night 1380 720 1350 false
+night 1380 1259 0 true
+night 1380 1259 1 true
+night 1380 1259 59 true
+night 1380 1259 60 true
+night 1380 1259 419 true
+night 1380 1259 420 true
+night 1380 1259 421 true
+night 1380 1259 719 true
+night 1380 1259 720 true
+night 1380 1259 1259 false
+night 1380 1259 1260 false
+night 1380 1259 1319 false
+night 1380 1259 1320 false
+night 1380 1259 1321 false
+night 1380 1259 1380 true
+night 1380 1259 1438 true
+night 1380 1259 1439 true
+night 1380 1259 30 true
+night 1380 1259 300 true
+night 1380 1259 600 true
+night 1380 1259 1000 true
+night 1380 1259 1350 false
+night 1380 1260 0 true
+night 1380 1260 1 true
+night 1380 1260 59 true
+night 1380 1260 60 true
+night 1380 1260 419 true
+night 1380 1260 420 true
+night 1380 1260 421 true
+night 1380 1260 719 true
+night 1380 1260 720 true
+night 1380 1260 1259 true
+night 1380 1260 1260 false
+night 1380 1260 1319 false
+night 1380 1260 1320 false
+night 1380 1260 1321 false
+night 1380 1260 1380 true
+night 1380 1260 1438 true
+night 1380 1260 1439 true
+night 1380 1260 30 true
+night 1380 1260 300 true
+night 1380 1260 600 true
+night 1380 1260 1000 true
+night 1380 1260 1350 false
+night 1380 1319 0 true
+night 1380 1319 1 true
+night 1380 1319 59 true
+night 1380 1319 60 true
+night 1380 1319 419 true
+night 1380 1319 420 true
+night 1380 1319 421 true
+night 1380 1319 719 true
+night 1380 1319 720 true
+night 1380 1319 1259 true
+night 1380 1319 1260 true
+night 1380 1319 1319 false
+night 1380 1319 1320 false
+night 1380 1319 1321 false
+night 1380 1319 1380 true
+night 1380 1319 1438 true
+night 1380 1319 1439 true
+night 1380 1319 30 true
+night 1380 1319 300 true
+night 1380 1319 600 true
+night 1380 1319 1000 true
+night 1380 1319 1350 false
+night 1380 1320 0 true
+night 1380 1320 1 true
+night 1380 1320 59 true
+night 1380 1320 60 true
+night 1380 1320 419 true
+night 1380 1320 420 true
+night 1380 1320 421 true
+night 1380 1320 719 true
+night 1380 1320 720 true
+night 1380 1320 1259 true
+night 1380 1320 1260 true
+night 1380 1320 1319 true
+night 1380 1320 1320 false
+night 1380 1320 1321 false
+night 1380 1320 1380 true
+night 1380 1320 1438 true
+night 1380 1320 1439 true
+night 1380 1320 30 true
+night 1380 1320 300 true
+night 1380 1320 600 true
+night 1380 1320 1000 true
+night 1380 1320 1350 false
+night 1380 1321 0 true
+night 1380 1321 1 true
+night 1380 1321 59 true
+night 1380 1321 60 true
+night 1380 1321 419 true
+night 1380 1321 420 true
+night 1380 1321 421 true
+night 1380 1321 719 true
+night 1380 1321 720 true
+night 1380 1321 1259 true
+night 1380 1321 1260 true
+night 1380 1321 1319 true
+night 1380 1321 1320 true
+night 1380 1321 1321 false
+night 1380 1321 1380 true
+night 1380 1321 1438 true
+night 1380 1321 1439 true
+night 1380 1321 30 true
+night 1380 1321 300 true
+night 1380 1321 600 true
+night 1380 1321 1000 true
+night 1380 1321 1350 false
+night 1380 1380 0 false
+night 1380 1380 1 false
+night 1380 1380 59 false
+night 1380 1380 60 false
+night 1380 1380 419 false
+night 1380 1380 420 false
+night 1380 1380 421 false
+night 1380 1380 719 false
+night 1380 1380 720 false
+night 1380 1380 1259 false
+night 1380 1380 1260 false
+night 1380 1380 1319 false
+night 1380 1380 1320 false
+night 1380 1380 1321 false
+night 1380 1380 1380 false
+night 1380 1380 1438 false
+night 1380 1380 1439 false
+night 1380 1380 30 false
+night 1380 1380 300 false
+night 1380 1380 600 false
+night 1380 1380 1000 false
+night 1380 1380 1350 false
+night 1380 1438 0 false
+night 1380 1438 1 false
+night 1380 1438 59 false
+night 1380 1438 60 false
+night 1380 1438 419 false
+night 1380 1438 420 false
+night 1380 1438 421 false
+night 1380 1438 719 false
+night 1380 1438 720 false
+night 1380 1438 1259 false
+night 1380 1438 1260 false
+night 1380 1438 1319 false
+night 1380 1438 1320 false
+night 1380 1438 1321 false
+night 1380 1438 1380 true
+night 1380 1438 1438 false
+night 1380 1438 1439 false
+night 1380 1438 30 false
+night 1380 1438 300 false
+night 1380 1438 600 false
+night 1380 1438 1000 false
+night 1380 1438 1350 false
+night 1380 1439 0 false
+night 1380 1439 1 false
+night 1380 1439 59 false
+night 1380 1439 60 false
+night 1380 1439 419 false
+night 1380 1439 420 false
+night 1380 1439 421 false
+night 1380 1439 719 false
+night 1380 1439 720 false
+night 1380 1439 1259 false
+night 1380 1439 1260 false
+night 1380 1439 1319 false
+night 1380 1439 1320 false
+night 1380 1439 1321 false
+night 1380 1439 1380 true
+night 1380 1439 1438 true
+night 1380 1439 1439 false
+night 1380 1439 30 false
+night 1380 1439 300 false
+night 1380 1439 600 false
+night 1380 1439 1000 false
+night 1380 1439 1350 false
+night 1438 0 0 false
+night 1438 0 1 false
+night 1438 0 59 false
+night 1438 0 60 false
+night 1438 0 419 false
+night 1438 0 420 false
+night 1438 0 421 false
+night 1438 0 719 false
+night 1438 0 720 false
+night 1438 0 1259 false
+night 1438 0 1260 false
+night 1438 0 1319 false
+night 1438 0 1320 false
+night 1438 0 1321 false
+night 1438 0 1380 false
+night 1438 0 1438 true
+night 1438 0 1439 true
+night 1438 0 30 false
+night 1438 0 300 false
+night 1438 0 600 false
+night 1438 0 1000 false
+night 1438 0 1350 false
+night 1438 1 0 true
+night 1438 1 1 false
+night 1438 1 59 false
+night 1438 1 60 false
+night 1438 1 419 false
+night 1438 1 420 false
+night 1438 1 421 false
+night 1438 1 719 false
+night 1438 1 720 false
+night 1438 1 1259 false
+night 1438 1 1260 false
+night 1438 1 1319 false
+night 1438 1 1320 false
+night 1438 1 1321 false
+night 1438 1 1380 false
+night 1438 1 1438 true
+night 1438 1 1439 true
+night 1438 1 30 false
+night 1438 1 300 false
+night 1438 1 600 false
+night 1438 1 1000 false
+night 1438 1 1350 false
+night 1438 59 0 true
+night 1438 59 1 true
+night 1438 59 59 false
+night 1438 59 60 false
+night 1438 59 419 false
+night 1438 59 420 false
+night 1438 59 421 false
+night 1438 59 719 false
+night 1438 59 720 false
+night 1438 59 1259 false
+night 1438 59 1260 false
+night 1438 59 1319 false
+night 1438 59 1320 false
+night 1438 59 1321 false
+night 1438 59 1380 false
+night 1438 59 1438 true
+night 1438 59 1439 true
+night 1438 59 30 true
+night 1438 59 300 false
+night 1438 59 600 false
+night 1438 59 1000 false
+night 1438 59 1350 false
+night 1438 60 0 true
+night 1438 60 1 true
+night 1438 60 59 true
+night 1438 60 60 false
+night 1438 60 419 false
+night 1438 60 420 false
+night 1438 60 421 false
+night 1438 60 719 false
+night 1438 60 720 false
+night 1438 60 1259 false
+night 1438 60 1260 false
+night 1438 60 1319 false
+night 1438 60 1320 false
+night 1438 60 1321 false
+night 1438 60 1380 false
+night 1438 60 1438 true
+night 1438 60 1439 true
+night 1438 60 30 true
+night 1438 60 300 false
+night 1438 60 600 false
+night 1438 60 1000 false
+night 1438 60 1350 false
+night 1438 419 0 true
+night 1438 419 1 true
+night 1438 419 59 true
+night 1438 419 60 true
+night 1438 419 419 false
+night 1438 419 420 false
+night 1438 419 421 false
+night 1438 419 719 false
+night 1438 419 720 false
+night 1438 419 1259 false
+night 1438 419 1260 false
+night 1438 419 1319 false
+night 1438 419 1320 false
+night 1438 419 1321 false
+night 1438 419 1380 false
+night 1438 419 1438 true
+night 1438 419 1439 true
+night 1438 419 30 true
+night 1438 419 300 true
+night 1438 419 600 false
+night 1438 419 1000 false
+night 1438 419 1350 false
+night 1438 420 0 true
+night 1438 420 1 true
+night 1438 420 59 true
+night 1438 420 60 true
+night 1438 420 419 true
+night 1438 420 420 false
+night 1438 420 421 false
+night 1438 420 719 false
+night 1438 420 720 false
+night 1438 420 1259 false
+night 1438 420 1260 false
+night 1438 420 1319 false
+night 1438 420 1320 false
+night 1438 420 1321 false
+night 1438 420 1380 false
+night 1438 420 1438 true
+night 1438 420 1439 true
+night 1438 420 30 true
+night 1438 420 300 true
+night 1438 420 600 false
+night 1438 420 1000 false
+night 1438 420 1350 false
+night 1438 421 0 true
+night 1438 421 1 true
+night 1438 421 59 true
+night 1438 421 60 true
+night 1438 421 419 true
+night 1438 421 420 true
+night 1438 421 421 false
+night 1438 421 719 false
+night 1438 421 720 false
+night 1438 421 1259 false
+night 1438 421 1260 false
+night 1438 421 1319 false
+night 1438 421 1320 false
+night 1438 421 1321 false
+night 1438 421 1380 false
+night 1438 421 1438 true
+night 1438 421 1439 true
+night 1438 421 30 true
+night 1438 421 300 true
+night 1438 421 600 false
+night 1438 421 1000 false
+night 1438 421 1350 false
+night 1438 719 0 true
+night 1438 719 1 true
+night 1438 719 59 true
+night 1438 719 60 true
+night 1438 719 419 true
+night 1438 719 420 true
+night 1438 719 421 true
+night 1438 719 719 false
+night 1438 719 720 false
+night 1438 719 1259 false
+night 1438 719 1260 false
+night 1438 719 1319 false
+night 1438 719 1320 false
+night 1438 719 1321 false
+night 1438 719 1380 false
+night 1438 719 1438 true
+night 1438 719 1439 true
+night 1438 719 30 true
+night 1438 719 300 true
+night 1438 719 600 true
+night 1438 719 1000 false
+night 1438 719 1350 false
+night 1438 720 0 true
+night 1438 720 1 true
+night 1438 720 59 true
+night 1438 720 60 true
+night 1438 720 419 true
+night 1438 720 420 true
+night 1438 720 421 true
+night 1438 720 719 true
+night 1438 720 720 false
+night 1438 720 1259 false
+night 1438 720 1260 false
+night 1438 720 1319 false
+night 1438 720 1320 false
+night 1438 720 1321 false
+night 1438 720 1380 false
+night 1438 720 1438 true
+night 1438 720 1439 true
+night 1438 720 30 true
+night 1438 720 300 true
+night 1438 720 600 true
+night 1438 720 1000 false
+night 1438 720 1350 false
+night 1438 1259 0 true
+night 1438 1259 1 true
+night 1438 1259 59 true
+night 1438 1259 60 true
+night 1438 1259 419 true
+night 1438 1259 420 true
+night 1438 1259 421 true
+night 1438 1259 719 true
+night 1438 1259 720 true
+night 1438 1259 1259 false
+night 1438 1259 1260 false
+night 1438 1259 1319 false
+night 1438 1259 1320 false
+night 1438 1259 1321 false
+night 1438 1259 1380 false
+night 1438 1259 1438 true
+night 1438 1259 1439 true
+night 1438 1259 30 true
+night 1438 1259 300 true
+night 1438 1259 600 true
+night 1438 1259 1000 true
+night 1438 1259 1350 false
+night 1438 1260 0 true
+night 1438 1260 1 true
+night 1438 1260 59 true
+night 1438 1260 60 true
+night 1438 1260 419 true
+night 1438 1260 420 true
+night 1438 1260 421 true
+night 1438 1260 719 true
+night 1438 1260 720 true
+night 1438 1260 1259 true
+night 1438 1260 1260 false
+night 1438 1260 1319 false
+night 1438 1260 1320 false
+night 1438 1260 1321 false
+night 1438 1260 1380 false
+night 1438 1260 1438 true
+night 1438 1260 1439 true
+night 1438 1260 30 true
+night 1438 1260 300 true
+night 1438 1260 600 true
+night 1438 1260 1000 true
+night 1438 1260 1350 false
+night 1438 1319 0 true
+night 1438 1319 1 true
+night 1438 1319 59 true
+night 1438 1319 60 true
+night 1438 1319 419 true
+night 1438 1319 420 true
+night 1438 1319 421 true
+night 1438 1319 719 true
+night 1438 1319 720 true
+night 1438 1319 1259 true
+night 1438 1319 1260 true
+night 1438 1319 1319 false
+night 1438 1319 1320 false
+night 1438 1319 1321 false
+night 1438 1319 1380 false
+night 1438 1319 1438 true
+night 1438 1319 1439 true
+night 1438 1319 30 true
+night 1438 1319 300 true
+night 1438 1319 600 true
+night 1438 1319 1000 true
+night 1438 1319 1350 false
+night 1438 1320 0 true
+night 1438 1320 1 true
+night 1438 1320 59 true
+night 1438 1320 60 true
+night 1438 1320 419 true
+night 1438 1320 420 true
+night 1438 1320 421 true
+night 1438 1320 719 true
+night 1438 1320 720 true
+night 1438 1320 1259 true
+night 1438 1320 1260 true
+night 1438 1320 1319 true
+night 1438 1320 1320 false
+night 1438 1320 1321 false
+night 1438 1320 1380 false
+night 1438 1320 1438 true
+night 1438 1320 1439 true
+night 1438 1320 30 true
+night 1438 1320 300 true
+night 1438 1320 600 true
+night 1438 1320 1000 true
+night 1438 1320 1350 false
+night 1438 1321 0 true
+night 1438 1321 1 true
+night 1438 1321 59 true
+night 1438 1321 60 true
+night 1438 1321 419 true
+night 1438 1321 420 true
+night 1438 1321 421 true
+night 1438 1321 719 true
+night 1438 1321 720 true
+night 1438 1321 1259 true
+night 1438 1321 1260 true
+night 1438 1321 1319 true
+night 1438 1321 1320 true
+night 1438 1321 1321 false
+night 1438 1321 1380 false
+night 1438 1321 1438 true
+night 1438 1321 1439 true
+night 1438 1321 30 true
+night 1438 1321 300 true
+night 1438 1321 600 true
+night 1438 1321 1000 true
+night 1438 1321 1350 false
+night 1438 1380 0 true
+night 1438 1380 1 true
+night 1438 1380 59 true
+night 1438 1380 60 true
+night 1438 1380 419 true
+night 1438 1380 420 true
+night 1438 1380 421 true
+night 1438 1380 719 true
+night 1438 1380 720 true
+night 1438 1380 1259 true
+night 1438 1380 1260 true
+night 1438 1380 1319 true
+night 1438 1380 1320 true
+night 1438 1380 1321 true
+night 1438 1380 1380 false
+night 1438 1380 1438 true
+night 1438 1380 1439 true
+night 1438 1380 30 true
+night 1438 1380 300 true
+night 1438 1380 600 true
+night 1438 1380 1000 true
+night 1438 1380 1350 true
+night 1438 1438 0 false
+night 1438 1438 1 false
+night 1438 1438 59 false
+night 1438 1438 60 false
+night 1438 1438 419 false
+night 1438 1438 420 false
+night 1438 1438 421 false
+night 1438 1438 719 false
+night 1438 1438 720 false
+night 1438 1438 1259 false
+night 1438 1438 1260 false
+night 1438 1438 1319 false
+night 1438 1438 1320 false
+night 1438 1438 1321 false
+night 1438 1438 1380 false
+night 1438 1438 1438 false
+night 1438 1438 1439 false
+night 1438 1438 30 false
+night 1438 1438 300 false
+night 1438 1438 600 false
+night 1438 1438 1000 false
+night 1438 1438 1350 false
+night 1438 1439 0 false
+night 1438 1439 1 false
+night 1438 1439 59 false
+night 1438 1439 60 false
+night 1438 1439 419 false
+night 1438 1439 420 false
+night 1438 1439 421 false
+night 1438 1439 719 false
+night 1438 1439 720 false
+night 1438 1439 1259 false
+night 1438 1439 1260 false
+night 1438 1439 1319 false
+night 1438 1439 1320 false
+night 1438 1439 1321 false
+night 1438 1439 1380 false
+night 1438 1439 1438 true
+night 1438 1439 1439 false
+night 1438 1439 30 false
+night 1438 1439 300 false
+night 1438 1439 600 false
+night 1438 1439 1000 false
+night 1438 1439 1350 false
+night 1439 0 0 false
+night 1439 0 1 false
+night 1439 0 59 false
+night 1439 0 60 false
+night 1439 0 419 false
+night 1439 0 420 false
+night 1439 0 421 false
+night 1439 0 719 false
+night 1439 0 720 false
+night 1439 0 1259 false
+night 1439 0 1260 false
+night 1439 0 1319 false
+night 1439 0 1320 false
+night 1439 0 1321 false
+night 1439 0 1380 false
+night 1439 0 1438 false
+night 1439 0 1439 true
+night 1439 0 30 false
+night 1439 0 300 false
+night 1439 0 600 false
+night 1439 0 1000 false
+night 1439 0 1350 false
+night 1439 1 0 true
+night 1439 1 1 false
+night 1439 1 59 false
+night 1439 1 60 false
+night 1439 1 419 false
+night 1439 1 420 false
+night 1439 1 421 false
+night 1439 1 719 false
+night 1439 1 720 false
+night 1439 1 1259 false
+night 1439 1 1260 false
+night 1439 1 1319 false
+night 1439 1 1320 false
+night 1439 1 1321 false
+night 1439 1 1380 false
+night 1439 1 1438 false
+night 1439 1 1439 true
+night 1439 1 30 false
+night 1439 1 300 false
+night 1439 1 600 false
+night 1439 1 1000 false
+night 1439 1 1350 false
+night 1439 59 0 true
+night 1439 59 1 true
+night 1439 59 59 false
+night 1439 59 60 false
+night 1439 59 419 false
+night 1439 59 420 false
+night 1439 59 421 false
+night 1439 59 719 false
+night 1439 59 720 false
+night 1439 59 1259 false
+night 1439 59 1260 false
+night 1439 59 1319 false
+night 1439 59 1320 false
+night 1439 59 1321 false
+night 1439 59 1380 false
+night 1439 59 1438 false
+night 1439 59 1439 true
+night 1439 59 30 true
+night 1439 59 300 false
+night 1439 59 600 false
+night 1439 59 1000 false
+night 1439 59 1350 false
+night 1439 60 0 true
+night 1439 60 1 true
+night 1439 60 59 true
+night 1439 60 60 false
+night 1439 60 419 false
+night 1439 60 420 false
+night 1439 60 421 false
+night 1439 60 719 false
+night 1439 60 720 false
+night 1439 60 1259 false
+night 1439 60 1260 false
+night 1439 60 1319 false
+night 1439 60 1320 false
+night 1439 60 1321 false
+night 1439 60 1380 false
+night 1439 60 1438 false
+night 1439 60 1439 true
+night 1439 60 30 true
+night 1439 60 300 false
+night 1439 60 600 false
+night 1439 60 1000 false
+night 1439 60 1350 false
+night 1439 419 0 true
+night 1439 419 1 true
+night 1439 419 59 true
+night 1439 419 60 true
+night 1439 419 419 false
+night 1439 419 420 false
+night 1439 419 421 false
+night 1439 419 719 false
+night 1439 419 720 false
+night 1439 419 1259 false
+night 1439 419 1260 false
+night 1439 419 1319 false
+night 1439 419 1320 false
+night 1439 419 1321 false
+night 1439 419 1380 false
+night 1439 419 1438 false
+night 1439 419 1439 true
+night 1439 419 30 true
+night 1439 419 300 true
+night 1439 419 600 false
+night 1439 419 1000 false
+night 1439 419 1350 false
+night 1439 420 0 true
+night 1439 420 1 true
+night 1439 420 59 true
+night 1439 420 60 true
+night 1439 420 419 true
+night 1439 420 420 false
+night 1439 420 421 false
+night 1439 420 719 false
+night 1439 420 720 false
+night 1439 420 1259 false
+night 1439 420 1260 false
+night 1439 420 1319 false
+night 1439 420 1320 false
+night 1439 420 1321 false
+night 1439 420 1380 false
+night 1439 420 1438 false
+night 1439 420 1439 true
+night 1439 420 30 true
+night 1439 420 300 true
+night 1439 420 600 false
+night 1439 420 1000 false
+night 1439 420 1350 false
+night 1439 421 0 true
+night 1439 421 1 true
+night 1439 421 59 true
+night 1439 421 60 true
+night 1439 421 419 true
+night 1439 421 420 true
+night 1439 421 421 false
+night 1439 421 719 false
+night 1439 421 720 false
+night 1439 421 1259 false
+night 1439 421 1260 false
+night 1439 421 1319 false
+night 1439 421 1320 false
+night 1439 421 1321 false
+night 1439 421 1380 false
+night 1439 421 1438 false
+night 1439 421 1439 true
+night 1439 421 30 true
+night 1439 421 300 true
+night 1439 421 600 false
+night 1439 421 1000 false
+night 1439 421 1350 false
+night 1439 719 0 true
+night 1439 719 1 true
+night 1439 719 59 true
+night 1439 719 60 true
+night 1439 719 419 true
+night 1439 719 420 true
+night 1439 719 421 true
+night 1439 719 719 false
+night 1439 719 720 false
+night 1439 719 1259 false
+night 1439 719 1260 false
+night 1439 719 1319 false
+night 1439 719 1320 false
+night 1439 719 1321 false
+night 1439 719 1380 false
+night 1439 719 1438 false
+night 1439 719 1439 true
+night 1439 719 30 true
+night 1439 719 300 true
+night 1439 719 600 true
+night 1439 719 1000 false
+night 1439 719 1350 false
+night 1439 720 0 true
+night 1439 720 1 true
+night 1439 720 59 true
+night 1439 720 60 true
+night 1439 720 419 true
+night 1439 720 420 true
+night 1439 720 421 true
+night 1439 720 719 true
+night 1439 720 720 false
+night 1439 720 1259 false
+night 1439 720 1260 false
+night 1439 720 1319 false
+night 1439 720 1320 false
+night 1439 720 1321 false
+night 1439 720 1380 false
+night 1439 720 1438 false
+night 1439 720 1439 true
+night 1439 720 30 true
+night 1439 720 300 true
+night 1439 720 600 true
+night 1439 720 1000 false
+night 1439 720 1350 false
+night 1439 1259 0 true
+night 1439 1259 1 true
+night 1439 1259 59 true
+night 1439 1259 60 true
+night 1439 1259 419 true
+night 1439 1259 420 true
+night 1439 1259 421 true
+night 1439 1259 719 true
+night 1439 1259 720 true
+night 1439 1259 1259 false
+night 1439 1259 1260 false
+night 1439 1259 1319 false
+night 1439 1259 1320 false
+night 1439 1259 1321 false
+night 1439 1259 1380 false
+night 1439 1259 1438 false
+night 1439 1259 1439 true
+night 1439 1259 30 true
+night 1439 1259 300 true
+night 1439 1259 600 true
+night 1439 1259 1000 true
+night 1439 1259 1350 false
+night 1439 1260 0 true
+night 1439 1260 1 true
+night 1439 1260 59 true
+night 1439 1260 60 true
+night 1439 1260 419 true
+night 1439 1260 420 true
+night 1439 1260 421 true
+night 1439 1260 719 true
+night 1439 1260 720 true
+night 1439 1260 1259 true
+night 1439 1260 1260 false
+night 1439 1260 1319 false
+night 1439 1260 1320 false
+night 1439 1260 1321 false
+night 1439 1260 1380 false
+night 1439 1260 1438 false
+night 1439 1260 1439 true
+night 1439 1260 30 true
+night 1439 1260 300 true
+night 1439 1260 600 true
+night 1439 1260 1000 true
+night 1439 1260 1350 false
+night 1439 1319 0 true
+night 1439 1319 1 true
+night 1439 1319 59 true
+night 1439 1319 60 true
+night 1439 1319 419 true
+night 1439 1319 420 true
+night 1439 1319 421 true
+night 1439 1319 719 true
+night 1439 1319 720 true
+night 1439 1319 1259 true
+night 1439 1319 1260 true
+night 1439 1319 1319 false
+night 1439 1319 1320 false
+night 1439 1319 1321 false
+night 1439 1319 1380 false
+night 1439 1319 1438 false
+night 1439 1319 1439 true
+night 1439 1319 30 true
+night 1439 1319 300 true
+night 1439 1319 600 true
+night 1439 1319 1000 true
+night 1439 1319 1350 false
+night 1439 1320 0 true
+night 1439 1320 1 true
+night 1439 1320 59 true
+night 1439 1320 60 true
+night 1439 1320 419 true
+night 1439 1320 420 true
+night 1439 1320 421 true
+night 1439 1320 719 true
+night 1439 1320 720 true
+night 1439 1320 1259 true
+night 1439 1320 1260 true
+night 1439 1320 1319 true
+night 1439 1320 1320 false
+night 1439 1320 1321 false
+night 1439 1320 1380 false
+night 1439 1320 1438 false
+night 1439 1320 1439 true
+night 1439 1320 30 true
+night 1439 1320 300 true
+night 1439 1320 600 true
+night 1439 1320 1000 true
+night 1439 1320 1350 false
+night 1439 1321 0 true
+night 1439 1321 1 true
+night 1439 1321 59 true
+night 1439 1321 60 true
+night 1439 1321 419 true
+night 1439 1321 420 true
+night 1439 1321 421 true
+night 1439 1321 719 true
+night 1439 1321 720 true
+night 1439 1321 1259 true
+night 1439 1321 1260 true
+night 1439 1321 1319 true
+night 1439 1321 1320 true
+night 1439 1321 1321 false
+night 1439 1321 1380 false
+night 1439 1321 1438 false
+night 1439 1321 1439 true
+night 1439 1321 30 true
+night 1439 1321 300 true
+night 1439 1321 600 true
+night 1439 1321 1000 true
+night 1439 1321 1350 false
+night 1439 1380 0 true
+night 1439 1380 1 true
+night 1439 1380 59 true
+night 1439 1380 60 true
+night 1439 1380 419 true
+night 1439 1380 420 true
+night 1439 1380 421 true
+night 1439 1380 719 true
+night 1439 1380 720 true
+night 1439 1380 1259 true
+night 1439 1380 1260 true
+night 1439 1380 1319 true
+night 1439 1380 1320 true
+night 1439 1380 1321 true
+night 1439 1380 1380 false
+night 1439 1380 1438 false
+night 1439 1380 1439 true
+night 1439 1380 30 true
+night 1439 1380 300 true
+night 1439 1380 600 true
+night 1439 1380 1000 true
+night 1439 1380 1350 true
+night 1439 1438 0 true
+night 1439 1438 1 true
+night 1439 1438 59 true
+night 1439 1438 60 true
+night 1439 1438 419 true
+night 1439 1438 420 true
+night 1439 1438 421 true
+night 1439 1438 719 true
+night 1439 1438 720 true
+night 1439 1438 1259 true
+night 1439 1438 1260 true
+night 1439 1438 1319 true
+night 1439 1438 1320 true
+night 1439 1438 1321 true
+night 1439 1438 1380 true
+night 1439 1438 1438 false
+night 1439 1438 1439 true
+night 1439 1438 30 true
+night 1439 1438 300 true
+night 1439 1438 600 true
+night 1439 1438 1000 true
+night 1439 1438 1350 true
+night 1439 1439 0 false
+night 1439 1439 1 false
+night 1439 1439 59 false
+night 1439 1439 60 false
+night 1439 1439 419 false
+night 1439 1439 420 false
+night 1439 1439 421 false
+night 1439 1439 719 false
+night 1439 1439 720 false
+night 1439 1439 1259 false
+night 1439 1439 1260 false
+night 1439 1439 1319 false
+night 1439 1439 1320 false
+night 1439 1439 1321 false
+night 1439 1439 1380 false
+night 1439 1439 1438 false
+night 1439 1439 1439 false
+night 1439 1439 30 false
+night 1439 1439 300 false
+night 1439 1439 600 false
+night 1439 1439 1000 false
+night 1439 1439 1350 false
+state 1320 420 15 30 0 - night
+state 1320 420 15 30 0 0 pass
+state 1320 420 15 30 0 -1 pass
+state 1320 420 15 30 0 -1799 pass
+state 1320 420 15 30 0 -1800 night
+state 1320 420 15 30 0 -1801 night
+state 1320 420 15 30 0 -299 pass
+state 1320 420 15 30 0 -300 pass
+state 1320 420 15 30 0 1 night
+state 1320 420 15 30 0 600 night
+state 1320 420 15 30 0 -3600 night
+state 1320 420 15 30 59 - night
+state 1320 420 15 30 59 59 pass
+state 1320 420 15 30 59 58 pass
+state 1320 420 15 30 59 -1740 pass
+state 1320 420 15 30 59 -1741 night
+state 1320 420 15 30 59 -1742 night
+state 1320 420 15 30 59 -240 pass
+state 1320 420 15 30 59 -241 pass
+state 1320 420 15 30 59 60 night
+state 1320 420 15 30 59 659 night
+state 1320 420 15 30 59 -3541 night
+state 1320 420 15 30 60 - night
+state 1320 420 15 30 60 60 pass
+state 1320 420 15 30 60 59 pass
+state 1320 420 15 30 60 -1739 pass
+state 1320 420 15 30 60 -1740 night
+state 1320 420 15 30 60 -1741 night
+state 1320 420 15 30 60 -239 pass
+state 1320 420 15 30 60 -240 pass
+state 1320 420 15 30 60 61 night
+state 1320 420 15 30 60 660 night
+state 1320 420 15 30 60 -3540 night
+state 1320 420 15 30 25140 - night
+state 1320 420 15 30 25140 25140 pass
+state 1320 420 15 30 25140 25139 pass
+state 1320 420 15 30 25140 23341 pass
+state 1320 420 15 30 25140 23340 night
+state 1320 420 15 30 25140 23339 night
+state 1320 420 15 30 25140 24841 pass
+state 1320 420 15 30 25140 24840 pass
+state 1320 420 15 30 25140 25141 night
+state 1320 420 15 30 25140 25740 night
+state 1320 420 15 30 25140 21540 night
+state 1320 420 15 30 25199 - night
+state 1320 420 15 30 25199 25199 pass
+state 1320 420 15 30 25199 25198 pass
+state 1320 420 15 30 25199 23400 pass
+state 1320 420 15 30 25199 23399 night
+state 1320 420 15 30 25199 23398 night
+state 1320 420 15 30 25199 24900 pass
+state 1320 420 15 30 25199 24899 pass
+state 1320 420 15 30 25199 25200 night
+state 1320 420 15 30 25199 25799 night
+state 1320 420 15 30 25199 21599 night
+state 1320 420 15 30 25200 - off
+state 1320 420 15 30 25200 25200 off
+state 1320 420 15 30 25200 25199 off
+state 1320 420 15 30 25200 23401 off
+state 1320 420 15 30 25200 23400 off
+state 1320 420 15 30 25200 23399 off
+state 1320 420 15 30 25200 24901 off
+state 1320 420 15 30 25200 24900 off
+state 1320 420 15 30 25200 25201 off
+state 1320 420 15 30 25200 25800 off
+state 1320 420 15 30 25200 21600 off
+state 1320 420 15 30 78300 - warn
+state 1320 420 15 30 78300 78300 warn
+state 1320 420 15 30 78300 78299 warn
+state 1320 420 15 30 78300 76501 warn
+state 1320 420 15 30 78300 76500 warn
+state 1320 420 15 30 78300 76499 warn
+state 1320 420 15 30 78300 78001 warn
+state 1320 420 15 30 78300 78000 warn
+state 1320 420 15 30 78300 78301 warn
+state 1320 420 15 30 78300 78900 warn
+state 1320 420 15 30 78300 74700 warn
+state 1320 420 15 30 78359 - warn
+state 1320 420 15 30 78359 78359 warn
+state 1320 420 15 30 78359 78358 warn
+state 1320 420 15 30 78359 76560 warn
+state 1320 420 15 30 78359 76559 warn
+state 1320 420 15 30 78359 76558 warn
+state 1320 420 15 30 78359 78060 warn
+state 1320 420 15 30 78359 78059 warn
+state 1320 420 15 30 78359 78360 warn
+state 1320 420 15 30 78359 78959 warn
+state 1320 420 15 30 78359 74759 warn
+state 1320 420 15 30 78360 - warn
+state 1320 420 15 30 78360 78360 warn
+state 1320 420 15 30 78360 78359 warn
+state 1320 420 15 30 78360 76561 warn
+state 1320 420 15 30 78360 76560 warn
+state 1320 420 15 30 78360 76559 warn
+state 1320 420 15 30 78360 78061 warn
+state 1320 420 15 30 78360 78060 warn
+state 1320 420 15 30 78360 78361 warn
+state 1320 420 15 30 78360 78960 warn
+state 1320 420 15 30 78360 74760 warn
+state 1320 420 15 30 79199 - warn
+state 1320 420 15 30 79199 79199 warn
+state 1320 420 15 30 79199 79198 warn
+state 1320 420 15 30 79199 77400 warn
+state 1320 420 15 30 79199 77399 warn
+state 1320 420 15 30 79199 77398 warn
+state 1320 420 15 30 79199 78900 warn
+state 1320 420 15 30 79199 78899 warn
+state 1320 420 15 30 79199 79200 warn
+state 1320 420 15 30 79199 79799 warn
+state 1320 420 15 30 79199 75599 warn
+state 1320 420 15 30 79200 - night
+state 1320 420 15 30 79200 79200 pass
+state 1320 420 15 30 79200 79199 pass
+state 1320 420 15 30 79200 77401 pass
+state 1320 420 15 30 79200 77400 night
+state 1320 420 15 30 79200 77399 night
+state 1320 420 15 30 79200 78901 pass
+state 1320 420 15 30 79200 78900 pass
+state 1320 420 15 30 79200 79201 night
+state 1320 420 15 30 79200 79800 night
+state 1320 420 15 30 79200 75600 night
+state 1320 420 15 30 79260 - night
+state 1320 420 15 30 79260 79260 pass
+state 1320 420 15 30 79260 79259 pass
+state 1320 420 15 30 79260 77461 pass
+state 1320 420 15 30 79260 77460 night
+state 1320 420 15 30 79260 77459 night
+state 1320 420 15 30 79260 78961 pass
+state 1320 420 15 30 79260 78960 pass
+state 1320 420 15 30 79260 79261 night
+state 1320 420 15 30 79260 79860 night
+state 1320 420 15 30 79260 75660 night
+state 1320 420 15 30 81000 - night
+state 1320 420 15 30 81000 81000 pass
+state 1320 420 15 30 81000 80999 pass
+state 1320 420 15 30 81000 79201 pass
+state 1320 420 15 30 81000 79200 night
+state 1320 420 15 30 81000 79199 night
+state 1320 420 15 30 81000 80701 pass
+state 1320 420 15 30 81000 80700 pass
+state 1320 420 15 30 81000 81001 night
+state 1320 420 15 30 81000 81600 night
+state 1320 420 15 30 81000 77400 night
+state 1320 420 15 30 82800 - night
+state 1320 420 15 30 82800 82800 pass
+state 1320 420 15 30 82800 82799 pass
+state 1320 420 15 30 82800 81001 pass
+state 1320 420 15 30 82800 81000 night
+state 1320 420 15 30 82800 80999 night
+state 1320 420 15 30 82800 82501 pass
+state 1320 420 15 30 82800 82500 pass
+state 1320 420 15 30 82800 82801 night
+state 1320 420 15 30 82800 83400 night
+state 1320 420 15 30 82800 79200 night
+state 1320 420 15 30 84540 - night
+state 1320 420 15 30 84540 84540 pass
+state 1320 420 15 30 84540 84539 pass
+state 1320 420 15 30 84540 82741 pass
+state 1320 420 15 30 84540 82740 night
+state 1320 420 15 30 84540 82739 night
+state 1320 420 15 30 84540 84241 pass
+state 1320 420 15 30 84540 84240 pass
+state 1320 420 15 30 84540 84541 night
+state 1320 420 15 30 84540 85140 night
+state 1320 420 15 30 84540 80940 night
+state 1320 420 15 30 86399 - night
+state 1320 420 15 30 86399 86399 pass
+state 1320 420 15 30 86399 86398 pass
+state 1320 420 15 30 86399 84600 pass
+state 1320 420 15 30 86399 84599 night
+state 1320 420 15 30 86399 84598 night
+state 1320 420 15 30 86399 86100 pass
+state 1320 420 15 30 86399 86099 pass
+state 1320 420 15 30 86399 86400 night
+state 1320 420 15 30 86399 86999 night
+state 1320 420 15 30 86399 82799 night
+state 1320 420 15 30 86400 - night
+state 1320 420 15 30 86400 86400 pass
+state 1320 420 15 30 86400 86399 pass
+state 1320 420 15 30 86400 84601 pass
+state 1320 420 15 30 86400 84600 night
+state 1320 420 15 30 86400 84599 night
+state 1320 420 15 30 86400 86101 pass
+state 1320 420 15 30 86400 86100 pass
+state 1320 420 15 30 86400 86401 night
+state 1320 420 15 30 86400 87000 night
+state 1320 420 15 30 86400 82800 night
+state 1320 420 15 30 172799 - night
+state 1320 420 15 30 172799 172799 pass
+state 1320 420 15 30 172799 172798 pass
+state 1320 420 15 30 172799 171000 pass
+state 1320 420 15 30 172799 170999 night
+state 1320 420 15 30 172799 170998 night
+state 1320 420 15 30 172799 172500 pass
+state 1320 420 15 30 172799 172499 pass
+state 1320 420 15 30 172799 172800 night
+state 1320 420 15 30 172799 173399 night
+state 1320 420 15 30 172799 169199 night
+state 540 1020 10 5 0 - off
+state 540 1020 10 5 0 0 off
+state 540 1020 10 5 0 -1 off
+state 540 1020 10 5 0 -1799 off
+state 540 1020 10 5 0 -1800 off
+state 540 1020 10 5 0 -1801 off
+state 540 1020 10 5 0 -299 off
+state 540 1020 10 5 0 -300 off
+state 540 1020 10 5 0 1 off
+state 540 1020 10 5 0 600 off
+state 540 1020 10 5 0 -3600 off
+state 540 1020 10 5 59 - off
+state 540 1020 10 5 59 59 off
+state 540 1020 10 5 59 58 off
+state 540 1020 10 5 59 -1740 off
+state 540 1020 10 5 59 -1741 off
+state 540 1020 10 5 59 -1742 off
+state 540 1020 10 5 59 -240 off
+state 540 1020 10 5 59 -241 off
+state 540 1020 10 5 59 60 off
+state 540 1020 10 5 59 659 off
+state 540 1020 10 5 59 -3541 off
+state 540 1020 10 5 60 - off
+state 540 1020 10 5 60 60 off
+state 540 1020 10 5 60 59 off
+state 540 1020 10 5 60 -1739 off
+state 540 1020 10 5 60 -1740 off
+state 540 1020 10 5 60 -1741 off
+state 540 1020 10 5 60 -239 off
+state 540 1020 10 5 60 -240 off
+state 540 1020 10 5 60 61 off
+state 540 1020 10 5 60 660 off
+state 540 1020 10 5 60 -3540 off
+state 540 1020 10 5 25140 - off
+state 540 1020 10 5 25140 25140 off
+state 540 1020 10 5 25140 25139 off
+state 540 1020 10 5 25140 23341 off
+state 540 1020 10 5 25140 23340 off
+state 540 1020 10 5 25140 23339 off
+state 540 1020 10 5 25140 24841 off
+state 540 1020 10 5 25140 24840 off
+state 540 1020 10 5 25140 25141 off
+state 540 1020 10 5 25140 25740 off
+state 540 1020 10 5 25140 21540 off
+state 540 1020 10 5 25199 - off
+state 540 1020 10 5 25199 25199 off
+state 540 1020 10 5 25199 25198 off
+state 540 1020 10 5 25199 23400 off
+state 540 1020 10 5 25199 23399 off
+state 540 1020 10 5 25199 23398 off
+state 540 1020 10 5 25199 24900 off
+state 540 1020 10 5 25199 24899 off
+state 540 1020 10 5 25199 25200 off
+state 540 1020 10 5 25199 25799 off
+state 540 1020 10 5 25199 21599 off
+state 540 1020 10 5 25200 - off
+state 540 1020 10 5 25200 25200 off
+state 540 1020 10 5 25200 25199 off
+state 540 1020 10 5 25200 23401 off
+state 540 1020 10 5 25200 23400 off
+state 540 1020 10 5 25200 23399 off
+state 540 1020 10 5 25200 24901 off
+state 540 1020 10 5 25200 24900 off
+state 540 1020 10 5 25200 25201 off
+state 540 1020 10 5 25200 25800 off
+state 540 1020 10 5 25200 21600 off
+state 540 1020 10 5 78300 - off
+state 540 1020 10 5 78300 78300 off
+state 540 1020 10 5 78300 78299 off
+state 540 1020 10 5 78300 76501 off
+state 540 1020 10 5 78300 76500 off
+state 540 1020 10 5 78300 76499 off
+state 540 1020 10 5 78300 78001 off
+state 540 1020 10 5 78300 78000 off
+state 540 1020 10 5 78300 78301 off
+state 540 1020 10 5 78300 78900 off
+state 540 1020 10 5 78300 74700 off
+state 540 1020 10 5 78359 - off
+state 540 1020 10 5 78359 78359 off
+state 540 1020 10 5 78359 78358 off
+state 540 1020 10 5 78359 76560 off
+state 540 1020 10 5 78359 76559 off
+state 540 1020 10 5 78359 76558 off
+state 540 1020 10 5 78359 78060 off
+state 540 1020 10 5 78359 78059 off
+state 540 1020 10 5 78359 78360 off
+state 540 1020 10 5 78359 78959 off
+state 540 1020 10 5 78359 74759 off
+state 540 1020 10 5 78360 - off
+state 540 1020 10 5 78360 78360 off
+state 540 1020 10 5 78360 78359 off
+state 540 1020 10 5 78360 76561 off
+state 540 1020 10 5 78360 76560 off
+state 540 1020 10 5 78360 76559 off
+state 540 1020 10 5 78360 78061 off
+state 540 1020 10 5 78360 78060 off
+state 540 1020 10 5 78360 78361 off
+state 540 1020 10 5 78360 78960 off
+state 540 1020 10 5 78360 74760 off
+state 540 1020 10 5 79199 - off
+state 540 1020 10 5 79199 79199 off
+state 540 1020 10 5 79199 79198 off
+state 540 1020 10 5 79199 77400 off
+state 540 1020 10 5 79199 77399 off
+state 540 1020 10 5 79199 77398 off
+state 540 1020 10 5 79199 78900 off
+state 540 1020 10 5 79199 78899 off
+state 540 1020 10 5 79199 79200 off
+state 540 1020 10 5 79199 79799 off
+state 540 1020 10 5 79199 75599 off
+state 540 1020 10 5 79200 - off
+state 540 1020 10 5 79200 79200 off
+state 540 1020 10 5 79200 79199 off
+state 540 1020 10 5 79200 77401 off
+state 540 1020 10 5 79200 77400 off
+state 540 1020 10 5 79200 77399 off
+state 540 1020 10 5 79200 78901 off
+state 540 1020 10 5 79200 78900 off
+state 540 1020 10 5 79200 79201 off
+state 540 1020 10 5 79200 79800 off
+state 540 1020 10 5 79200 75600 off
+state 540 1020 10 5 79260 - off
+state 540 1020 10 5 79260 79260 off
+state 540 1020 10 5 79260 79259 off
+state 540 1020 10 5 79260 77461 off
+state 540 1020 10 5 79260 77460 off
+state 540 1020 10 5 79260 77459 off
+state 540 1020 10 5 79260 78961 off
+state 540 1020 10 5 79260 78960 off
+state 540 1020 10 5 79260 79261 off
+state 540 1020 10 5 79260 79860 off
+state 540 1020 10 5 79260 75660 off
+state 540 1020 10 5 81000 - off
+state 540 1020 10 5 81000 81000 off
+state 540 1020 10 5 81000 80999 off
+state 540 1020 10 5 81000 79201 off
+state 540 1020 10 5 81000 79200 off
+state 540 1020 10 5 81000 79199 off
+state 540 1020 10 5 81000 80701 off
+state 540 1020 10 5 81000 80700 off
+state 540 1020 10 5 81000 81001 off
+state 540 1020 10 5 81000 81600 off
+state 540 1020 10 5 81000 77400 off
+state 540 1020 10 5 82800 - off
+state 540 1020 10 5 82800 82800 off
+state 540 1020 10 5 82800 82799 off
+state 540 1020 10 5 82800 81001 off
+state 540 1020 10 5 82800 81000 off
+state 540 1020 10 5 82800 80999 off
+state 540 1020 10 5 82800 82501 off
+state 540 1020 10 5 82800 82500 off
+state 540 1020 10 5 82800 82801 off
+state 540 1020 10 5 82800 83400 off
+state 540 1020 10 5 82800 79200 off
+state 540 1020 10 5 84540 - off
+state 540 1020 10 5 84540 84540 off
+state 540 1020 10 5 84540 84539 off
+state 540 1020 10 5 84540 82741 off
+state 540 1020 10 5 84540 82740 off
+state 540 1020 10 5 84540 82739 off
+state 540 1020 10 5 84540 84241 off
+state 540 1020 10 5 84540 84240 off
+state 540 1020 10 5 84540 84541 off
+state 540 1020 10 5 84540 85140 off
+state 540 1020 10 5 84540 80940 off
+state 540 1020 10 5 86399 - off
+state 540 1020 10 5 86399 86399 off
+state 540 1020 10 5 86399 86398 off
+state 540 1020 10 5 86399 84600 off
+state 540 1020 10 5 86399 84599 off
+state 540 1020 10 5 86399 84598 off
+state 540 1020 10 5 86399 86100 off
+state 540 1020 10 5 86399 86099 off
+state 540 1020 10 5 86399 86400 off
+state 540 1020 10 5 86399 86999 off
+state 540 1020 10 5 86399 82799 off
+state 540 1020 10 5 86400 - off
+state 540 1020 10 5 86400 86400 off
+state 540 1020 10 5 86400 86399 off
+state 540 1020 10 5 86400 84601 off
+state 540 1020 10 5 86400 84600 off
+state 540 1020 10 5 86400 84599 off
+state 540 1020 10 5 86400 86101 off
+state 540 1020 10 5 86400 86100 off
+state 540 1020 10 5 86400 86401 off
+state 540 1020 10 5 86400 87000 off
+state 540 1020 10 5 86400 82800 off
+state 540 1020 10 5 172799 - off
+state 540 1020 10 5 172799 172799 off
+state 540 1020 10 5 172799 172798 off
+state 540 1020 10 5 172799 171000 off
+state 540 1020 10 5 172799 170999 off
+state 540 1020 10 5 172799 170998 off
+state 540 1020 10 5 172799 172500 off
+state 540 1020 10 5 172799 172499 off
+state 540 1020 10 5 172799 172800 off
+state 540 1020 10 5 172799 173399 off
+state 540 1020 10 5 172799 169199 off
+state 0 1439 0 60 0 - night
+state 0 1439 0 60 0 0 pass
+state 0 1439 0 60 0 -1 pass
+state 0 1439 0 60 0 -1799 pass
+state 0 1439 0 60 0 -1800 pass
+state 0 1439 0 60 0 -1801 pass
+state 0 1439 0 60 0 -299 pass
+state 0 1439 0 60 0 -300 pass
+state 0 1439 0 60 0 1 night
+state 0 1439 0 60 0 600 night
+state 0 1439 0 60 0 -3600 night
+state 0 1439 0 60 59 - night
+state 0 1439 0 60 59 59 pass
+state 0 1439 0 60 59 58 pass
+state 0 1439 0 60 59 -1740 pass
+state 0 1439 0 60 59 -1741 pass
+state 0 1439 0 60 59 -1742 pass
+state 0 1439 0 60 59 -240 pass
+state 0 1439 0 60 59 -241 pass
+state 0 1439 0 60 59 60 night
+state 0 1439 0 60 59 659 night
+state 0 1439 0 60 59 -3541 night
+state 0 1439 0 60 60 - night
+state 0 1439 0 60 60 60 pass
+state 0 1439 0 60 60 59 pass
+state 0 1439 0 60 60 -1739 pass
+state 0 1439 0 60 60 -1740 pass
+state 0 1439 0 60 60 -1741 pass
+state 0 1439 0 60 60 -239 pass
+state 0 1439 0 60 60 -240 pass
+state 0 1439 0 60 60 61 night
+state 0 1439 0 60 60 660 night
+state 0 1439 0 60 60 -3540 night
+state 0 1439 0 60 25140 - night
+state 0 1439 0 60 25140 25140 pass
+state 0 1439 0 60 25140 25139 pass
+state 0 1439 0 60 25140 23341 pass
+state 0 1439 0 60 25140 23340 pass
+state 0 1439 0 60 25140 23339 pass
+state 0 1439 0 60 25140 24841 pass
+state 0 1439 0 60 25140 24840 pass
+state 0 1439 0 60 25140 25141 night
+state 0 1439 0 60 25140 25740 night
+state 0 1439 0 60 25140 21540 night
+state 0 1439 0 60 25199 - night
+state 0 1439 0 60 25199 25199 pass
+state 0 1439 0 60 25199 25198 pass
+state 0 1439 0 60 25199 23400 pass
+state 0 1439 0 60 25199 23399 pass
+state 0 1439 0 60 25199 23398 pass
+state 0 1439 0 60 25199 24900 pass
+state 0 1439 0 60 25199 24899 pass
+state 0 1439 0 60 25199 25200 night
+state 0 1439 0 60 25199 25799 night
+state 0 1439 0 60 25199 21599 night
+state 0 1439 0 60 25200 - night
+state 0 1439 0 60 25200 25200 pass
+state 0 1439 0 60 25200 25199 pass
+state 0 1439 0 60 25200 23401 pass
+state 0 1439 0 60 25200 23400 pass
+state 0 1439 0 60 25200 23399 pass
+state 0 1439 0 60 25200 24901 pass
+state 0 1439 0 60 25200 24900 pass
+state 0 1439 0 60 25200 25201 night
+state 0 1439 0 60 25200 25800 night
+state 0 1439 0 60 25200 21600 night
+state 0 1439 0 60 78300 - night
+state 0 1439 0 60 78300 78300 pass
+state 0 1439 0 60 78300 78299 pass
+state 0 1439 0 60 78300 76501 pass
+state 0 1439 0 60 78300 76500 pass
+state 0 1439 0 60 78300 76499 pass
+state 0 1439 0 60 78300 78001 pass
+state 0 1439 0 60 78300 78000 pass
+state 0 1439 0 60 78300 78301 night
+state 0 1439 0 60 78300 78900 night
+state 0 1439 0 60 78300 74700 night
+state 0 1439 0 60 78359 - night
+state 0 1439 0 60 78359 78359 pass
+state 0 1439 0 60 78359 78358 pass
+state 0 1439 0 60 78359 76560 pass
+state 0 1439 0 60 78359 76559 pass
+state 0 1439 0 60 78359 76558 pass
+state 0 1439 0 60 78359 78060 pass
+state 0 1439 0 60 78359 78059 pass
+state 0 1439 0 60 78359 78360 night
+state 0 1439 0 60 78359 78959 night
+state 0 1439 0 60 78359 74759 night
+state 0 1439 0 60 78360 - night
+state 0 1439 0 60 78360 78360 pass
+state 0 1439 0 60 78360 78359 pass
+state 0 1439 0 60 78360 76561 pass
+state 0 1439 0 60 78360 76560 pass
+state 0 1439 0 60 78360 76559 pass
+state 0 1439 0 60 78360 78061 pass
+state 0 1439 0 60 78360 78060 pass
+state 0 1439 0 60 78360 78361 night
+state 0 1439 0 60 78360 78960 night
+state 0 1439 0 60 78360 74760 night
+state 0 1439 0 60 79199 - night
+state 0 1439 0 60 79199 79199 pass
+state 0 1439 0 60 79199 79198 pass
+state 0 1439 0 60 79199 77400 pass
+state 0 1439 0 60 79199 77399 pass
+state 0 1439 0 60 79199 77398 pass
+state 0 1439 0 60 79199 78900 pass
+state 0 1439 0 60 79199 78899 pass
+state 0 1439 0 60 79199 79200 night
+state 0 1439 0 60 79199 79799 night
+state 0 1439 0 60 79199 75599 night
+state 0 1439 0 60 79200 - night
+state 0 1439 0 60 79200 79200 pass
+state 0 1439 0 60 79200 79199 pass
+state 0 1439 0 60 79200 77401 pass
+state 0 1439 0 60 79200 77400 pass
+state 0 1439 0 60 79200 77399 pass
+state 0 1439 0 60 79200 78901 pass
+state 0 1439 0 60 79200 78900 pass
+state 0 1439 0 60 79200 79201 night
+state 0 1439 0 60 79200 79800 night
+state 0 1439 0 60 79200 75600 night
+state 0 1439 0 60 79260 - night
+state 0 1439 0 60 79260 79260 pass
+state 0 1439 0 60 79260 79259 pass
+state 0 1439 0 60 79260 77461 pass
+state 0 1439 0 60 79260 77460 pass
+state 0 1439 0 60 79260 77459 pass
+state 0 1439 0 60 79260 78961 pass
+state 0 1439 0 60 79260 78960 pass
+state 0 1439 0 60 79260 79261 night
+state 0 1439 0 60 79260 79860 night
+state 0 1439 0 60 79260 75660 night
+state 0 1439 0 60 81000 - night
+state 0 1439 0 60 81000 81000 pass
+state 0 1439 0 60 81000 80999 pass
+state 0 1439 0 60 81000 79201 pass
+state 0 1439 0 60 81000 79200 pass
+state 0 1439 0 60 81000 79199 pass
+state 0 1439 0 60 81000 80701 pass
+state 0 1439 0 60 81000 80700 pass
+state 0 1439 0 60 81000 81001 night
+state 0 1439 0 60 81000 81600 night
+state 0 1439 0 60 81000 77400 night
+state 0 1439 0 60 82800 - night
+state 0 1439 0 60 82800 82800 pass
+state 0 1439 0 60 82800 82799 pass
+state 0 1439 0 60 82800 81001 pass
+state 0 1439 0 60 82800 81000 pass
+state 0 1439 0 60 82800 80999 pass
+state 0 1439 0 60 82800 82501 pass
+state 0 1439 0 60 82800 82500 pass
+state 0 1439 0 60 82800 82801 night
+state 0 1439 0 60 82800 83400 night
+state 0 1439 0 60 82800 79200 night
+state 0 1439 0 60 84540 - night
+state 0 1439 0 60 84540 84540 pass
+state 0 1439 0 60 84540 84539 pass
+state 0 1439 0 60 84540 82741 pass
+state 0 1439 0 60 84540 82740 pass
+state 0 1439 0 60 84540 82739 pass
+state 0 1439 0 60 84540 84241 pass
+state 0 1439 0 60 84540 84240 pass
+state 0 1439 0 60 84540 84541 night
+state 0 1439 0 60 84540 85140 night
+state 0 1439 0 60 84540 80940 night
+state 0 1439 0 60 86399 - off
+state 0 1439 0 60 86399 86399 off
+state 0 1439 0 60 86399 86398 off
+state 0 1439 0 60 86399 84600 off
+state 0 1439 0 60 86399 84599 off
+state 0 1439 0 60 86399 84598 off
+state 0 1439 0 60 86399 86100 off
+state 0 1439 0 60 86399 86099 off
+state 0 1439 0 60 86399 86400 off
+state 0 1439 0 60 86399 86999 off
+state 0 1439 0 60 86399 82799 off
+state 0 1439 0 60 86400 - night
+state 0 1439 0 60 86400 86400 pass
+state 0 1439 0 60 86400 86399 pass
+state 0 1439 0 60 86400 84601 pass
+state 0 1439 0 60 86400 84600 pass
+state 0 1439 0 60 86400 84599 pass
+state 0 1439 0 60 86400 86101 pass
+state 0 1439 0 60 86400 86100 pass
+state 0 1439 0 60 86400 86401 night
+state 0 1439 0 60 86400 87000 night
+state 0 1439 0 60 86400 82800 night
+state 0 1439 0 60 172799 - off
+state 0 1439 0 60 172799 172799 off
+state 0 1439 0 60 172799 172798 off
+state 0 1439 0 60 172799 171000 off
+state 0 1439 0 60 172799 170999 off
+state 0 1439 0 60 172799 170998 off
+state 0 1439 0 60 172799 172500 off
+state 0 1439 0 60 172799 172499 off
+state 0 1439 0 60 172799 172800 off
+state 0 1439 0 60 172799 173399 off
+state 0 1439 0 60 172799 169199 off
+state 600 600 15 30 0 - off
+state 600 600 15 30 0 0 off
+state 600 600 15 30 0 -1 off
+state 600 600 15 30 0 -1799 off
+state 600 600 15 30 0 -1800 off
+state 600 600 15 30 0 -1801 off
+state 600 600 15 30 0 -299 off
+state 600 600 15 30 0 -300 off
+state 600 600 15 30 0 1 off
+state 600 600 15 30 0 600 off
+state 600 600 15 30 0 -3600 off
+state 600 600 15 30 59 - off
+state 600 600 15 30 59 59 off
+state 600 600 15 30 59 58 off
+state 600 600 15 30 59 -1740 off
+state 600 600 15 30 59 -1741 off
+state 600 600 15 30 59 -1742 off
+state 600 600 15 30 59 -240 off
+state 600 600 15 30 59 -241 off
+state 600 600 15 30 59 60 off
+state 600 600 15 30 59 659 off
+state 600 600 15 30 59 -3541 off
+state 600 600 15 30 60 - off
+state 600 600 15 30 60 60 off
+state 600 600 15 30 60 59 off
+state 600 600 15 30 60 -1739 off
+state 600 600 15 30 60 -1740 off
+state 600 600 15 30 60 -1741 off
+state 600 600 15 30 60 -239 off
+state 600 600 15 30 60 -240 off
+state 600 600 15 30 60 61 off
+state 600 600 15 30 60 660 off
+state 600 600 15 30 60 -3540 off
+state 600 600 15 30 25140 - off
+state 600 600 15 30 25140 25140 off
+state 600 600 15 30 25140 25139 off
+state 600 600 15 30 25140 23341 off
+state 600 600 15 30 25140 23340 off
+state 600 600 15 30 25140 23339 off
+state 600 600 15 30 25140 24841 off
+state 600 600 15 30 25140 24840 off
+state 600 600 15 30 25140 25141 off
+state 600 600 15 30 25140 25740 off
+state 600 600 15 30 25140 21540 off
+state 600 600 15 30 25199 - off
+state 600 600 15 30 25199 25199 off
+state 600 600 15 30 25199 25198 off
+state 600 600 15 30 25199 23400 off
+state 600 600 15 30 25199 23399 off
+state 600 600 15 30 25199 23398 off
+state 600 600 15 30 25199 24900 off
+state 600 600 15 30 25199 24899 off
+state 600 600 15 30 25199 25200 off
+state 600 600 15 30 25199 25799 off
+state 600 600 15 30 25199 21599 off
+state 600 600 15 30 25200 - off
+state 600 600 15 30 25200 25200 off
+state 600 600 15 30 25200 25199 off
+state 600 600 15 30 25200 23401 off
+state 600 600 15 30 25200 23400 off
+state 600 600 15 30 25200 23399 off
+state 600 600 15 30 25200 24901 off
+state 600 600 15 30 25200 24900 off
+state 600 600 15 30 25200 25201 off
+state 600 600 15 30 25200 25800 off
+state 600 600 15 30 25200 21600 off
+state 600 600 15 30 78300 - off
+state 600 600 15 30 78300 78300 off
+state 600 600 15 30 78300 78299 off
+state 600 600 15 30 78300 76501 off
+state 600 600 15 30 78300 76500 off
+state 600 600 15 30 78300 76499 off
+state 600 600 15 30 78300 78001 off
+state 600 600 15 30 78300 78000 off
+state 600 600 15 30 78300 78301 off
+state 600 600 15 30 78300 78900 off
+state 600 600 15 30 78300 74700 off
+state 600 600 15 30 78359 - off
+state 600 600 15 30 78359 78359 off
+state 600 600 15 30 78359 78358 off
+state 600 600 15 30 78359 76560 off
+state 600 600 15 30 78359 76559 off
+state 600 600 15 30 78359 76558 off
+state 600 600 15 30 78359 78060 off
+state 600 600 15 30 78359 78059 off
+state 600 600 15 30 78359 78360 off
+state 600 600 15 30 78359 78959 off
+state 600 600 15 30 78359 74759 off
+state 600 600 15 30 78360 - off
+state 600 600 15 30 78360 78360 off
+state 600 600 15 30 78360 78359 off
+state 600 600 15 30 78360 76561 off
+state 600 600 15 30 78360 76560 off
+state 600 600 15 30 78360 76559 off
+state 600 600 15 30 78360 78061 off
+state 600 600 15 30 78360 78060 off
+state 600 600 15 30 78360 78361 off
+state 600 600 15 30 78360 78960 off
+state 600 600 15 30 78360 74760 off
+state 600 600 15 30 79199 - off
+state 600 600 15 30 79199 79199 off
+state 600 600 15 30 79199 79198 off
+state 600 600 15 30 79199 77400 off
+state 600 600 15 30 79199 77399 off
+state 600 600 15 30 79199 77398 off
+state 600 600 15 30 79199 78900 off
+state 600 600 15 30 79199 78899 off
+state 600 600 15 30 79199 79200 off
+state 600 600 15 30 79199 79799 off
+state 600 600 15 30 79199 75599 off
+state 600 600 15 30 79200 - off
+state 600 600 15 30 79200 79200 off
+state 600 600 15 30 79200 79199 off
+state 600 600 15 30 79200 77401 off
+state 600 600 15 30 79200 77400 off
+state 600 600 15 30 79200 77399 off
+state 600 600 15 30 79200 78901 off
+state 600 600 15 30 79200 78900 off
+state 600 600 15 30 79200 79201 off
+state 600 600 15 30 79200 79800 off
+state 600 600 15 30 79200 75600 off
+state 600 600 15 30 79260 - off
+state 600 600 15 30 79260 79260 off
+state 600 600 15 30 79260 79259 off
+state 600 600 15 30 79260 77461 off
+state 600 600 15 30 79260 77460 off
+state 600 600 15 30 79260 77459 off
+state 600 600 15 30 79260 78961 off
+state 600 600 15 30 79260 78960 off
+state 600 600 15 30 79260 79261 off
+state 600 600 15 30 79260 79860 off
+state 600 600 15 30 79260 75660 off
+state 600 600 15 30 81000 - off
+state 600 600 15 30 81000 81000 off
+state 600 600 15 30 81000 80999 off
+state 600 600 15 30 81000 79201 off
+state 600 600 15 30 81000 79200 off
+state 600 600 15 30 81000 79199 off
+state 600 600 15 30 81000 80701 off
+state 600 600 15 30 81000 80700 off
+state 600 600 15 30 81000 81001 off
+state 600 600 15 30 81000 81600 off
+state 600 600 15 30 81000 77400 off
+state 600 600 15 30 82800 - off
+state 600 600 15 30 82800 82800 off
+state 600 600 15 30 82800 82799 off
+state 600 600 15 30 82800 81001 off
+state 600 600 15 30 82800 81000 off
+state 600 600 15 30 82800 80999 off
+state 600 600 15 30 82800 82501 off
+state 600 600 15 30 82800 82500 off
+state 600 600 15 30 82800 82801 off
+state 600 600 15 30 82800 83400 off
+state 600 600 15 30 82800 79200 off
+state 600 600 15 30 84540 - off
+state 600 600 15 30 84540 84540 off
+state 600 600 15 30 84540 84539 off
+state 600 600 15 30 84540 82741 off
+state 600 600 15 30 84540 82740 off
+state 600 600 15 30 84540 82739 off
+state 600 600 15 30 84540 84241 off
+state 600 600 15 30 84540 84240 off
+state 600 600 15 30 84540 84541 off
+state 600 600 15 30 84540 85140 off
+state 600 600 15 30 84540 80940 off
+state 600 600 15 30 86399 - off
+state 600 600 15 30 86399 86399 off
+state 600 600 15 30 86399 86398 off
+state 600 600 15 30 86399 84600 off
+state 600 600 15 30 86399 84599 off
+state 600 600 15 30 86399 84598 off
+state 600 600 15 30 86399 86100 off
+state 600 600 15 30 86399 86099 off
+state 600 600 15 30 86399 86400 off
+state 600 600 15 30 86399 86999 off
+state 600 600 15 30 86399 82799 off
+state 600 600 15 30 86400 - off
+state 600 600 15 30 86400 86400 off
+state 600 600 15 30 86400 86399 off
+state 600 600 15 30 86400 84601 off
+state 600 600 15 30 86400 84600 off
+state 600 600 15 30 86400 84599 off
+state 600 600 15 30 86400 86101 off
+state 600 600 15 30 86400 86100 off
+state 600 600 15 30 86400 86401 off
+state 600 600 15 30 86400 87000 off
+state 600 600 15 30 86400 82800 off
+state 600 600 15 30 172799 - off
+state 600 600 15 30 172799 172799 off
+state 600 600 15 30 172799 172798 off
+state 600 600 15 30 172799 171000 off
+state 600 600 15 30 172799 170999 off
+state 600 600 15 30 172799 170998 off
+state 600 600 15 30 172799 172500 off
+state 600 600 15 30 172799 172499 off
+state 600 600 15 30 172799 172800 off
+state 600 600 15 30 172799 173399 off
+state 600 600 15 30 172799 169199 off
+redirect linkedin.com linkedin.com - true
+redirect linkedin.com linkedin.com / true
+redirect linkedin.com linkedin.com /feed true
+redirect linkedin.com linkedin.com /feed/ true
+redirect linkedin.com linkedin.com /feed/today true
+redirect linkedin.com linkedin.com /feedback true
+redirect linkedin.com linkedin.com /home true
+redirect linkedin.com linkedin.com /homes true
+redirect linkedin.com linkedin.com /home/x true
+redirect linkedin.com linkedin.com /messaging/ true
+redirect linkedin.com www.linkedin.com - true
+redirect linkedin.com www.linkedin.com / true
+redirect linkedin.com www.linkedin.com /feed true
+redirect linkedin.com www.linkedin.com /feed/ true
+redirect linkedin.com www.linkedin.com /feed/today true
+redirect linkedin.com www.linkedin.com /feedback true
+redirect linkedin.com www.linkedin.com /home true
+redirect linkedin.com www.linkedin.com /homes true
+redirect linkedin.com www.linkedin.com /home/x true
+redirect linkedin.com www.linkedin.com /messaging/ true
+redirect linkedin.com evillinkedin.com - false
+redirect linkedin.com evillinkedin.com / false
+redirect linkedin.com evillinkedin.com /feed false
+redirect linkedin.com evillinkedin.com /feed/ false
+redirect linkedin.com evillinkedin.com /feed/today false
+redirect linkedin.com evillinkedin.com /feedback false
+redirect linkedin.com evillinkedin.com /home false
+redirect linkedin.com evillinkedin.com /homes false
+redirect linkedin.com evillinkedin.com /home/x false
+redirect linkedin.com evillinkedin.com /messaging/ false
+redirect linkedin.com linkedin.com.evil.net - false
+redirect linkedin.com linkedin.com.evil.net / false
+redirect linkedin.com linkedin.com.evil.net /feed false
+redirect linkedin.com linkedin.com.evil.net /feed/ false
+redirect linkedin.com linkedin.com.evil.net /feed/today false
+redirect linkedin.com linkedin.com.evil.net /feedback false
+redirect linkedin.com linkedin.com.evil.net /home false
+redirect linkedin.com linkedin.com.evil.net /homes false
+redirect linkedin.com linkedin.com.evil.net /home/x false
+redirect linkedin.com linkedin.com.evil.net /messaging/ false
+redirect linkedin.com x.com - false
+redirect linkedin.com x.com / false
+redirect linkedin.com x.com /feed false
+redirect linkedin.com x.com /feed/ false
+redirect linkedin.com x.com /feed/today false
+redirect linkedin.com x.com /feedback false
+redirect linkedin.com x.com /home false
+redirect linkedin.com x.com /homes false
+redirect linkedin.com x.com /home/x false
+redirect linkedin.com x.com /messaging/ false
+redirect linkedin.com box.com - false
+redirect linkedin.com box.com / false
+redirect linkedin.com box.com /feed false
+redirect linkedin.com box.com /feed/ false
+redirect linkedin.com box.com /feed/today false
+redirect linkedin.com box.com /feedback false
+redirect linkedin.com box.com /home false
+redirect linkedin.com box.com /homes false
+redirect linkedin.com box.com /home/x false
+redirect linkedin.com box.com /messaging/ false
+redirect linkedin.com a.b.x.com - false
+redirect linkedin.com a.b.x.com / false
+redirect linkedin.com a.b.x.com /feed false
+redirect linkedin.com a.b.x.com /feed/ false
+redirect linkedin.com a.b.x.com /feed/today false
+redirect linkedin.com a.b.x.com /feedback false
+redirect linkedin.com a.b.x.com /home false
+redirect linkedin.com a.b.x.com /homes false
+redirect linkedin.com a.b.x.com /home/x false
+redirect linkedin.com a.b.x.com /messaging/ false
+redirect linkedin.com/feed linkedin.com - false
+redirect linkedin.com/feed linkedin.com / false
+redirect linkedin.com/feed linkedin.com /feed true
+redirect linkedin.com/feed linkedin.com /feed/ true
+redirect linkedin.com/feed linkedin.com /feed/today true
+redirect linkedin.com/feed linkedin.com /feedback false
+redirect linkedin.com/feed linkedin.com /home false
+redirect linkedin.com/feed linkedin.com /homes false
+redirect linkedin.com/feed linkedin.com /home/x false
+redirect linkedin.com/feed linkedin.com /messaging/ false
+redirect linkedin.com/feed www.linkedin.com - false
+redirect linkedin.com/feed www.linkedin.com / false
+redirect linkedin.com/feed www.linkedin.com /feed true
+redirect linkedin.com/feed www.linkedin.com /feed/ true
+redirect linkedin.com/feed www.linkedin.com /feed/today true
+redirect linkedin.com/feed www.linkedin.com /feedback false
+redirect linkedin.com/feed www.linkedin.com /home false
+redirect linkedin.com/feed www.linkedin.com /homes false
+redirect linkedin.com/feed www.linkedin.com /home/x false
+redirect linkedin.com/feed www.linkedin.com /messaging/ false
+redirect linkedin.com/feed evillinkedin.com - false
+redirect linkedin.com/feed evillinkedin.com / false
+redirect linkedin.com/feed evillinkedin.com /feed false
+redirect linkedin.com/feed evillinkedin.com /feed/ false
+redirect linkedin.com/feed evillinkedin.com /feed/today false
+redirect linkedin.com/feed evillinkedin.com /feedback false
+redirect linkedin.com/feed evillinkedin.com /home false
+redirect linkedin.com/feed evillinkedin.com /homes false
+redirect linkedin.com/feed evillinkedin.com /home/x false
+redirect linkedin.com/feed evillinkedin.com /messaging/ false
+redirect linkedin.com/feed linkedin.com.evil.net - false
+redirect linkedin.com/feed linkedin.com.evil.net / false
+redirect linkedin.com/feed linkedin.com.evil.net /feed false
+redirect linkedin.com/feed linkedin.com.evil.net /feed/ false
+redirect linkedin.com/feed linkedin.com.evil.net /feed/today false
+redirect linkedin.com/feed linkedin.com.evil.net /feedback false
+redirect linkedin.com/feed linkedin.com.evil.net /home false
+redirect linkedin.com/feed linkedin.com.evil.net /homes false
+redirect linkedin.com/feed linkedin.com.evil.net /home/x false
+redirect linkedin.com/feed linkedin.com.evil.net /messaging/ false
+redirect linkedin.com/feed x.com - false
+redirect linkedin.com/feed x.com / false
+redirect linkedin.com/feed x.com /feed false
+redirect linkedin.com/feed x.com /feed/ false
+redirect linkedin.com/feed x.com /feed/today false
+redirect linkedin.com/feed x.com /feedback false
+redirect linkedin.com/feed x.com /home false
+redirect linkedin.com/feed x.com /homes false
+redirect linkedin.com/feed x.com /home/x false
+redirect linkedin.com/feed x.com /messaging/ false
+redirect linkedin.com/feed box.com - false
+redirect linkedin.com/feed box.com / false
+redirect linkedin.com/feed box.com /feed false
+redirect linkedin.com/feed box.com /feed/ false
+redirect linkedin.com/feed box.com /feed/today false
+redirect linkedin.com/feed box.com /feedback false
+redirect linkedin.com/feed box.com /home false
+redirect linkedin.com/feed box.com /homes false
+redirect linkedin.com/feed box.com /home/x false
+redirect linkedin.com/feed box.com /messaging/ false
+redirect linkedin.com/feed a.b.x.com - false
+redirect linkedin.com/feed a.b.x.com / false
+redirect linkedin.com/feed a.b.x.com /feed false
+redirect linkedin.com/feed a.b.x.com /feed/ false
+redirect linkedin.com/feed a.b.x.com /feed/today false
+redirect linkedin.com/feed a.b.x.com /feedback false
+redirect linkedin.com/feed a.b.x.com /home false
+redirect linkedin.com/feed a.b.x.com /homes false
+redirect linkedin.com/feed a.b.x.com /home/x false
+redirect linkedin.com/feed a.b.x.com /messaging/ false
+redirect x.com/home linkedin.com - false
+redirect x.com/home linkedin.com / false
+redirect x.com/home linkedin.com /feed false
+redirect x.com/home linkedin.com /feed/ false
+redirect x.com/home linkedin.com /feed/today false
+redirect x.com/home linkedin.com /feedback false
+redirect x.com/home linkedin.com /home false
+redirect x.com/home linkedin.com /homes false
+redirect x.com/home linkedin.com /home/x false
+redirect x.com/home linkedin.com /messaging/ false
+redirect x.com/home www.linkedin.com - false
+redirect x.com/home www.linkedin.com / false
+redirect x.com/home www.linkedin.com /feed false
+redirect x.com/home www.linkedin.com /feed/ false
+redirect x.com/home www.linkedin.com /feed/today false
+redirect x.com/home www.linkedin.com /feedback false
+redirect x.com/home www.linkedin.com /home false
+redirect x.com/home www.linkedin.com /homes false
+redirect x.com/home www.linkedin.com /home/x false
+redirect x.com/home www.linkedin.com /messaging/ false
+redirect x.com/home evillinkedin.com - false
+redirect x.com/home evillinkedin.com / false
+redirect x.com/home evillinkedin.com /feed false
+redirect x.com/home evillinkedin.com /feed/ false
+redirect x.com/home evillinkedin.com /feed/today false
+redirect x.com/home evillinkedin.com /feedback false
+redirect x.com/home evillinkedin.com /home false
+redirect x.com/home evillinkedin.com /homes false
+redirect x.com/home evillinkedin.com /home/x false
+redirect x.com/home evillinkedin.com /messaging/ false
+redirect x.com/home linkedin.com.evil.net - false
+redirect x.com/home linkedin.com.evil.net / false
+redirect x.com/home linkedin.com.evil.net /feed false
+redirect x.com/home linkedin.com.evil.net /feed/ false
+redirect x.com/home linkedin.com.evil.net /feed/today false
+redirect x.com/home linkedin.com.evil.net /feedback false
+redirect x.com/home linkedin.com.evil.net /home false
+redirect x.com/home linkedin.com.evil.net /homes false
+redirect x.com/home linkedin.com.evil.net /home/x false
+redirect x.com/home linkedin.com.evil.net /messaging/ false
+redirect x.com/home x.com - false
+redirect x.com/home x.com / false
+redirect x.com/home x.com /feed false
+redirect x.com/home x.com /feed/ false
+redirect x.com/home x.com /feed/today false
+redirect x.com/home x.com /feedback false
+redirect x.com/home x.com /home true
+redirect x.com/home x.com /homes false
+redirect x.com/home x.com /home/x true
+redirect x.com/home x.com /messaging/ false
+redirect x.com/home box.com - false
+redirect x.com/home box.com / false
+redirect x.com/home box.com /feed false
+redirect x.com/home box.com /feed/ false
+redirect x.com/home box.com /feed/today false
+redirect x.com/home box.com /feedback false
+redirect x.com/home box.com /home false
+redirect x.com/home box.com /homes false
+redirect x.com/home box.com /home/x false
+redirect x.com/home box.com /messaging/ false
+redirect x.com/home a.b.x.com - false
+redirect x.com/home a.b.x.com / false
+redirect x.com/home a.b.x.com /feed false
+redirect x.com/home a.b.x.com /feed/ false
+redirect x.com/home a.b.x.com /feed/today false
+redirect x.com/home a.b.x.com /feedback false
+redirect x.com/home a.b.x.com /home true
+redirect x.com/home a.b.x.com /homes false
+redirect x.com/home a.b.x.com /home/x true
+redirect x.com/home a.b.x.com /messaging/ false
