@@ -31,7 +31,7 @@ import Testing
     func date(_ seconds: String) -> Date { Date(timeIntervalSince1970: Double(Int(seconds)!)) }
 
     @Test func vectorsArePresent() {
-        for kind in ["night", "state", "redirect", "guard"] {
+        for kind in ["night", "state", "redirect", "guard", "close"] {
             #expect(lines.filter { $0.first == kind }.count > 100, "no \(kind) vectors; run ./check.sh")
         }
     }
@@ -78,6 +78,17 @@ import Testing
                 states[key] = g
             }
             #expect(String(states[key]!.shouldCheck(at: date(f[3]))) == f[4], "\(f)")
+        }
+    }
+
+    @Test func closingMatchesTheModel() {
+        for f in lines where f.first == "close" {
+            var s = Settings()
+            s.closeTab = f[1] == "true"
+            s.closeRevealingAt = Float(Int(f[2])!) / 1000
+            let hits = f[4] == "-" ? [] : f[4].split(separator: ",").map { Hit("x", Float(Int($0)!) / 1000) }
+            let got = shouldClose(Verdict(rawValue: f[3])!, hits, settings: s)
+            #expect(String(got) == f[5], "\(f)")
         }
     }
 }

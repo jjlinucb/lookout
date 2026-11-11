@@ -210,6 +210,46 @@ theorem pause_keeps_on (pm : Int) (acts : List Act) (g : GS)
     rw [this]
     cases a <;> simp_all [step]
 
+/-! ## Closing the tab (`shouldClose`) -/
+
+inductive V | exposed | revealing
+  deriving DecidableEq
+
+/-- Scores are thousandths (0.65 is 650), as the tie-in test sends them.
+Swift: `hits.map(\.score).max() ?? 0` -/
+def maxScore (scores : List Nat) : Nat := scores.foldl max 0
+
+/-- Swift: `guard closeTab else { return false }; if verdict == .exposed { return true };
+return maxScore >= closeRevealingAt` -/
+def shouldClose (closeTab : Bool) (closeAt : Nat) (v : V) (scores : List Nat) : Bool :=
+  if !closeTab then false
+  else if v = .exposed then true
+  else decide (closeAt ≤ maxScore scores)
+
+theorem le_foldl_max (a acc : Nat) (l : List Nat) :
+    a ≤ l.foldl max acc ↔ a ≤ acc ∨ ∃ s ∈ l, a ≤ s := by
+  induction l generalizing acc with
+  | nil => simp
+  | cons x xs ih =>
+    rw [List.foldl_cons, ih]
+    have hm : a ≤ max acc x ↔ a ≤ acc ∨ a ≤ x := by rw [Nat.max_def]; split <;> omega
+    simp only [List.mem_cons, exists_eq_or_imp, hm, or_assoc]
+
+/-- Promise 6: with closing turned off, a tab is never closed. -/
+theorem close_off_never (closeAt : Nat) (v : V) (scores : List Nat) :
+    shouldClose false closeAt v scores = false := rfl
+
+/-- ...with it on, explicit nudity always closes the tab... -/
+theorem exposed_closes (closeAt : Nat) (scores : List Nat) :
+    shouldClose true closeAt .exposed scores = true := rfl
+
+/-- ...and a revealing image closes it only when some part of it scored at
+or above `closeRevealingAt`; below that it is only covered. -/
+theorem revealing_closes_iff (closeAt : Nat) (scores : List Nat) (h : 0 < closeAt) :
+    shouldClose true closeAt .revealing scores = true ↔ ∃ s ∈ scores, closeAt ≤ s := by
+  simp only [shouldClose, maxScore]
+  simp [le_foldl_max]; omega
+
 /-! ## Test vectors for the Swift tie-in -/
 
 def minutes : List Nat := [0, 1, 59, 60, 419, 420, 421, 719, 720, 1259, 1260, 1319, 1320, 1321, 1380, 1438, 1439]
@@ -272,5 +312,18 @@ def guardLines : List String := Id.run do
         out := s!"guard {pm} {sqS} {n} {shouldCheck g n}" :: out
   return out.reverse
 
+def closeLines : List String := Id.run do
+  let ats : List Nat := [0, 1, 500, 649, 650, 651, 1000]
+  let lists : List (List Nat) := [[], [0], [649], [650], [651], [1000], [100, 649], [649, 650], [700, 10], [300, 400, 500]]
+  let mut out := []
+  for ct in [true, false] do
+    for a in ats do
+      for v in [V.exposed, V.revealing] do
+        for l in lists do
+          let lS := if l.isEmpty then "-" else ",".intercalate (l.map toString)
+          let vS := if v = .exposed then "exposed" else "revealing"
+          out := s!"close {ct} {a} {vS} {lS} {shouldClose ct a v l}" :: out
+  return out.reverse
+
 def main : IO Unit := do
-  for l in nightLines ++ stateLines ++ redirectLines ++ guardLines do IO.println l
+  for l in nightLines ++ stateLines ++ redirectLines ++ guardLines ++ closeLines do IO.println l

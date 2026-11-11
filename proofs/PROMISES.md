@@ -2,7 +2,7 @@
 
 Each promise is proved by the Lean kernel in [Lookout.lean](Lookout.lean).
 Lean proves a model of the Swift code, so `./check.sh` also feeds the
-model's answers to the real code (`LeanTieTests.swift`, 13,000+ cases) and
+model's answers to the real code (`LeanTieTests.swift`, 13,300+ cases) and
 turns red if they ever differ.
 
 1. **Curfew hours.** The curfew covers exactly the minutes you pass going
@@ -27,9 +27,14 @@ turns red if they ever differ.
    Off was used. Pressing Pause 30 More Minutes starts a fresh 30 from then;
    it never adds on. A pause never turns Lookout off; only Turn Off does.
 
+6. **Closing a tab follows your rule.** With tab closing turned off, Lookout
+   never closes a tab. With it on, explicit nudity always closes the tab, and
+   a revealing image closes it only when some part scored at or above your
+   setting (0.65); below that it is only covered.
+
 ## Not proved
 
-- The detector, the cover, the tab closing and website blocking.
+- The detector and its scores, the cover, how a tab actually gets closed, and website blocking.
 - Reading "HH:mm" (a bad time reads as midnight) and time zones: the model
   counts minutes, and the tie-in test runs in UTC.
 - Whether the redirect target opens; only which pages are matched.
