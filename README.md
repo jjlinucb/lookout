@@ -214,7 +214,7 @@ cd lookout/mac
 
 `./check.sh` from the top folder runs everything: the Lean proofs in
 `proofs/` (needs [elan](https://lean-lang.org/install)), then all the tests.
-The curfew and page-redirect rules carry promises proved in Lean; they're
+The curfew, page-redirect and pause rules carry promises proved in Lean; they're
 listed in plain English in [proofs/PROMISES.md](proofs/PROMISES.md).
 
 Screen Recording permission is tied to the app's signature. With the default
@@ -232,7 +232,7 @@ The pieces:
 | `mac/Sources/Lookout/` | The app: screen capture (ScreenCaptureKit), the Core ML detector, the cover and the menu. |
 | `mac/assets/NudeNet320n.mlpackage` | NudeNet's 320n detector converted to Core ML by `tools/convert_model.py`. |
 | `blocking/` | The website-blocking scripts the app runs. `blocking/test.sh` tests them without changing anything. |
-| `proofs/` | Lean proofs of the curfew and redirect rules, tied to the Swift code by `LeanTieTests.swift`. |
+| `proofs/` | Lean proofs of the curfew, redirect and pause rules, tied to the Swift code by `LeanTieTests.swift`. |
 | `watchdog/` | The helper that reopens Lookout if it's quit, and its tests. |
 | `tools/measure_cpu.sh` | Measures the running app's CPU use. |
 

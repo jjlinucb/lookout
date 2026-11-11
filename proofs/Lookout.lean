@@ -143,6 +143,73 @@ theorem path_is_page_or_below (rule path : List Char) (h : pathMatches rule path
 example : hostMatches "linkedin.com".toList "evillinkedin.com".toList = false := by decide
 example : pathMatches "/feed".toList "/feedback".toList = false := by decide
 
+/-! ## Pauses (`GuardState`) -/
+
+/-- What a button press does. `wrongFlag` is the cover's Wrong flag button
+(`pause(at:)`, `pauseMinutes` long); `menu` is the menu bar's Pause 30 Minutes
+(`pauseFromMenu(minutes:at:)`); `toggle` is Turn Off / Turn On. Times are seconds. -/
+inductive Act | toggle | wrongFlag (t : Int) | menu (t m : Int)
+
+structure GS where
+  on : Bool
+  pausedUntil : Int
+
+/-- Swift: `on.toggle()`, `pausedUntil = now + pauseMinutes * 60`, `pausedUntil = now + minutes * 60` -/
+def step (pauseMin : Int) (g : GS) : Act → GS
+  | .toggle => { g with on := !g.on }
+  | .wrongFlag t => { g with pausedUntil := t + pauseMin * 60 }
+  | .menu t m => { g with pausedUntil := t + m * 60 }
+
+/-- Swift: `on && now >= pausedUntil` -/
+def shouldCheck (g : GS) (now : Int) : Bool := g.on && decide (g.pausedUntil ≤ now)
+
+def run (pauseMin : Int) (g : GS) (acts : List Act) : GS := acts.foldl (step pauseMin) g
+
+/-- When the pause a press starts runs out (a toggle starts none). -/
+def pauseEnd (pauseMin : Int) : Act → Option Int
+  | .toggle => none
+  | .wrongFlag t => some (t + pauseMin * 60)
+  | .menu t m => some (t + m * 60)
+
+theorem pausedUntil_le (pm : Int) (acts : List Act) (g : GS) (T : Int) (hg : g.pausedUntil ≤ T)
+    (ha : ∀ a ∈ acts, ∀ e, pauseEnd pm a = some e → e ≤ T) : (run pm g acts).pausedUntil ≤ T := by
+  induction acts generalizing g with
+  | nil => simpa [run] using hg
+  | cons a as ih =>
+    simp only [run, List.foldl_cons]
+    apply ih
+    · cases a with
+      | toggle => simpa [step] using hg
+      | wrongFlag t => exact ha _ (List.mem_cons_self ..) _ rfl
+      | menu t m => exact ha _ (List.mem_cons_self ..) _ rfl
+    · exact fun b hb => ha b (List.mem_cons_of_mem _ hb)
+
+/-- Promise 5: a pause always ends by itself. Whatever buttons were pressed,
+once every pause pressed so far has run out, Lookout is checking again,
+unless Turn Off was used. -/
+theorem pause_comes_back (pm : Int) (acts : List Act) (g : GS) (T now : Int)
+    (hg : g.pausedUntil ≤ T) (ha : ∀ a ∈ acts, ∀ e, pauseEnd pm a = some e → e ≤ T) (hn : T ≤ now) :
+    shouldCheck (run pm g acts) now = (run pm g acts).on := by
+  have := pausedUntil_le pm acts g T hg ha
+  simp [shouldCheck]; omega
+
+/-- Pressing Pause 30 More Minutes starts a fresh 30 from now; it never adds
+on to the pause already running. -/
+theorem pause_restarts (pm : Int) (g : GS) (t m : Int) :
+    (step pm g (.menu t m)).pausedUntil = t + m * 60 := rfl
+
+/-- A pause never turns Lookout off: only Turn Off / Turn On changes that. -/
+theorem pause_keeps_on (pm : Int) (acts : List Act) (g : GS)
+    (h : ∀ a ∈ acts, a ≠ .toggle) : (run pm g acts).on = g.on := by
+  induction acts generalizing g with
+  | nil => rfl
+  | cons a as ih =>
+    have ha := h a (List.mem_cons_self ..)
+    have := ih (step pm g a) (fun b hb => h b (List.mem_cons_of_mem _ hb))
+    simp only [run, List.foldl_cons] at this ⊢
+    rw [this]
+    cases a <;> simp_all [step]
+
 /-! ## Test vectors for the Swift tie-in -/
 
 def minutes : List Nat := [0, 1, 59, 60, 419, 420, 421, 719, 720, 1259, 1260, 1319, 1320, 1321, 1380, 1438, 1439]
@@ -188,5 +255,22 @@ def redirectLines : List String := Id.run do
         out := s!"redirect {r} {h} {if p.isEmpty then "-" else p} {hit}" :: out
   return out.reverse
 
+def actName : Act → String
+  | .toggle => "T" | .wrongFlag t => s!"W{t}" | .menu t m => s!"M{t}x{m}"
+
+def guardLines : List String := Id.run do
+  let acts : List Act := [.toggle, .wrongFlag 0, .wrongFlag 600, .menu 300 30, .menu 1500 30, .menu 100 10]
+  let seqs := [[]] ++ acts.map ([·]) ++ (acts.flatMap fun a => acts.map ([a, ·])) ++
+    (acts.flatMap fun a => acts.flatMap fun b => acts.map ([a, b, ·]))
+  let nows : List Int := [0, 299, 300, 1799, 1800, 2099, 2100, 3299, 3300, 3301, 3600]
+  let mut out := []
+  for pm in [5, 30] do
+    for sq in seqs do
+      let g := run pm ⟨true, 0⟩ sq
+      let sqS := if sq.isEmpty then "-" else ",".intercalate (sq.map actName)
+      for n in nows do
+        out := s!"guard {pm} {sqS} {n} {shouldCheck g n}" :: out
+  return out.reverse
+
 def main : IO Unit := do
-  for l in nightLines ++ stateLines ++ redirectLines do IO.println l
+  for l in nightLines ++ stateLines ++ redirectLines ++ guardLines do IO.println l

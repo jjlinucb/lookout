@@ -2,7 +2,7 @@
 
 Each promise is proved by the Lean kernel in [Lookout.lean](Lookout.lean).
 Lean proves a model of the Swift code, so `./check.sh` also feeds the
-model's answers to the real code (`LeanTieTests.swift`, 7,000+ cases) and
+model's answers to the real code (`LeanTieTests.swift`, 13,000+ cases) and
 turns red if they ever differ.
 
 1. **Curfew hours.** The curfew covers exactly the minutes you pass going
@@ -20,6 +20,12 @@ turns red if they ever differ.
    same letters (evillinkedin.com). A redirect for a page fires on that page
    and the pages under it (/feed, /feed/today), never on a longer name that
    starts the same way (/feedback).
+
+5. **A pause always ends by itself.** Whatever buttons were pressed (the
+   cover's Wrong flag, the menu's Pause 30 Minutes, in any order), once every
+   pause pressed so far has run out, Lookout is checking again unless Turn
+   Off was used. Pressing Pause 30 More Minutes starts a fresh 30 from then;
+   it never adds on. A pause never turns Lookout off; only Turn Off does.
 
 ## Not proved
 

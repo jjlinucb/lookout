@@ -31,7 +31,7 @@ import Testing
     func date(_ seconds: String) -> Date { Date(timeIntervalSince1970: Double(Int(seconds)!)) }
 
     @Test func vectorsArePresent() {
-        for kind in ["night", "state", "redirect"] {
+        for kind in ["night", "state", "redirect", "guard"] {
             #expect(lines.filter { $0.first == kind }.count > 100, "no \(kind) vectors; run ./check.sh")
         }
     }
@@ -57,6 +57,27 @@ import Testing
             s.redirectPages = [f[1]: "https://example.org/"]
             let url = "https://\(f[2])\(f[3] == "-" ? "" : f[3])"
             #expect(String(redirect(for: url, settings: s) != nil) == f[4], "\(f)")
+        }
+    }
+
+    @Test func pausesMatchTheModel() {
+        let log = EventLog(folder: FileManager.default.temporaryDirectory.appendingPathComponent("lookout-lean-\(UUID().uuidString)"))
+        var states: [String: GuardState] = [:]
+        for f in lines where f.first == "guard" {
+            let key = f[1] + " " + f[2]
+            if states[key] == nil {
+                var g = GuardState(log: log, pauseMinutes: Double(f[1])!)
+                for a in f[2] == "-" ? [] : f[2].split(separator: ",").map(String.init) {
+                    if a == "T" { g.toggle() }
+                    else if a.hasPrefix("W") { g.pause(at: date(String(a.dropFirst()))) }
+                    else {
+                        let p = a.dropFirst().split(separator: "x").map(String.init)
+                        g.pauseFromMenu(minutes: Double(p[1])!, at: date(p[0]))
+                    }
+                }
+                states[key] = g
+            }
+            #expect(String(states[key]!.shouldCheck(at: date(f[3]))) == f[4], "\(f)")
         }
     }
 }
